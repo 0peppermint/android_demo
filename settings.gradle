@@ -1,2 +1,3 @@
+include ':componentMVP'
 include ':app'
 rootProject.name = "AndroidExperiment"
