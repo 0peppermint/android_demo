@@ -1,1 +1,8 @@
 apply from: rootProject.file('scripts/basebiz.gradle')
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation AUTO_SERVICE
+    implementation JAVA_POET
+}
