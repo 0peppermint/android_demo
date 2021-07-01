@@ -24,3 +24,19 @@ Personal Android demo (from some trick)
 - 可读性
 - 扩展性
 ```
+
+- **aptproject、BaseAnnotation**
+
+实现一个注解生成代码的demo
+使用annotation+javapoet
+有三种写法分别是：
+```kotlin
+- javapoet
+- javaasset
+- asm
+```
+都可以尝试下一下
+
+- **translate_activity_demo**
+
+这个是想做一个类似闲鱼-会玩中点击切换activity的效果（有点酷炫
