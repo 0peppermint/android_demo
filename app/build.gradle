@@ -3,4 +3,5 @@ apply from: rootProject.file('scripts/application.gradle')
 dependencies {
     implementation project(":componentMVP")
     implementation project(":aptproject")
+    implementation project(":transition")
 }

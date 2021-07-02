@@ -1,3 +1,4 @@
+include ':transition'
 include ':baseAnnotation'
 include ':aptproject'
 include ':componentMVP'
