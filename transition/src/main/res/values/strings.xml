@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transition">BaseActivity</string>
+    <string name="transition_after">BaseActivityAfter</string>
+    <string name="transition_return">返回</string>
+</resources>
