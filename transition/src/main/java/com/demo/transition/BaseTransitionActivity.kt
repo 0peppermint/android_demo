@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.transition.Explode
+import android.transition.Fade
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
@@ -41,10 +42,7 @@ class BaseTransitionActivity : AppCompatActivity() {
 
     private fun setupWindowAnimations() {
         val explodeTransition = Explode()
-        explodeTransition.duration = 300
-        explodeTransition.excludeTarget(android.R.id.statusBarBackground, true)
         window.allowEnterTransitionOverlap = false
         window.allowReturnTransitionOverlap = false
-        window.enterTransition = explodeTransition
     }
 }

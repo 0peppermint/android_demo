@@ -33,5 +33,6 @@
         android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@mipmap/ic_test_image"/>
+        android:src="@mipmap/ic_test_image"
+        android:transitionName="shareElement"/>
 </LinearLayout>
