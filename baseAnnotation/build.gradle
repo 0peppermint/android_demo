@@ -1,5 +1,0 @@
-apply from: rootProject.file('scripts/javabiz.gradle')
-dependencies {
-    implementation AUTO_SERVICE
-    implementation JAVA_POET
-}

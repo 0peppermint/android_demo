@@ -1,6 +1,0 @@
-apply from: rootProject.file('scripts/basebiz.gradle')
-
-dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(":baseAnnotation")
-}

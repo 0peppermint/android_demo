@@ -1,10 +1,11 @@
-package com.demo.baseannotation;
+package com.demo.processor;
 
-import com.google.auto.service.AutoService;
-import com.sun.java.browser.net.ProxyInfo;
+import com.demo.baseannotation.BaseAnnotation;
+import com.squareup.javapoet.JavaFile;
+import com.squareup.javapoet.TypeSpec;
 
+import java.io.IOException;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.processing.AbstractProcessor;
@@ -14,12 +15,12 @@ import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.lang.model.SourceVersion;
-import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 
-@AutoService(Processor.class)
+import jdk.internal.jline.internal.Log;
+
 @SuppressWarnings("restriction")
 public class MyAnnotationProcessor extends AbstractProcessor {
 
@@ -37,7 +38,6 @@ public class MyAnnotationProcessor extends AbstractProcessor {
     private Elements elementUtils;
     private Types typeUtils;
 
-    private Map<String, ProxyInfo> mp;
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnvironment) {
@@ -50,7 +50,7 @@ public class MyAnnotationProcessor extends AbstractProcessor {
 
     @Override
     public SourceVersion getSupportedSourceVersion() {
-        return SourceVersion.latestSupported();
+        return SourceVersion.RELEASE_8;
     }
 
     @Override
@@ -62,11 +62,22 @@ public class MyAnnotationProcessor extends AbstractProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
-        Set<? extends Element> elementsSet = roundEnvironment.getElementsAnnotatedWith(BaseAnnotation.class);
+//        Set<? extends Element> elementsSet = roundEnvironment.getElementsAnnotatedWith(BaseAnnotation.class);
+//
+//        if (elementsSet == null || elementsSet.size() <  1) {
+//            return true;
+//        }
+//        return false;
 
-        if (elementsSet == null || elementsSet.size() <  1) {
-            return true;
+        TypeSpec autoClass = TypeSpec.classBuilder("AutoClass").build();
+
+        JavaFile javaFile = JavaFile.builder("com.demo.baseannotation", autoClass).build();
+
+        try {
+            javaFile.writeTo(filer);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        return false;
+        return true;
     }
 }

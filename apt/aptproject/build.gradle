@@ -1,0 +1,9 @@
+apply from: rootProject.file('scripts/basebiz.gradle')
+
+// 必须要kapt才能识别出kotlin文件中的注解
+apply plugin: 'kotlin-kapt'
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(":apt:baseAnnotation")
+    kapt project(":apt:processor")
+}

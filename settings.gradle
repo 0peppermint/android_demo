@@ -1,6 +1,7 @@
+rootProject.name = "AndroidExperiment"
+include ':apt:processor'
 include ':transition'
-include ':baseAnnotation'
-include ':aptproject'
+include ':apt:baseAnnotation'
+include ':apt:aptproject'
 include ':componentMVP'
 include ':app'
-rootProject.name = "AndroidExperiment"

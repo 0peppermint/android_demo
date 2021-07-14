@@ -1,0 +1,8 @@
+apply from: rootProject.file('scripts/javabiz.gradle')
+dependencies {
+    implementation JAVA_POET
+    implementation project(":apt:baseAnnotation")
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
