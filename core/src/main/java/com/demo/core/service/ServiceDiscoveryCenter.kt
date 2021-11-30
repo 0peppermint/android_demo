@@ -7,17 +7,15 @@ object ServiceDiscoveryCenter {
 
     private val serviceMap = ConcurrentHashMap<Class<out IBaseService>, IBaseService>()
 
-    fun register(service: Class<out IBaseService>) {
-        serviceMap[service] = service.newInstance()
+    fun register(service: Class<out IBaseService>, impl: IBaseService) {
+        serviceMap[service] = impl
     }
 
     fun <T : IBaseService> proceed(service: Class<out IBaseService>): T? {
-        synchronized(serviceMap) {
-            return if(serviceMap.contains(service)){
-                serviceMap[service] as T
-            } else {
-                null
-            }
+        return if(serviceMap.containsKey(service)){
+            serviceMap[service] as T
+        } else {
+            null
         }
     }
 }

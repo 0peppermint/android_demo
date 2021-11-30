@@ -11,5 +11,6 @@ class MyTestServiceImpl: IMyTestService {
 
     override fun proceed() {
         Log.d("zyc", "haha")
+        myTest()
     }
 }
