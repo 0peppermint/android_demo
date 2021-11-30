@@ -19,8 +19,6 @@ import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 
-import jdk.internal.jline.internal.Log;
-
 @SuppressWarnings("restriction")
 public class MyAnnotationProcessor extends AbstractProcessor {
 
