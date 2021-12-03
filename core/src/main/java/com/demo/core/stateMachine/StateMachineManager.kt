@@ -18,6 +18,7 @@ class StateMachineManager private constructor(
                     if (instance == null) {
                         val proceedService = ProceedServiceImpl()
                         instance = StateMachineManager(proceedService)
+                        instance!!.proceedService.subscribe()
                     }
                     return instance!!
                 }
@@ -28,16 +29,15 @@ class StateMachineManager private constructor(
         }
     }
 
-    private val nodeList : List<IBaseNode> = listOf()
+    private val nodeList : MutableList<IBaseNode> = mutableListOf()
 
-    private fun attach() {
-        instance?.proceedService?.subscribe()
+    fun release() {
+        proceedService.unSubscribe()
     }
 
-    private fun detach() {
-        instance?.proceedService?.unSubscribe()
+    fun registerNode(serviceNode: IBaseNode) {
+        nodeList.add(serviceNode)
     }
-
 
     fun getRespondService(event: Event) : IBaseNode? {
         return nodeList.firstOrNull {

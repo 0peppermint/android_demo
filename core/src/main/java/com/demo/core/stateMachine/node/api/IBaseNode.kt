@@ -3,7 +3,6 @@ package com.demo.core.stateMachine.node.api
 import com.demo.core.stateMachine.state.Event
 import com.demo.core.stateMachine.state.State
 import io.reactivex.Observable
-import io.reactivex.Observer
 
 interface IBaseNode {
 
