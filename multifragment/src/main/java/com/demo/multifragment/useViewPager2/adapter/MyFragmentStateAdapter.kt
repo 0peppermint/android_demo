@@ -70,8 +70,6 @@ class MyFragmentStateAdapter(
         return tryToRestoreFragment(fragmentTags[position])
     }
 
-    override
-
     private fun tryToRestoreFragment(fragmentTag: String): Fragment {
         return when(fragmentTag) {
             "1" -> FragmentChild1()
