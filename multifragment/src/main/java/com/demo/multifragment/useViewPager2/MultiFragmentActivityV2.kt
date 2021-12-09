@@ -29,6 +29,10 @@ class MultiFragmentActivityV2 : AppCompatActivity() {
      * 一般肯定不这么写，但demo实验嘛
      */
     fun updateTest() {
-        mPagerAdapter?.updateFragments(mutableListOf("1","3"))
+        mPagerAdapter?.updateFragments(mutableListOf("1","2","3"))
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
     }
 }

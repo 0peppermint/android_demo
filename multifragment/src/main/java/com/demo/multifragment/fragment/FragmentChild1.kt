@@ -47,4 +47,18 @@ class FragmentChild1: Fragment(){
         Log.d("zyc", "fragmentChild1 onPause")
     }
 
+    override fun onDetach() {
+        super.onDetach()
+        Log.d("zyc", "fragmentChild1 onDetach")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("zyc", "fragmentChild1 onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("zyc", "fragmentChild1 onDestory")
+    }
 }

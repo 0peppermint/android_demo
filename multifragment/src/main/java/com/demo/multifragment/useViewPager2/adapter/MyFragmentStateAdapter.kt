@@ -19,7 +19,7 @@ class MyFragmentStateAdapter(
     private val lifecycle: Lifecycle,
 ): FragmentStateAdapter(fm, lifecycle) {
 
-    private val legalTags = mutableListOf<String>("1", "2")
+    private val legalTags = mutableListOf<String>("1", "2", "3")
     private val fragmentTags: MutableList<String> = mutableListOf("1", "2")
     private val compareTo = object : Comparator<String> {
         override fun compare(item1: String, item2: String): Int {
@@ -68,6 +68,14 @@ class MyFragmentStateAdapter(
             throw IllegalArgumentException("currentTags isn't legal")
         }
         return tryToRestoreFragment(fragmentTags[position])
+    }
+
+    override fun getItemId(position: Int): Long {
+        return fragmentTags[position].toLong()
+    }
+
+    override fun containsItem(itemId: Long): Boolean {
+        return fragmentTags.contains(itemId.toString())
     }
 
     private fun tryToRestoreFragment(fragmentTag: String): Fragment {
