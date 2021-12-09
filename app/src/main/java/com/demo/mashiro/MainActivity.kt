@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.demo.multifragment.MultiFragmentActivity
+import com.demo.multifragment.useViewPager2.MultiFragmentActivityV2
 import com.demo.transition.BaseTransitionActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn_transition_experiment.setOnClickListener {
-            val intent = Intent(this, MultiFragmentActivity::class.java)
+            val intent = Intent(this, MultiFragmentActivityV2::class.java)
             this.startActivity(intent)
         }
     }

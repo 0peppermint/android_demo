@@ -24,11 +24,11 @@ class Fragment2: Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (savedInstanceState == null) {
-            arguments?.let {
-                if (!isAdded && fragmentManager?.findFragmentByTag("1") == null) {
-                    fragmentManager?.beginTransaction()?.add(this, "1")
-                }
-            }
+//            arguments?.let {
+//                if (!isAdded && fragmentManager?.findFragmentByTag("1") == null) {
+//                    fragmentManager?.beginTransaction()?.add(this, "1")
+//                }
+//            }
         }
     }
 
@@ -39,6 +39,6 @@ class Fragment2: Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        fragmentManager?.beginTransaction()?.remove(this)?.commitAllowingStateLoss()
+//        fragmentManager?.beginTransaction()?.remove(this)?.commitAllowingStateLoss()
     }
 }

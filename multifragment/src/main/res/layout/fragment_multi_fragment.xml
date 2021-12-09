@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <com.demo.multifragment.view.MyView
+        android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@color/purple_200"/>

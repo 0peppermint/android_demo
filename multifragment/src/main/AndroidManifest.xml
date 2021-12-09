@@ -7,6 +7,10 @@
             android:name=".MultiFragmentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".useViewPager2.MultiFragmentActivityV2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
     </application>
 
 </manifest>

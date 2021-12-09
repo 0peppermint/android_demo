@@ -5,50 +5,63 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.demo.core.service.ServiceDiscoveryCenter
-import com.demo.core.service.api.IMyTestService
-import com.demo.core.service.impl.MyTestServiceImpl
+import androidx.fragment.app.FragmentTransaction
 import com.demo.multifragment.R
-import kotlinx.android.synthetic.main.fragment_multi_fragment.*
+import kotlinx.android.synthetic.main.fragment_mix_fragment.*
 
-class Fragment1: Fragment() {
+class Fragment1: Fragment(){
 
     private var rootView: View? = null
-
-
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        rootView = inflater.inflate(R.layout.fragment_multi_fragment, container, false)
+        rootView = inflater.inflate(R.layout.fragment_mix_fragment, container, false)
         return rootView
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (savedInstanceState == null) {
-            arguments?.let {
-                if (!isAdded && fragmentManager?.findFragmentByTag("0") == null) {
-                    fragmentManager?.beginTransaction()?.add(this, "0")
-                }
-            }
-        }
-        // 把实现类注入进去
-        ServiceDiscoveryCenter.register(IMyTestService::class.java, MyTestServiceImpl())
+//        arguments?.let {
+//            activity?.supportFragmentManager?.beginTransaction()?.let {
+//                it.add(this, "Fragment1")
+//                it.commit()
+//            }
+//        }
     }
 
     override fun onResume() {
         super.onResume()
-        tv_test.text = System.currentTimeMillis().toString()
-
-        // 读实现类
-        ServiceDiscoveryCenter.proceed<IMyTestService>(IMyTestService::class.java)?.proceed()
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        fragmentManager?.beginTransaction()?.remove(this)?.commitAllowingStateLoss()
+    fun dismiss(fragment: Fragment) {
+        when(fragment) {
+            is FragmentChild1 -> {
+                val transaction = childFragmentManager.beginTransaction()
+                showFragment(R.id.fg_2, transaction)
+                hideFragment(R.id.fg_1, transaction)
+                transaction.commit()
+            }
+            is FragmentChild2 -> {
+                val transaction = childFragmentManager.beginTransaction()
+                showFragment(R.id.fg_1, transaction)
+                hideFragment(R.id.fg_2, transaction)
+                transaction.commit()
+            }
+        }
+    }
+
+    private fun showFragment(id: Int, fragmentTransaction: FragmentTransaction?) {
+        childFragmentManager.findFragmentById(id)?.let{
+            fragmentTransaction?.show(it)
+        }
+    }
+
+    private fun hideFragment(id: Int, fragmentTransaction: FragmentTransaction?) {
+        childFragmentManager.findFragmentById(id)?.let{
+            fragmentTransaction?.hide(it)
+        }
     }
 }
