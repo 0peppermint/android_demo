@@ -32,6 +32,10 @@ class MultiFragmentActivityV2 : AppCompatActivity() {
         mPagerAdapter?.updateFragments(mutableListOf("1","2","3"))
     }
 
+    fun goToTab(position: Int) {
+        mViewPager?.setCurrentItem(position, false)
+    }
+
     override fun onDestroy() {
         super.onDestroy()
     }

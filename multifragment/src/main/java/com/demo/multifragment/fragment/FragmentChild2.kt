@@ -40,6 +40,7 @@ class FragmentChild2: Fragment() {
         btn_switch_button.setOnClickListener {
             (parentFragment as? Fragment1)?.dismiss(this)
             (activity as? MultiFragmentActivityV2)?.updateTest()
+            (activity as? MultiFragmentActivityV2)?.goToTab(0)
         }
     }
 
