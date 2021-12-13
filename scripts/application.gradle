@@ -6,10 +6,24 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
+    signingConfigs {
+        release {
+            keyAlias 'zyc'
+            keyPassword '112233'
+            storeFile file("$rootDir/android_demo.store")
+            storePassword '112233'
+            v2SigningEnabled true
+        }
+    }
+
     defaultConfig {
         applicationId "com.demo.mashiro"
         minSdkVersion 21
         targetSdkVersion 28
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        ndkVersion "21.3.6528147"
         versionCode 1
         versionName "1.0"
     }
@@ -18,6 +32,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {

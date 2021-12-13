@@ -5,6 +5,8 @@ Personal Android demo (from some trick)
 
 一个自己的Android demo库，用来实现一些黑魔法（大概
 
+[好用的Android resource](https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/view/SurfaceView.java;drc=master;l=1065?q=SurfaceView)
+
 ## Model
 
 - **View-Scale MVP**
@@ -40,3 +42,5 @@ Personal Android demo (from some trick)
 - **translate_activity_demo**
 
 这个是想做一个类似闲鱼-会玩中点击切换activity的效果（有点酷炫
+
+

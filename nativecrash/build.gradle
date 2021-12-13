@@ -1,0 +1,10 @@
+apply from: rootProject.file('scripts/basebiz.gradle')
+
+android {
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.6.0'
+        }
+    }
+}

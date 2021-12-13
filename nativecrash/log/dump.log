@@ -1,0 +1,2602 @@
+
+libmyNativeCrash.so:	file format elf32-littlearm
+
+
+Disassembly of section .note.android.ident:
+
+00000134 <.note.android.ident>:
+     134: 08 00 00 00  	andeq	r0, r0, r8
+     138: 84 00 00 00  	andeq	r0, r0, r4, lsl #1
+     13c: 01 00 00 00  	andeq	r0, r0, r1
+     140: 41 6e 64 72  	rsbvc	r6, r4, #1040
+     144: 6f 69 64 00  	rsbeq	r6, r4, pc, ror #18
+     148: 15 00 00 00  	andeq	r0, r0, r5, lsl r0
+     14c: 72 32 31 64  	ldrtvs	r3, [r1], #-626
+		...
+     18c: 36 35 32 38  	ldmdalo	r2!, {r1, r2, r4, r5, r8, r10, r12, sp}
+     190: 31 34 37 00  	eorseq	r3, r7, r1, lsr r4
+		...
+
+Disassembly of section .note.gnu.build-id:
+
+000001cc <.note.gnu.build-id>:
+     1cc: 04 00 00 00  	andeq	r0, r0, r4
+     1d0: 14 00 00 00  	andeq	r0, r0, r4, lsl r0
+     1d4: 03 00 00 00  	andeq	r0, r0, r3
+     1d8: 47 4e 55 00  	subseq	r4, r5, r7, asr #28
+     1dc: 65 01 1d 77  	ldrvc	r0, [sp, -r5, ror #2]
+     1e0: da ae 89 63  	orrvs	r10, r9, #3488
+     1e4: 34 fb 71 4c  	<unknown>
+     1e8: 76 62 fa bb  	bllt	#-1472040
+     1ec: 66 35 94 60  	addsvs	r3, r4, r6, ror #10
+
+Disassembly of section .dynsym:
+
+000001f0 <.dynsym>:
+		...
+     200: 01 00 00 00  	andeq	r0, r0, r1
+		...
+     20c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     210: 2f 00 00 00  	andeq	r0, r0, pc, lsr #32
+		...
+     21c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     220: 7e 00 00 00  	andeq	r0, r0, lr, ror r0
+		...
+     22c: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+     230: 83 00 00 00  	andeq	r0, r0, r3, lsl #1
+		...
+     23c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     240: 94 00 00 00  	muleq	r0, r4, r0
+		...
+     24c: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+     250: a6 00 00 00  	andeq	r0, r0, r6, lsr #1
+		...
+     25c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     260: ac 00 00 00  	andeq	r0, r0, r12, lsr #1
+		...
+     26c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     270: b4 00 00 00  	strheq	r0, [r0], -r4
+		...
+     27c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     280: bb 00 00 00  	strheq	r0, [r0], -r11
+		...
+     28c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     290: ca 00 00 00  	andeq	r0, r0, r10, asr #1
+		...
+     29c: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     2a0: d9 00 00 00  	ldrdeq	r0, r1, [r0], -r9
+		...
+     2ac: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     2b0: f1 00 00 00  	strdeq	r0, r1, [r0], -r1
+		...
+     2bc: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     2c0: 01 01 00 00  	andeq	r0, r0, r1, lsl #2
+		...
+     2cc: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     2d0: 3e 00 00 00  	andeq	r0, r0, lr, lsr r0
+     2d4: a3 07 00 00  	andeq	r0, r0, r3, lsr #15
+     2d8: 02 00 00 00  	andeq	r0, r0, r2
+     2dc: 12 00 0d 00  	andeq	r0, sp, r2, lsl r0
+     2e0: 0a 01 00 00  	andeq	r0, r0, r10, lsl #2
+     2e4: 04 40 00 00  	andeq	r4, r0, r4
+     2e8: 00 00 00 00  	andeq	r0, r0, r0
+     2ec: 10 00 f1 ff  	<unknown>
+     2f0: 1d 01 00 00  	andeq	r0, r0, sp, lsl r1
+     2f4: 05 40 00 00  	andeq	r4, r0, r5
+     2f8: 00 00 00 00  	andeq	r0, r0, r0
+     2fc: 10 00 f1 ff  	<unknown>
+     300: 72 00 00 00  	andeq	r0, r0, r2, ror r0
+     304: a1 07 00 00  	andeq	r0, r0, r1, lsr #15
+     308: 02 00 00 00  	andeq	r0, r0, r2
+     30c: 12 00 0d 00  	andeq	r0, sp, r2, lsl r0
+     310: 11 01 00 00  	andeq	r0, r0, r1, lsl r1
+     314: 04 40 00 00  	andeq	r4, r0, r4
+     318: 00 00 00 00  	andeq	r0, r0, r0
+     31c: 10 00 f1 ff  	<unknown>
+
+Disassembly of section .dynstr:
+
+00000320 <.dynstr>:
+     320: 00 5f 5f 63  	cmpvs	pc, #0, #30
+     324: 78 61 5f 61  	cmpvs	pc, r8, ror r1
+     328: 74 65 78 69  	ldmdbvs	r8!, {r2, r4, r5, r6, r8, r10, sp, lr} ^
+     32c: 74 00 4c 49  	stmdbmi	r12, {r2, r4, r5, r6} ^
+     330: 42 43 00 6c  	<unknown>
+     334: 69 62 63 2e  	cdphs	p2, #6, c6, c3, c9, #3
+     338: 73 6f 00 6c  	<unknown>
+     33c: 69 62 6d 79  	stmdbvc	sp!, {r0, r3, r5, r6, r9, sp, lr} ^
+     340: 4e 61 74 69  	ldmdbvs	r4!, {r1, r2, r3, r6, r8, sp, lr} ^
+     344: 76 65 43 72  	subvc	r6, r3, #494927872
+     348: 61 73 68 2e  	cdphs	p3, #6, c7, c8, c1, #3
+     34c: 73 6f 00 5f  	svcpl	#28531
+     350: 5f 63 78 61  	cmnvs	r8, pc, asr r3
+     354: 5f 66 69 6e  	mcrvs	p6, #3, r6, c9, c15, #2
+     358: 61 6c 69 7a  	bvc	#27636100
+     35c: 65 00 4a 61  	<unknown>
+     360: 76 61 5f 63  	cmpvs	pc, #-2147483619
+     364: 6f 6d 5f 64  	ldrbvs	r6, [pc], #-3439
+     368: 65 6d 6f 5f  	svcpl	#7302501
+     36c: 6e 61 74 69  	ldmdbvs	r4!, {r1, r2, r3, r5, r6, r8, sp, lr} ^
+     370: 76 65 63 72  	rsbvc	r6, r3, #494927872
+     374: 61 73 68 5f  	svcpl	#6845281
+     378: 4d 79 4e 61  	<unknown>
+     37c: 74 69 76 65  	ldrbvs	r6, [r6, #-2420]!
+     380: 43 72 61 73  	<unknown>
+     384: 68 5f 6e 75  	strbvc	r5, [lr, #-3944]!
+     388: 6c 6c 50 6f  	svcvs	#5270636
+     38c: 69 6e 74 65  	ldrbvs	r6, [r4, #-3689]!
+     390: 72 00 6e 75  	strbvc	r0, [lr, #-114]!
+     394: 6c 6c 50 6f  	svcvs	#5270636
+     398: 69 6e 74 65  	ldrbvs	r6, [r4, #-3689]!
+     39c: 72 00 5f 5f  	svcpl	#6226034
+     3a0: 73 46 00 5f  	svcpl	#18035
+     3a4: 5f 73 74 61  	cmnvs	r4, pc, asr r3
+     3a8: 63 6b 5f 63  	cmpvs	pc, #101376
+     3ac: 68 6b 5f 66  	ldrbvs	r6, [pc], -r8, ror #22
+     3b0: 61 69 6c 00  	rsbeq	r6, r12, r1, ror #18
+     3b4: 5f 5f 73 74  	ldrbtvc	r5, [r3], #-3935
+     3b8: 61 63 6b 5f  	svcpl	#7037793
+     3bc: 63 68 6b 5f  	svcpl	#7039075
+     3c0: 67 75 61 72  	rsbvc	r7, r1, #432013312
+     3c4: 64 00 61 62  	rsbvs	r0, r1, #100
+     3c8: 6f 72 74 00  	rsbseq	r7, r4, pc, ror #4
+     3cc: 66 70 72 69  	ldmdbvs	r2!, {r1, r2, r5, r6, r12, sp, lr} ^
+     3d0: 6e 74 66 00  	rsbeq	r7, r6, lr, ror #8
+     3d4: 66 66 6c 75  	strbvc	r6, [r12, #-1638]!
+     3d8: 73 68 00 5f  	svcpl	#26739
+     3dc: 5f 61 65 61  	qdsubvs	r6, pc, r5
+     3e0: 62 69 5f 6d  	ldclvs	p9, c6, [pc, #-392]
+     3e4: 65 6d 63 6c  	stclvs	p13, c6, [r3], #-404
+     3e8: 72 00 5f 5f  	svcpl	#6226034
+     3ec: 61 65 61 62  	rsbvs	r6, r1, #406847488
+     3f0: 69 5f 6d 65  	strbvs	r5, [sp, #-3945]!
+     3f4: 6d 63 70 79  	ldmdbvc	r0!, {r0, r2, r3, r5, r6, r8, r9, sp, lr} ^
+     3f8: 00 5f 5f 67  	ldrbvs	r5, [pc, -r0, lsl #30]
+     3fc: 6e 75 5f 55  	ldrbpl	r7, [pc, #-1390]
+     400: 6e 77 69 6e  	cdpvs	p7, #6, c7, c9, c14, #3
+     404: 64 5f 46 69  	stmdbvs	r6, {r2, r5, r6, r8, r9, r10, r11, r12, lr} ^
+     408: 6e 64 5f 65  	ldrbvs	r6, [pc, #-1134]
+     40c: 78 69 64 78  	stmdavc	r4!, {r3, r4, r5, r6, r8, r11, sp, lr} ^
+     410: 00 64 6c 61  	<unknown>
+     414: 64 64 72 00  	rsbseq	r6, r2, r4, ror #8
+     418: 6c 69 62 64  	strbtvs	r6, [r2], #-2412
+     41c: 6c 2e 73 6f  	svcvs	#7548524
+     420: 00 73 6e 70  	rsbvc	r7, lr, r0, lsl #6
+     424: 72 69 6e 74  	strbtvc	r6, [lr], #-2418
+     428: 66 00 5f 65  	ldrbvs	r0, [pc, #-102]
+     42c: 64 61 74 61  	cmnvs	r4, r4, ror #2
+     430: 00 5f 5f 62  	subsvs	r5, pc, #0, #30
+     434: 73 73 5f 73  	cmpvc	pc, #-872415231
+     438: 74 61 72 74  	ldrbtvc	r6, [r2], #-372
+     43c: 00 5f 65 6e  	cdpvs	p15, #6, c5, c5, c0, #0
+     440: 64 00 6c 69  	stmdbvs	r12!, {r2, r5, r6} ^
+     444: 62 6c 6f 67  	strbvs	r6, [pc, -r2, ror #24]!
+     448: 2e 73 6f 00  	rsbeq	r7, pc, lr, lsr #6
+     44c: 6c 69 62 6d  	stclvs	p9, c6, [r2, #-432]!
+     450: 2e 73 6f 00  	rsbeq	r7, pc, lr, lsr #6
+
+Disassembly of section .gnu.hash:
+
+00000454 <.gnu.hash>:
+     454: 03 00 00 00  	andeq	r0, r0, r3
+     458: 0e 00 00 00  	andeq	r0, r0, lr
+     45c: 01 00 00 00  	andeq	r0, r0, r1
+     460: 05 00 00 00  	andeq	r0, r0, r5
+     464: 8a 44 00 29  	stmdbhs	r0, {r1, r3, r7, r10, lr}
+     468: 0e 00 00 00  	andeq	r0, r0, lr
+     46c: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+     470: 00 00 00 00  	andeq	r0, r0, r0
+     474: 78 30 e4 3f  	svclo	#14954616
+     478: 42 45 d5 ec  	ldcl	p5, c4, [r5], {66}
+     47c: bb e3 92 7c  	ldcvc	p3, c14, [r2], {187}
+     480: e0 6c 23 fb  	blx	#9286530
+     484: d9 71 58 1c  	mrrcne	p1, #13, r7, r8, c9
+
+Disassembly of section .hash:
+
+00000488 <.hash>:
+     488: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+     48c: 13 00 00 00  	andeq	r0, r0, r3, lsl r0
+     490: 00 00 00 00  	andeq	r0, r0, r0
+     494: 0f 00 00 00  	andeq	r0, r0, pc
+     498: 0b 00 00 00  	andeq	r0, r0, r11
+		...
+     4a4: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+     4a8: 09 00 00 00  	andeq	r0, r0, r9
+     4ac: 00 00 00 00  	andeq	r0, r0, r0
+     4b0: 0c 00 00 00  	andeq	r0, r0, r12
+     4b4: 00 00 00 00  	andeq	r0, r0, r0
+     4b8: 06 00 00 00  	andeq	r0, r0, r6
+     4bc: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+     4c0: 04 00 00 00  	andeq	r0, r0, r4
+     4c4: 10 00 00 00  	andeq	r0, r0, r0, lsl r0
+     4c8: 07 00 00 00  	andeq	r0, r0, r7
+     4cc: 0d 00 00 00  	andeq	r0, r0, sp
+		...
+     4e8: 03 00 00 00  	andeq	r0, r0, r3
+     4ec: 00 00 00 00  	andeq	r0, r0, r0
+     4f0: 01 00 00 00  	andeq	r0, r0, r1
+     4f4: 00 00 00 00  	andeq	r0, r0, r0
+     4f8: 05 00 00 00  	andeq	r0, r0, r5
+     4fc: 0e 00 00 00  	andeq	r0, r0, lr
+		...
+     508: 08 00 00 00  	andeq	r0, r0, r8
+     50c: 00 00 00 00  	andeq	r0, r0, r0
+     510: 02 00 00 00  	andeq	r0, r0, r2
+     514: 0a 00 00 00  	andeq	r0, r0, r10
+		...
+
+Disassembly of section .gnu.version:
+
+00000520 <.gnu.version>:
+     520: 00 00 02 00  	andeq	r0, r2, r0
+     524: 02 00 02 00  	andeq	r0, r2, r2
+     528: 02 00 02 00  	andeq	r0, r2, r2
+     52c: 02 00 02 00  	andeq	r0, r2, r2
+     530: 02 00 00 00  	andeq	r0, r0, r2
+     534: 00 00 00 00  	andeq	r0, r0, r0
+     538: 03 00 02 00  	andeq	r0, r2, r3
+     53c: 01 00 01 00  	andeq	r0, r1, r1
+     540: 01 00 01 00  	andeq	r0, r1, r1
+     544: 01           	<unknown>
+     545: 00           	<unknown>
+
+Disassembly of section .gnu.version_d:
+
+00000548 <.gnu.version_d>:
+     548: 01 00 01 00  	andeq	r0, r1, r1
+     54c: 01 00 01 00  	andeq	r0, r1, r1
+     550: 0f 32 e0 02  	rsceq	r3, r0, #-268435456
+     554: 14 00 00 00  	andeq	r0, r0, r4, lsl r0
+     558: 00 00 00 00  	andeq	r0, r0, r0
+     55c: 1b 00 00 00  	andeq	r0, r0, r11, lsl r0
+     560: 00 00 00 00  	andeq	r0, r0, r0
+
+Disassembly of section .gnu.version_r:
+
+00000564 <.gnu.version_r>:
+     564: 01 00 01 00  	andeq	r0, r1, r1
+     568: 13 00 00 00  	andeq	r0, r0, r3, lsl r0
+     56c: 10 00 00 00  	andeq	r0, r0, r0, lsl r0
+     570: 20 00 00 00  	andeq	r0, r0, r0, lsr #32
+     574: 63 0d 05 00  	andeq	r0, r5, r3, ror #26
+     578: 00 00 02 00  	andeq	r0, r2, r0
+     57c: 0e 00 00 00  	andeq	r0, r0, lr
+     580: 00 00 00 00  	andeq	r0, r0, r0
+     584: 01 00 01 00  	andeq	r0, r1, r1
+     588: f8 00 00 00  	strdeq	r0, r1, [r0], -r8
+     58c: 10 00 00 00  	andeq	r0, r0, r0, lsl r0
+     590: 00 00 00 00  	andeq	r0, r0, r0
+     594: 63 0d 05 00  	andeq	r0, r5, r3, ror #26
+     598: 00 00 03 00  	andeq	r0, r3, r0
+     59c: 0e 00 00 00  	andeq	r0, r0, lr
+     5a0: 00 00 00 00  	andeq	r0, r0, r0
+
+Disassembly of section .rel.dyn:
+
+000005a4 <.rel.dyn>:
+     5a4: 50 3e 00 00  	andeq	r3, r0, r0, asr lr
+     5a8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5ac: 5c 3e 00 00  	andeq	r3, r0, r12, asr lr
+     5b0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5b4: 60 3e 00 00  	andeq	r3, r0, r0, ror #28
+     5b8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5bc: 64 3e 00 00  	andeq	r3, r0, r4, ror #28
+     5c0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5c4: 68 3e 00 00  	andeq	r3, r0, r8, ror #28
+     5c8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5cc: 6c 3e 00 00  	andeq	r3, r0, r12, ror #28
+     5d0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5d4: 70 3e 00 00  	andeq	r3, r0, r0, ror lr
+     5d8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5dc: 74 3e 00 00  	andeq	r3, r0, r4, ror lr
+     5e0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5e4: 78 3e 00 00  	andeq	r3, r0, r8, ror lr
+     5e8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5ec: 7c 3e 00 00  	andeq	r3, r0, r12, ror lr
+     5f0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5f4: 80 3e 00 00  	andeq	r3, r0, r0, lsl #29
+     5f8: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     5fc: 84 3e 00 00  	andeq	r3, r0, r4, lsl #29
+     600: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     604: 88 3e 00 00  	andeq	r3, r0, r8, lsl #29
+     608: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     60c: 8c 3e 00 00  	andeq	r3, r0, r12, lsl #29
+     610: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     614: 90 3e 00 00  	muleq	r0, r0, lr
+     618: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     61c: 94 3e 00 00  	muleq	r0, r4, lr
+     620: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     624: 98 3e 00 00  	muleq	r0, r8, lr
+     628: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     62c: 9c 3e 00 00  	muleq	r0, r12, lr
+     630: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     634: a0 3e 00 00  	andeq	r3, r0, r0, lsr #29
+     638: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     63c: bc 3f 00 00  	strheq	r3, [r0], -r12
+     640: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     644: c0 3f 00 00  	andeq	r3, r0, r0, asr #31
+     648: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     64c: c4 3f 00 00  	andeq	r3, r0, r4, asr #31
+     650: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     654: 00 40 00 00  	andeq	r4, r0, r0
+     658: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+     65c: b8 3f 00 00  	strheq	r3, [r0], -r8
+     660: 15 03 00 00  	andeq	r0, r0, r5, lsl r3
+     664: b4 3f 00 00  	strheq	r3, [r0], -r4
+     668: 15 05 00 00  	andeq	r0, r0, r5, lsl r5
+
+Disassembly of section .rel.plt:
+
+0000066c <.rel.plt>:
+     66c: d4 3f 00 00  	ldrdeq	r3, r4, [r0], -r4
+     670: 16 02 00 00  	andeq	r0, r0, r6, lsl r2
+     674: d8 3f 00 00  	ldrdeq	r3, r4, [r0], -r8
+     678: 16 01 00 00  	andeq	r0, r0, r6, lsl r1
+     67c: dc 3f 00 00  	ldrdeq	r3, r4, [r0], -r12
+     680: 16 04 00 00  	andeq	r0, r0, r6, lsl r4
+     684: e0 3f 00 00  	andeq	r3, r0, r0, ror #31
+     688: 16 07 00 00  	andeq	r0, r0, r6, lsl r7
+     68c: e4 3f 00 00  	andeq	r3, r0, r4, ror #31
+     690: 16 08 00 00  	andeq	r0, r0, r6, lsl r8
+     694: e8 3f 00 00  	andeq	r3, r0, r8, ror #31
+     698: 16 06 00 00  	andeq	r0, r0, r6, lsl r6
+     69c: ec 3f 00 00  	andeq	r3, r0, r12, ror #31
+     6a0: 16 0a 00 00  	andeq	r0, r0, r6, lsl r10
+     6a4: f0 3f 00 00  	strdeq	r3, r4, [r0], -r0
+     6a8: 16 09 00 00  	andeq	r0, r0, r6, lsl r9
+     6ac: f4 3f 00 00  	strdeq	r3, r4, [r0], -r4
+     6b0: 16 0c 00 00  	andeq	r0, r0, r6, lsl r12
+     6b4: f8 3f 00 00  	strdeq	r3, r4, [r0], -r8
+     6b8: 16 0d 00 00  	andeq	r0, r0, r6, lsl sp
+     6bc: fc 3f 00 00  	strdeq	r3, r4, [r0], -r12
+     6c0: 16 0b 00 00  	andeq	r0, r0, r6, lsl r11
+
+Disassembly of section .plt:
+
+000006c4 <.plt>:
+     6c4: 04 e0 2d e5  	str	lr, [sp, #-4]!
+     6c8: 04 e0 9f e5  	ldr	lr, [pc, #4]
+     6cc: 0e e0 8f e0  	add	lr, pc, lr
+     6d0: 08 f0 be e5  	ldr	pc, [lr, #8]!
+     6d4: f4 38 00 00  	strdeq	r3, r4, [r0], -r4
+     6d8: 00 c6 8f e2  	add	r12, pc, #0, #12
+     6dc: 03 ca 8c e2  	add	r12, r12, #12288
+     6e0: f4 f8 bc e5  	ldr	pc, [r12, #2292]!
+     6e4: 00 c6 8f e2  	add	r12, pc, #0, #12
+     6e8: 03 ca 8c e2  	add	r12, r12, #12288
+     6ec: ec f8 bc e5  	ldr	pc, [r12, #2284]!
+     6f0: 00 c6 8f e2  	add	r12, pc, #0, #12
+     6f4: 03 ca 8c e2  	add	r12, r12, #12288
+     6f8: e4 f8 bc e5  	ldr	pc, [r12, #2276]!
+     6fc: 00 c6 8f e2  	add	r12, pc, #0, #12
+     700: 03 ca 8c e2  	add	r12, r12, #12288
+     704: dc f8 bc e5  	ldr	pc, [r12, #2268]!
+     708: 00 c6 8f e2  	add	r12, pc, #0, #12
+     70c: 03 ca 8c e2  	add	r12, r12, #12288
+     710: d4 f8 bc e5  	ldr	pc, [r12, #2260]!
+     714: 00 c6 8f e2  	add	r12, pc, #0, #12
+     718: 03 ca 8c e2  	add	r12, r12, #12288
+     71c: cc f8 bc e5  	ldr	pc, [r12, #2252]!
+     720: 00 c6 8f e2  	add	r12, pc, #0, #12
+     724: 03 ca 8c e2  	add	r12, r12, #12288
+     728: c4 f8 bc e5  	ldr	pc, [r12, #2244]!
+     72c: 00 c6 8f e2  	add	r12, pc, #0, #12
+     730: 03 ca 8c e2  	add	r12, r12, #12288
+     734: bc f8 bc e5  	ldr	pc, [r12, #2236]!
+     738: 00 c6 8f e2  	add	r12, pc, #0, #12
+     73c: 03 ca 8c e2  	add	r12, r12, #12288
+     740: b4 f8 bc e5  	ldr	pc, [r12, #2228]!
+     744: 00 c6 8f e2  	add	r12, pc, #0, #12
+     748: 03 ca 8c e2  	add	r12, r12, #12288
+     74c: ac f8 bc e5  	ldr	pc, [r12, #2220]!
+     750: 00 c6 8f e2  	add	r12, pc, #0, #12
+     754: 03 ca 8c e2  	add	r12, r12, #12288
+     758: a4 f8 bc e5  	ldr	pc, [r12, #2212]!
+
+Disassembly of section .text:
+
+0000075c <.text>:
+     75c: 04 00 9f e5  	ldr	r0, [pc, #4]
+     760: 00 00 8f e0  	add	r0, pc, r0
+     764: db ff ff ea  	b	#-148 <.plt+0x14>
+     768: e8 36 00 00  	andeq	r3, r0, r8, ror #13
+     76c: 1e ff 2f e1  	bx	lr
+     770: fd ff ff ea  	b	#-12 <.text+0x10>
+     774: 00 00 50 e3  	cmp	r0, #0
+     778: 1e ff 2f 01  	bxeq	lr
+     77c: 10 ff 2f e1  	bx	r0
+     780: 00 10 a0 e1  	mov	r1, r0
+     784: 0c 00 9f e5  	ldr	r0, [pc, #12]
+     788: 0c 20 9f e5  	ldr	r2, [pc, #12]
+     78c: 00 00 8f e0  	add	r0, pc, r0
+     790: 02 20 8f e0  	add	r2, pc, r2
+     794: d2 ff ff ea  	b	#-184 <.plt+0x20>
+     798: e0 ff ff ff  	<unknown>
+     79c: b8 36 00 00  	strheq	r3, [r0], -r8
+
+000007a0 <nullPointer>:
+     7a0: fe de fe de  	mrcle	p14, #7, sp, c14, c14, #7
+
+000007a2 <Java_com_demo_nativecrash_MyNativeCrash_nullPointer>:
+     7a2: fe de d0 b5  	ldrblt	sp, [r0, #3838]
+     7a6: 02 af 03 68  	stmdavs	r3, {r1, r8, r9, r10, r11, sp, pc}
+     7aa: 00 2b 09 d4  	strle	r2, [r9], #-2816
+     7ae: 01 23 0b 60  	andvs	r2, r11, r1, lsl #6
+     7b2: 04 23 50 f8  	<unknown>
+     7b6: 04 1f 09 0e  	cdpeq	p15, #0, c1, c9, c4, #0
+     7ba: 03 eb 81 01  	orreq	lr, r1, r3, lsl #22
+     7be: 11 60 d0 bd  	ldcllt	p0, c6, [r0, #68]
+     7c2: c3 f3 03 64  	strvs	pc, [r3], #-963
+     7c6: 54 b1 03 2c  	<unknown>
+     7ca: 18 bf 01 2c  	<unknown>
+     7ce: 0b d1 c3 f3  	<unknown>
+     7d2: 07 43 04 24  	strhs	r4, [r4], #-775
+     7d6: 04 eb 83 04  	streq	lr, [r3], #2820
+     7da: 02 23 01 e0  	and	r2, r1, r2, lsl #6
+     7de: 01 23 04 24  	strhs	r2, [r4], #-769
+     7e2: 14 60 0b 60  	andvs	r6, r11, r4, lsl r0
+     7e6: d0 bd 00 20  	ldrdhs	r11, r12, [r0], -r0
+     7ea: d0 bd f0 b5  	ldrblt	r11, [r0, #3536]!
+     7ee: 03 af 2d e9  	push	{r0, r1, r8, r9, r10, r11, sp, pc}
+     7f2: f8 0f 04 46  	<unknown>
+     7f6: 96 48 99 46  	<unknown>
+     7fa: 92 46 78 44  	ldrbtmi	r4, [r8], #-1682
+     7fe: 0e 46 4f f0  	<unknown>
+     802: 00 0b 00 68  	stmdavs	r0, {r8, r9, r11}
+     806: 01 90 00 68  	stmdavs	r0, {r0, r12, pc}
+     80a: 04 90 00 20  	andhs	r9, r0, r4
+     80e: 02 90 5f ea  	b	#25051144
+     812: cb 70 40 f0  	<unknown>
+     816: 00 81 55 46  	ldrbmi	r8, [r5], -r0, lsl #2
+     81a: ca 45 80 f0  	<unknown>
+     81e: fc 80 85 f0  	<unknown>
+     822: 03 00 05 f1  	<unknown>
+     826: 01 0a 16 f8  	<unknown>
+     82a: 00 80 5f ea  	b	#25034752
+     82e: 08 60 0d d4  	strle	r6, [sp], #-8
+     832: 03 aa 20 46  	strtmi	r10, [r0], -r3, lsl #20
+     836: 0d 21 00 f0  	<unknown>
+     83a: 18 fc 4f ea  	b	#20967520
+     83e: 88 00 5f ea  	b	#24904224
+     842: 48 61 2d d4  	strtle	r6, [sp], #-328
+     846: 03 99 08 44  	strmi	r9, [r8], #-2307
+     84a: 02 1d 2e e0  	eor	r1, lr, r2, lsl #26
+     84e: 08 f0 f0 00  	rscseq	pc, r0, r8
+     852: 80 38 00 09  	stmdbeq	r0, {r7, r11, r12, sp}
+     856: 05 28 00 f2  	vadd.i8	d2, d0, d5
+     85a: dc 80 df e8  	ldm	pc, {r2, r3, r4, r6, r7, pc} ^
+     85e: 00 f0 03 2e  	cdphs	p0, #0, c15, c3, c0, #0
+     862: 46 58 7b 9c  	ldclls	p8, c5, [r11], #-280
+     866: ca 45 80 f0  	<unknown>
+     86a: d4 80 8a f0  	<unknown>
+     86e: 03 00 4f ea  	b	#20709388
+     872: 08 31 89 b2  	addlt	r3, r9, #8, #2
+     876: 30 5c 41 ea  	b	#17133760
+     87a: 00 12 00 2a  	bhs	#18432
+     87e: 00 f0 c9 80  	sbchi	pc, r9, r0
+     882: 20 46 00 21  	<unknown>
+     886: 00 23 4f f0  	<unknown>
+     88a: 00 0b 00 f0  	<unknown>
+     88e: 90 f9 08 f0  	<unknown>
+     892: 08 00 02 99  	stmdbls	r2, {r3}
+     896: 05 f1 02 0a  	beq	#771092
+     89a: 41 ea d0 01  	bicseq	lr, r0, r1, asr #20
+     89e: 02 91 b6 e7  	ldr	r9, [r6, r2, lsl #2]!
+     8a2: 03 99 00 f0  	<unknown>
+     8a6: fc 00 08 1a  	bne	#2098160
+     8aa: 02 1f 20 46  	strtmi	r1, [r0], -r2, lsl #30
+     8ae: 0d 21 03 92  	andls	r2, r3, #1073741827
+     8b2: 00 f0 f5 fb  	blx	#-2637822
+     8b6: 4f f0 00 0b  	bleq	#246076
+     8ba: a9 e7 48 f0  	<unknown>
+     8be: 02 00 00 f0  	<unknown>
+     8c2: 0f 00 0f 28  	stmdahs	pc, {r0, r1, r2, r3}
+     8c6: 00 f0 a5 80  	adchi	pc, r5, r0
+     8ca: 03 a8 08 f0  	<unknown>
+     8ce: 0f 02 00 90  	andls	r0, r0, pc, lsl #4
+     8d2: 20 46 00 21  	<unknown>
+     8d6: 00 23 4f f0  	<unknown>
+     8da: 00 0b 00 f0  	<unknown>
+     8de: ba f8 03 9a  	bls	#1041128
+     8e2: 20 46 0d 21  	<unknown>
+     8e6: 00 f0 db fb  	blx	#-9453566
+     8ea: 91 e7 08 f0  	<unknown>
+     8ee: 07 00 20 21  	<unknown>
+     8f2: 00 23 4f f0  	<unknown>
+     8f6: 00 0b 01 fa  	blx	#273408
+     8fa: 00 f0 08 f0  	<unknown>
+     8fe: 08 01 10 38  	ldmdalo	r0, {r3, r8}
+     902: 40 ea c1 22  	sbchs	lr, r1, #64, #20
+     906: 20 46 00 21  	<unknown>
+     90a: 00 f0 51 f9  	<unknown>
+     90e: 7f e7 a8 f1  	<unknown>
+     912: b0 01 07 29  	stmdbhs	r7, {r4, r5, r7, r8}
+     916: 4e d8 09 20  	andhs	sp, r9, lr, asr #16
+     91a: 4f f0 01 0b  	bleq	#508220
+     91e: df e8 01 f0  	<unknown>
+     922: 04 05 4f 6d  	stclvs	p5, c0, [pc, #-16]
+     926: 89 89 89 89  	stmibhi	r9, {r0, r3, r7, r8, r11, pc}
+     92a: 71 e7 ca 45  	strbmi	lr, [r10, #1905]
+     92e: 71 d2 8a f0  	<unknown>
+     932: 03 00 32 5c  	ldcpl	p0, c0, [r2], #-12
+     936: 09 20 00 2a  	bhs	#32804
+     93a: 7b d0 12 f0  	<unknown>
+     93e: f0 01 78 d1  	ldrshle	r0, [r8, #-16]!
+     942: 20 46 00 21  	<unknown>
+     946: 00 23 4f f0  	<unknown>
+     94a: 00 0b 00 f0  	<unknown>
+     94e: 30 f9 05 f1  	<unknown>
+     952: 02 0a 5c e7  	ldrb	r0, [r12, -r2, lsl #20]
+     956: 08 f0 fe 00  	rscseq	pc, lr, r8
+     95a: c8 28 5a d1  	cmple	r10, r8, asr #17
+     95e: 8a f0 03 00  	andeq	pc, r3, r10, lsl #1
+     962: a8 f1 c8 02  	sbceq	pc, r8, #168, #2
+     966: b2 fa 82 f2  	<unknown>
+     96a: 31 5c 52 09  	ldmdbeq	r2, {r0, r4, r5, r10, r11, r12, lr} ^
+     96e: 08 09 01 f0  	<unknown>
+     972: 0f 01 40 ea  	b	#16778300
+     976: 02 10 42 18  	stmdane	r2, {r1, r12} ^
+     97a: 1f 2a 4a d8  	stmdale	r10, {r0, r1, r2, r3, r4, r9, r11, sp} ^
+     97e: 41 ea 00 40  	andmi	lr, r0, r1, asr #20
+     982: 01 21 42 1c  	mcrrne	p1, #0, r2, r2, c1
+     986: 20 46 05 23  	movwhs	r4, #22048
+     98a: 00 f0 11 f9  	<unknown>
+     98e: 05 f1 02 0a  	beq	#771092
+     992: 4f f0 00 0b  	bleq	#246076
+     996: 3b e7 5f ea  	b	#25140460
+     99a: 08 70 3a d4  	ldrtle	r7, [r10], #-8
+     99e: 2b 49 08 f0  	<unknown>
+     9a2: 07 00 05 23  	movwhs	r0, #20487
+     9a6: 42 18 20 46  	strtmi	r1, [r0], -r2, asr #16
+     9aa: 01 21 00 f0  	<unknown>
+     9ae: 00 f9 4f f0  	<unknown>
+     9b2: 00 0b 2c e7  	str	r0, [r12, -r0, lsl #22]!
+     9b6: 25 49 08 f0  	<unknown>
+     9ba: 07 00 01 23  	movwhs	r0, #4103
+     9be: f2 e7 00 25  	strhs	lr, [r0, #-2034]
+     9c2: 00 20 d1 45  	ldrbmi	r2, [r1]
+     9c6: 25 d0 8a f0  	<unknown>
+     9ca: 03 01 0a f1  	cpsie	a, #3
+     9ce: 01 0a 71 5c  	<unknown>
+     9d2: 01 f0 7f 02  	rsbseq	pc, pc, #1
+     9d6: 09 06 02 fa  	blx	#530468
+     9da: 00 f2 45 ea  	b	#18335744
+     9de: 02 05 00 f1  	<unknown>
+     9e2: 07 00 ee d4  	strbtle	r0, [lr], #7
+     9e6: 03 aa 20 46  	strtmi	r10, [r0], -r3, lsl #20
+     9ea: 0d 21 00 f0  	<unknown>
+     9ee: 3e fb 03 98  	stmdals	r3, {r1, r2, r3, r4, r5, r8, r9, r11, r12, sp, lr, pc}
+     9f2: 00 eb 85 00  	addeq	lr, r5, r0, lsl #22
+     9f6: 00 f5 01 72  	andvc	pc, r1, #0, #10
+     9fa: 57 e7 8a f0  	<unknown>
+     9fe: 03 00 01 21  	mrshs	r0, apsr
+     a02: 01 23 30 5c  	ldcpl	p3, c2, [r0], #-4
+     a06: 40 ea 00 30  	andlo	lr, r0, r0, asr #20
+     a0a: 00 f0 0f 10  	andne	pc, pc, r0
+     a0e: 42 1c 20 46  	strtmi	r1, [r0], -r2, asr #24
+     a12: ba e7 09 20  	strhhs	lr, [r9], -r10
+     a16: 0d e0 02 98  	stmdals	r2, {r0, r2, r3, sp, lr, pc}
+     a1a: c0 07 09 d1  	smlabtle	r9, r0, r7, r0
+     a1e: 03 aa 20 46  	strtmi	r10, [r0], -r3, lsl #20
+     a22: 0e 21 00 f0  	<unknown>
+     a26: 22 fb 03 9a  	bls	#1043592
+     a2a: 20 46 0f 21  	<unknown>
+     a2e: 00 f0 37 fb  	blx	#14663682
+     a32: 08 20 01 99  	stmdbls	r1, {r3, sp}
+     a36: 09 68 04 9a  	bls	#1155108
+     a3a: 89 1a 02 bf  	svclt	#137865
+     a3e: 05 b0 bd e8  	pop	{r0, r2, r12, sp, pc}
+     a42: 00 0f f0 bd  	ldcllt	p15, c0, [r0, #0]!
+     a46: ff f7 54 ee  	mrc	p7, #2, apsr_nzcv, c4, c15, #7
+     a4a: 00 bf 01 00  	andeq	r11, r1, r0, lsl #30
+     a4e: 08 00 b4 37  	ldrlo	r0, [r4, r8]!
+     a52: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+     a56: 03 af 4d f8  	<unknown>
+     a5a: 04 bd 82 b0  	addlt	r11, r2, r4, lsl #26
+     a5e: bc 68 15 46  	<unknown>
+     a62: 06 46 01 29  	stmdbhs	r1, {r1, r2, r9, r10, lr}
+     a66: 0a d0 39 bb  	bllt	#15155240
+     a6a: 02 20 0f 2d  	stchs	p0, c2, [pc, #-8]
+     a6e: 20 d8 fb b9  	ldmiblt	r11!, {r5, r11, r12, lr, pc} ^
+     a72: 30 46 29 46  	qasxmi	r4, r9, r0
+     a76: 22 46 00 f0  	<unknown>
+     a7a: f8 fa 15 e0  	ldrsh	pc, [r5], -r8
+     a7e: 43 f0 04 00  	andeq	pc, r4, r3, asr #32
+     a82: 05 28 09 d1  	mrsle	r2, apsr
+     a86: 01 2b 05 d1  	<unknown>
+     a8a: 0f 2d 05 d8  	stmdale	r5, {r0, r1, r2, r3, r8, r10, r11, sp}
+     a8e: 30 46 00 f0  	<unknown>
+     a92: 9f fb 03 e0  	mul	r3, pc, r11
+     a96: 1f 2d 01 d9  	stmdble	r1, {r0, r1, r2, r3, r4, r8, r10, r11, sp}
+     a9a: 02 20 09 e0  	and	r2, r9, r2
+     a9e: 05 f5 80 71  	orrvc	pc, r0, r5, lsl #10
+     aa2: 30 46 22 46  	qasxmi	r4, r2, r0
+     aa6: 00 f0 1f fb  	blx	#8372226
+     aaa: 00 28 18 bf  	svclt	#1583104
+     aae: 01 20 40 00  	subeq	r2, r0, r1
+     ab2: 02 b0 5d f8  	<unknown>
+     ab6: 04 bb f0 bd  	<unknown>
+     aba: 0c 48 40 f2  	vadd.i8	d20, d0, d12
+     abe: 5e 31 78 44  	ldrbtmi	r3, [r8], #-350
+     ac2: cd e9 00 10  	andne	lr, r0, sp, asr #19
+     ac6: 0a 48 0a 49  	stmdbmi	r10, {r1, r3, r11, lr}
+     aca: 78 44 0a 4a  	bmi	#2691552
+     ace: 0b 4b 79 44  	ldrbtmi	r4, [r9], #-2827
+     ad2: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+     ad6: 7b 44 00 f1  	<unknown>
+     ada: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+     ade: ff f7 0e ee  	mcr	p7, #0, pc, c14, c15, #7
+     ae2: 20 46 ff f7  	<unknown>
+     ae6: 10 ee ff f7  	<unknown>
+     aea: 14 ee b8 16  	ssatne	lr, #25, r4, lsl #28
+     aee: 00 00 ea 34  	strbtlo	r0, [r10], #0
+     af2: 00 00 d8 15  	ldrbne	r0, [r8]
+     af6: 00 00 40 17  	strbne	r0, [r0, -r0]
+     afa: 00 00 fb 15  	ldrbne	r0, [r11, #0]!
+     afe: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+     b02: 03 af 4d f8  	<unknown>
+     b06: 04 bd 82 b0  	addlt	r11, r2, r4, lsl #26
+     b0a: be 68 14 46  	<unknown>
+     b0e: 05 46 01 29  	stmdbhs	r1, {r0, r2, r9, r10, lr}
+     b12: 0a d0 41 bb  	bllt	#17252392
+     b16: 02 20 0f 2c  	<unknown>
+     b1a: 21 d8 03 bb  	bllt	#1007748
+     b1e: 32 68 28 46  	qasxmi	r6, r8, r2
+     b22: 21 46 00 f0  	<unknown>
+     b26: bc fa 16 e0  	ldrh	pc, [r6], -r12
+     b2a: 43 f0 04 00  	andeq	pc, r4, r3, asr #32
+     b2e: 05 28 09 d1  	mrsle	r2, apsr
+     b32: 01 2b 05 d1  	<unknown>
+     b36: 0f 2c 05 d8  	stmdale	r5, {r0, r1, r2, r3, r10, r11, sp}
+     b3a: 28 46 00 f0  	<unknown>
+     b3e: 49 fb 03 e0  	and	pc, r3, r9, asr #22
+     b42: 1f 2c 01 d9  	stmdble	r1, {r0, r1, r2, r3, r4, r10, r11, sp}
+     b46: 02 20 0a e0  	and	r2, r10, r2
+     b4a: d6 e9 00 23  	movwhs	lr, #2518
+     b4e: 04 f5 80 71  	orrvc	pc, r0, r4, lsl #10
+     b52: 28 46 00 f0  	<unknown>
+     b56: e4 fa 00 28  	stmdahs	r0, {r2, r5, r6, r7, r9, r11, r12, sp, lr, pc}
+     b5a: 18 bf 01 20  	andhs	r11, r1, r8, lsl pc
+     b5e: 40 00 02 b0  	andlt	r0, r2, r0, asr #32
+     b62: 5d f8 04 bb  	bllt	#1302900
+     b66: f0 bd 0c 48  	stmdami	r12, {r4, r5, r6, r7, r8, r10, r11, r12, sp, pc}
+     b6a: 4f f4 4a 71  	<unknown>
+     b6e: 78 44 cd e9  	stmib	sp, {r3, r4, r5, r6, r10, lr} ^
+     b72: 00 10 0a 48  	stmdami	r10, {r12}
+     b76: 0b 49 78 44  	ldrbtmi	r4, [r8], #-2315
+     b7a: 0b 4a 0b 4b  	blmi	#2959404
+     b7e: 79 44 00 68  	stmdavs	r0, {r0, r3, r4, r5, r6, r10, lr}
+     b82: 7a 44 7b 44  	ldrbtmi	r4, [r11], #-1146
+     b86: 00 f1 a8 04  	strteq	pc, [r8], #256
+     b8a: 20 46 ff f7  	<unknown>
+     b8e: b6 ed 20 46  	<unknown>
+     b92: ff f7 ba ed  	ldc	p7, c15, [r10, #1020]!
+     b96: ff f7 be ed  	ldc	p7, c15, [lr, #1020]!
+     b9a: 00 bf 0a 16  	strne	r11, [r10], -r0, lsl #30
+     b9e: 00 00 3c 34  	ldrtlo	r0, [r12], #-0
+     ba2: 00 00 2a 15  	strne	r0, [r10, #-0]!
+     ba6: 00 00 e6 15  	strbne	r0, [r6, #0]!
+     baa: 00 00 4d 15  	strbne	r0, [sp, #-0]
+     bae: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+     bb2: 03 af 2d e9  	push	{r0, r1, r8, r9, r10, r11, sp, pc}
+     bb6: fe 0f 82 46  	<unknown>
+     bba: 4b 48 1e 46  	ldrmi	r4, [lr], -r11, asr #16
+     bbe: 90 46 78 44  	ldrbtmi	r4, [r8], #-1680
+     bc2: 01 29 d0 f8  	<unknown>
+     bc6: 00 90 d9 f8  	<unknown>
+     bca: 00 00 06 90  	andls	r0, r6, r0
+     bce: 2b d0 00 29  	stmdbhs	r0, {r0, r1, r3, r5, r12, lr, pc}
+     bd2: 70 d1 00 2e  	mcrhs	p1, #0, sp, c0, c0, #3
+     bd6: 4c d1 02 aa  	bge	#738608
+     bda: 50 46 0d 21  	qaddhs	r4, r0, sp
+     bde: 00 f0 45 fa  	blx	#18333696
+     be2: 00 28 45 d1  	mrsle	r2, spsr
+     be6: 05 ac 00 26  	strhs	r10, [r0], -r5, lsl #24
+     bea: 4f f0 01 0b  	bleq	#508220
+     bee: 00 25 10 2e  	cdphs	p5, #1, c2, c0, c0, #0
+     bf2: 50 d0 0b fa  	blx	#3096896
+     bf6: 06 f0 10 ea  	b	#4440088
+     bfa: 08 0f 12 d0  	andsle	r0, r2, r8, lsl #30
+     bfe: 02 98 32 46  	ldrtmi	r9, [r2], -r2, lsl #16
+     c02: 00 23 01 1d  	stcne	p3, c2, [r1, #-0]
+     c06: 02 91 00 68  	stmdavs	r0, {r1, r8, r12, pc}
+     c0a: 00 21 05 90  	andls	r2, r5, r0, lsl #2
+     c0e: 50 46 00 94  	strls	r4, [r0], #-1616
+     c12: ff f7 75 ff  	<unknown>
+     c16: 60 bb a6 f1  	<unknown>
+     c1a: 0d 00 b0 fa  	blx	#-20971468
+     c1e: 80 f0 40 09  	stmdbeq	r0, {r7, r12, sp, lr, pc} ^
+     c22: 05 43 01 36  	strlo	r4, [r1], -r5, lsl #6
+     c26: e3 e7 46 f0  	<unknown>
+     c2a: 04 00 05 28  	stmdahs	r5, {r2}
+     c2e: 20 d1 05 aa  	bge	#1524864
+     c32: 50 46 0d 21  	qaddhs	r4, r0, sp
+     c36: 00 f0 19 fa  	blx	#6799360
+     c3a: d0 b9 4f ea  	b	#20899648
+     c3e: 18 45 15 fa  	blx	#5575776
+     c42: 88 f4 0d f1  	<unknown>
+     c46: 08 08 a5 42  	adcmi	r0, r5, #8, #16
+     c4a: 1e d2 05 98  	stmdals	r5, {r1, r2, r3, r4, r9, r12, lr, pc}
+     c4e: 33 46 00 f1  	<unknown>
+     c52: 08 02 01 68  	stmdavs	r1, {r3, r9}
+     c56: 05 92 2a 46  	strtmi	r9, [r10], -r5, lsl #4
+     c5a: 40 68 cd f8  	<unknown>
+     c5e: 00 80 cd e9  	stmib	sp, {pc} ^
+     c62: 02 10 50 46  	ldrbmi	r1, [r0], -r2
+     c66: 01 21 ff f7  	<unknown>
+     c6a: 4a ff 01 35  	strlo	pc, [r1, #-3914]
+     c6e: 00 28 ea d0  	rscle	r2, r10, r0, lsl #16
+     c72: 02 20 d9 f8  	<unknown>
+     c76: 00 10 06 9a  	bls	#1589248
+     c7a: 89 1a 02 bf  	svclt	#137865
+     c7e: 07 b0 bd e8  	pop	{r0, r1, r2, r12, sp, pc}
+     c82: 00 0f f0 bd  	ldcllt	p15, c0, [r0, #0]!
+     c86: ff f7 34 ed  	ldc	p7, c15, [r4, #-1020]!
+     c8a: 01 2e 07 d1  	<unknown>
+     c8e: 05 98 02 1d  	stcne	p8, c9, [r2, #-20]
+     c92: 05 92 06 e0  	and	r9, r6, r5, lsl #4
+     c96: e8 07 03 d0  	andle	r0, r3, r8, ror #15
+     c9a: 00 20 ea e7  	strb	r2, [r10, r0]!
+     c9e: 05 9a 00 e0  	and	r9, r0, r5, lsl #20
+     ca2: 02 9a 50 46  	ldrbmi	r9, [r0], -r2, lsl #20
+     ca6: 0d 21 00 f0  	<unknown>
+     caa: fa f9 00 28  	stmdahs	r0, {r1, r3, r4, r5, r6, r7, r8, r11, r12, sp, lr, pc}
+     cae: 18 bf 01 20  	andhs	r11, r1, r8, lsl pc
+     cb2: 40 00 de e7  	ldrb	r0, [lr, r0, asr #32]
+     cb6: 0d 48 4f f4  	vst2.8	{d20, d21}, [pc]!
+     cba: 6e 71 78 44  	ldrbtmi	r7, [r8], #-366
+     cbe: cd e9 00 10  	andne	lr, r0, sp, asr #19
+     cc2: 0b 48 0b 49  	stmdbmi	r11, {r0, r1, r3, r11, lr}
+     cc6: 78 44 0b 4a  	bmi	#2953696
+     cca: 0c 4b 79 44  	ldrbtmi	r4, [r9], #-2828
+     cce: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+     cd2: 7b 44 00 f1  	<unknown>
+     cd6: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+     cda: ff f7 10 ed  	ldc	p7, c15, [r0, #-1020]
+     cde: 20 46 ff f7  	<unknown>
+     ce2: 12 ed ff f7  	<unknown>
+     ce6: 16 ed f0 33  	mvnslo	lr, #1408
+     cea: 00 00 bc 14  	ldrtne	r0, [r12], #0
+     cee: 00 00 ee 32  	rsclo	r0, lr, #0
+     cf2: 00 00 dc 13  	bicsne	r0, r12, #0
+     cf6: 00 00 c3 14  	strbne	r0, [r3], #0
+     cfa: 00 00 ff 13  	<unknown>
+     cfe: 00 00 08 46  	strmi	r0, [r8], -r0
+     d02: 11 46 00 f0  	<unknown>
+     d06: 00 b8 b0 b5  	ldrlt	r11, [r0, #2048]!
+     d0a: 02 af 05 46  	strmi	r10, [r5], -r2, lsl #30
+     d0e: 08 46 0c 46  	strmi	r4, [r12], -r8, lsl #12
+     d12: 00 f0 2b f9  	<unknown>
+     d16: 95 f8 50 10  	<unknown>
+     d1a: c9 07 03 d1  	smlabtle	r3, r9, r7, r0
+     d1e: 00 68 08 b1  	<unknown>
+     d22: 09 20 b0 bd  	ldclt	p0, c2, [r0, #36]!
+     d26: 20 46 00 f0  	<unknown>
+     d2a: 18 fa 01 46  	<unknown>
+     d2e: 09 20 01 29  	stmdbhs	r1, {r0, r3, sp}
+     d32: 08 bf 08 20  	andhs	r11, r8, r8, lsl #30
+     d36: b0 bd 08 46  	<unknown>
+     d3a: 11 46 ff f7  	<unknown>
+     d3e: e4 bf 08 46  	strmi	r11, [r8], -r4, ror #31
+     d42: 11 46 ff f7  	<unknown>
+     d46: e0 bf f0 b5  	ldrblt	r11, [r0, #4064]!
+     d4a: 03 af 4d f8  	<unknown>
+     d4e: 04 8d ad f5  	<unknown>
+     d52: 09 6d 04 46  	strmi	r6, [r4], -r9, lsl #26
+     d56: 23 48 0d f5  	<unknown>
+     d5a: 91 66 78 44  	ldrbtmi	r6, [r8], #-1681
+     d5e: d0 f8 00 80  	<unknown>
+     d62: d8 f8 00 00  	<unknown>
+     d66: 47 f8 14 0c  	<unknown>
+     d6a: 30 46 00 f0  	<unknown>
+     d6e: 42 e9 0a ad  	stcge	p9, c14, [r10, #-264]
+     d72: 00 20 e0 60  	rscvs	r2, r0, r0
+     d76: 31 46 28 46  	qasxmi	r4, r8, r1
+     d7a: 00 f0 53 f9  	<unknown>
+     d7e: 6e 46 28 46  	strtmi	r4, [r8], -lr, ror #12
+     d82: 31 46 00 f0  	<unknown>
+     d86: ed f9 a8 b9  	stmiblt	r8!, {r0, r2, r3, r5, r6, r7, r8, r11, r12, sp, lr, pc}
+     d8a: 03 9b 00 2b  	blhs	#158732
+     d8e: f7 d0 00 98  	stmdals	r0, {r0, r1, r2, r4, r5, r6, r7, r12, lr, pc}
+     d92: 04 f1 48 0c  	mcrreq	p1, #0, pc, r8, c4
+     d96: 08 99 05 9a  	bls	#1467424
+     d9a: ac e8 07 00  	andeq	lr, r7, r12, lsr #17
+     d9e: 00 20 21 46  	strtmi	r2, [r1], -r0
+     da2: 2a 46 98 47  	ldrmi	r4, [r8, r10, lsr #12]
+     da6: 08 28 ea d0  	rscle	r2, r10, r8, lsl #16
+     daa: 06 28 11 d0  	andsle	r2, r1, r6, lsl #16
+     dae: 09 28 01 d1  	mrsle	r2, apsr
+     db2: 09 20 00 e0  	and	r2, r0, r9
+     db6: 03 20 d8 f8  	<unknown>
+     dba: 00 10 57 f8  	<unknown>
+     dbe: 14 2c 89 1a  	bne	#-31150000
+     dc2: 02 bf 0d f5  	<unknown>
+     dc6: 09 6d 5d f8  	<unknown>
+     dca: 04 8b f0 bd  	<unknown>
+     dce: ff f7 90 ec  	ldc	p7, c15, [r0], {255}
+     dd2: 0d f5 91 60  	addsvs	pc, r1, sp, lsl #10
+     dd6: 0a a9 22 46  	strtmi	r10, [r2], -r10, lsl #18
+     dda: 00 23 00 f0  	<unknown>
+     dde: 04 f8 02 20  	andhs	pc, r2, r4, lsl #16
+     de2: e9 e7 54 32  	subslo	lr, r4, #61079552
+     de6: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+     dea: 03 af 2d e9  	push	{r0, r1, r8, r9, r10, r11, sp, pc}
+     dee: 00 0f 8f b0  	addlt	r0, pc, r0, lsl #30
+     df2: 0c 46 01 46  	strmi	r4, [r1], -r12, lsl #12
+     df6: 3c 48 9a 46  	<unknown>
+     dfa: 15 46 78 44  	ldrbtmi	r4, [r8], #-1557
+     dfe: d0 f8 00 b0  	<unknown>
+     e02: db f8 00 00  	<unknown>
+     e06: 0e 90 20 46  	strtmi	r9, [r0], -lr
+     e0a: 00 f0 0b f9  	<unknown>
+     e0e: 0d f1 0c 09  	stmdbeq	r12, {r0, r2, r3, r8, r12, sp, lr, pc}
+     e12: 4f f0 01 08  	stmdaeq	r1, {r0, r1, r2, r3, r6, r12, sp, lr, pc}
+     e16: 1a f0 01 00  	andeq	pc, r1, r10, lsl r0
+     e1a: 4f f0 01 06  	streq	pc, [r1], -pc, asr #32
+     e1e: 18 bf 02 26  	<unknown>
+     e22: 0a d0 b8 f1  	<unknown>
+     e26: 00 0f 07 d1  	<unknown>
+     e2a: 2a 69 20 46  	strtmi	r6, [r0], -r10, lsr #18
+     e2e: 4f f0 ff 31  	mvnslo	pc, pc, asr #32
+     e32: 00 f0 35 f9  	rfedb	#4!
+     e36: 4f f0 00 0a  	beq	#246076
+     e3a: 0d aa 20 46  	strtmi	r10, [r0], -sp, lsl #20
+     e3e: 6f f0 01 01  	<unknown>
+     e42: 00 f0 13 f9  	<unknown>
+     e46: 20 46 49 46  	strbmi	r4, [r9], -r0, lsr #12
+     e4a: 00 f0 8a f9  	<unknown>
+     e4e: 30 bb 06 9b  	blls	#1764544
+     e52: 93 b1 03 98  	stmdals	r3, {r0, r1, r4, r7, r8, r12, sp, pc}
+     e56: 05 f1 48 0c  	mcrreq	p1, #0, pc, r8, c5
+     e5a: 0b 99 08 9a  	bls	#2253868
+     e5e: ac e8 07 00  	andeq	lr, r7, r12, lsr #17
+     e62: 30 46 29 46  	qasxmi	r4, r9, r0
+     e66: 22 46 98 47  	ldrmi	r4, [r8, r2, lsr #12]
+     e6a: 07 28 0c d0  	andle	r2, r12, r7, lsl #16
+     e6e: 08 28 06 d1  	<unknown>
+     e72: 28 6a 0d 99  	stmdbls	sp, {r3, r5, r9, r11, sp, lr}
+     e76: 81 42 1c d0  	andsle	r4, r12, r1, lsl #5
+     e7a: a8 f1 01 08  	stmdaeq	r1, {r3, r5, r7, r8, r12, sp, lr, pc}
+     e7e: ca e7 09 28  	stmdahs	r9, {r1, r3, r6, r7, r8, r9, r10, sp, lr, pc}
+     e82: 0c d1 ff f7  	<unknown>
+     e86: 46 ec 02 aa  	bge	#766232
+     e8a: 20 46 4f f0  	<unknown>
+     e8e: ff 31 00 f0  	<unknown>
+     e92: ec f8 02 98  	stmdals	r2, {r2, r3, r5, r6, r7, r11, r12, sp, lr, pc}
+     e96: 28 61 20 46  	strtmi	r6, [r0], -r8, lsr #2
+     e9a: 00 f0 73 f9  	<unknown>
+     e9e: db f8 00 00  	<unknown>
+     ea2: 0e 99 40 1a  	bne	#16933944
+     ea6: 02 bf 0f b0  	andlt	r11, pc, r2, lsl #30
+     eaa: bd e8 00 0f  	svceq	#59581
+     eae: f0 bd ff f7  	<unknown>
+     eb2: 1e ec 0d 48  	stmdami	sp, {r1, r2, r3, r4, r10, r11, sp, lr, pc}
+     eb6: 4f f4 1a 71  	tstvc	r10, pc, asr #8
+     eba: 78 44 cd e9  	stmib	sp, {r3, r4, r5, r6, r10, lr} ^
+     ebe: 00 10 0b 48  	stmdami	r11, {r12}
+     ec2: 0c 49 78 44  	ldrbtmi	r4, [r8], #-2316
+     ec6: 0c 4a 0c 4b  	blmi	#3221552
+     eca: 79 44 00 68  	stmdavs	r0, {r0, r3, r4, r5, r6, r10, lr}
+     ece: 7a 44 7b 44  	ldrbtmi	r4, [r11], #-1146
+     ed2: 00 f1 a8 04  	strteq	pc, [r8], #256
+     ed6: 20 46 ff f7  	<unknown>
+     eda: 10 ec 20 46  	qadd16mi	lr, r0, r0
+     ede: ff f7 14 ec  	<unknown>
+     ee2: ff f7 18 ec  	<unknown>
+     ee6: 00 bf b4 31  	<unknown>
+     eea: 00 00 f7 12  	rscsne	r0, r7, #0
+     eee: 00 00 f0 30  	rscslo	r0, r0, r0
+     ef2: 00 00 de 11  	bicsne	r0, lr, r0
+     ef6: 00 00 d5 12  	sbcsne	r0, r5, #0
+     efa: 00 00 01 12  	andne	r0, r1, #0
+     efe: 00 00 70 47  	ldrbmi	r0, [r0, -r0]!
+     f02: 00 00 b0 b5  	ldrlt	r0, [r0, #0]!
+     f06: 02 af ad f5  	<unknown>
+     f0a: 06 6d 82 b0  	addlt	r6, r2, r6, lsl #26
+     f0e: 0d f5 8d 65  	strvs	pc, [sp, #1293]
+     f12: 04 46 28 46  	strtmi	r4, [r8], -r4, lsl #12
+     f16: 00 f0 6e e8  	stmda	lr!, {r12, sp, lr, pc} ^
+     f1a: 02 a9 28 46  	strtmi	r10, [r8], -r2, lsl #18
+     f1e: 22 46 01 23  	movwhs	r4, #5666
+     f22: ff f7 61 ff  	<unknown>
+     f26: 0c 48 40 f2  	vadd.i8	d20, d0, d12
+     f2a: ce 21 78 44  	ldrbtmi	r2, [r8], #-462
+     f2e: cd e9 00 10  	andne	lr, r0, sp, asr #19
+     f32: 0a 48 0a 49  	stmdbmi	r10, {r1, r3, r11, lr}
+     f36: 78 44 0a 4a  	bmi	#2691552
+     f3a: 0b 4b 79 44  	ldrbtmi	r4, [r9], #-2827
+     f3e: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+     f42: 7b 44 00 f1  	<unknown>
+     f46: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+     f4a: ff f7 d8 eb  	bl	#-10231812
+     f4e: 20 46 ff f7  	<unknown>
+     f52: da eb ff f7  	<unknown>
+     f56: de eb 1e 12  	andsne	lr, lr, #227328
+     f5a: 00 00 7e 30  	rsbslo	r0, lr, r0
+     f5e: 00 00 6c 11  	<unknown>
+     f62: 00 00 82 11  	orrne	r0, r2, r0
+     f66: 00 00 8f 11  	orrne	r0, pc, r0
+     f6a: 00 00 d0 b5  	ldrblt	r0, [r0]
+     f6e: 02 af 8c b0  	addlt	r10, r12, r2, lsl #30
+     f72: 0a 49 79 44  	ldrbtmi	r4, [r9], #-2314
+     f76: 0c 68 21 68  	stmdavs	r1!, {r2, r3, r11, sp, lr}
+     f7a: 0b 91 01 a9  	stmdbge	r1, {r0, r1, r3, r8, r12, pc}
+     f7e: 00 f0 f0 f8  	<unknown>
+     f82: 01 46 03 98  	stmdals	r3, {r0, r9, r10, lr}
+     f86: 00 29 18 bf  	svclt	#1583360
+     f8a: 00 20 21 68  	stmdavs	r1!, {sp}
+     f8e: 0b 9a 89 1a  	bne	#-31037396
+     f92: 04 bf 0c b0  	andlt	r11, r12, r4, lsl #30
+     f96: d0 bd ff f7  	<unknown>
+     f9a: aa eb 3c 30  	eorslo	lr, r12, r10, lsr #23
+     f9e: 00 00 d0 b5  	ldrblt	r0, [r0]
+     fa2: 02 af 8c b0  	addlt	r10, r12, r2, lsl #30
+     fa6: 0a 49 79 44  	ldrbtmi	r4, [r9], #-2314
+     faa: 0c 68 21 68  	stmdavs	r1!, {r2, r3, r11, sp, lr}
+     fae: 0b 91 01 a9  	stmdbge	r1, {r0, r1, r3, r8, r12, pc}
+     fb2: 00 f0 d6 f8  	<unknown>
+     fb6: 01 46 01 98  	stmdals	r1, {r0, r9, r10, lr}
+     fba: 00 29 18 bf  	svclt	#1583360
+     fbe: 00 20 21 68  	stmdavs	r1!, {sp}
+     fc2: 0b 9a 89 1a  	bne	#-31037396
+     fc6: 04 bf 0c b0  	andlt	r11, r12, r4, lsl #30
+     fca: d0 bd ff f7  	<unknown>
+     fce: 90 eb 08 30  	mullo	r8, r0, r11
+     fd2: 00 00 82 68  	<unknown>
+     fd6: 12 b1 01 46  	<unknown>
+     fda: 01 20 10 47  	ldrmi	r2, [r0, -r1]
+     fde: 70 47 80 b5  	strlt	r4, [r0, #1904]
+     fe2: 6f 46 08 46  	strmi	r4, [r8], -pc, ror #12
+     fe6: 00 f0 b9 f8  	rfeia	#1!
+     fea: 01 38 18 bf  	svclt	#1587201
+     fee: 09 20 80 bd  	stclt	p0, c2, [r0, #36]
+     ff2: 00 00 ff 1f  	svcne	#16711680
+     ff6: 80 e8 34 d0  	eorsle	lr, r4, r0, lsl #17
+     ffa: 80 e5 38 e0  	eors	lr, r8, r0, lsl #11
+     ffe: 80 e5 3c e0  	eors	lr, r12, r0, lsl #11
+    1002: 80 e5 00 00  	andeq	lr, r0, r0, lsl #11
+    1006: a0 e3 1e ff  	<unknown>
+    100a: 2f e1 20 0b  	bleq	#8619196
+    100e: 80 ec 1e ff  	<unknown>
+    1012: 2f e1 20 0b  	bleq	#8619196
+    1016: 80 ec 1e ff  	<unknown>
+    101a: 2f e1 20 0b  	bleq	#8619196
+    101e: c0 ec 1e ff  	<unknown>
+    1022: 2f e1 d0 b5  	ldrblt	lr, [r0, #303]
+    1026: 02 af 04 46  	strmi	r10, [r4], -r2, lsl #30
+    102a: 00 20 84 f8  	<unknown>
+    102e: 4a 00 a4 f8  	<unknown>
+    1032: 48 00 0b 48  	stmdami	r11, {r3, r6}
+    1036: 0c 4a 78 44  	ldrbtmi	r4, [r8], #-2572
+    103a: 7a 44 08 32  	andlo	r4, r8, #2046820352
+    103e: c4 e9 00 20  	andhs	lr, r0, r4, asr #19
+    1042: 04 f1 08 00  	andeq	pc, r8, r4, lsl #2
+    1046: 40 22 ff f7  	<unknown>
+    104a: 6a eb 04 f1  	<unknown>
+    104e: 50 00 4f f4  	vst4.16	{d16, d17, d18, d19}, [pc:64], r0
+    1052: 99 71 ff f7  	<unknown>
+    1056: 6a eb 20 46  	strtmi	lr, [r0], -r10, ror #22
+    105a: 00 21 00 f0  	<unknown>
+    105e: 2a f9 00 20  	andhs	pc, r0, r10, lsr #18
+    1062: d0 bd c8 2f  	svchs	#13155792
+    1066: 00 00 16 2e  	cdphs	p0, #1, c0, c6, c0, #0
+    106a: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+    106e: 03 af 4d f8  	<unknown>
+    1072: 04 bd 06 46  	strmi	r11, [r6], -r4, lsl #26
+    1076: 00 68 14 46  	ldrmi	r6, [r4], -r0, lsl #16
+    107a: 0d 46 82 68  	stmvs	r2, {r0, r2, r3, r9, r10, lr}
+    107e: 30 46 90 47  	<unknown>
+    1082: 38 b1 30 68  	ldmdavs	r0!, {r3, r4, r5, r8, r12, sp, pc}
+    1086: 29 46 c2 68  	stmvs	r2, {r0, r3, r5, r9, r10, lr} ^
+    108a: 30 46 90 47  	<unknown>
+    108e: 20 60 00 20  	andhs	r6, r0, r0, lsr #32
+    1092: 00 e0 01 48  	stmdami	r1, {sp, lr, pc}
+    1096: 5d f8 04 bb  	bllt	#1302900
+    109a: f0 bd 72 e6  	uhsub8	r11, r2, r0
+    109e: ff ff f0 b5  	ldrblt	pc, [r0, #4095]!
+    10a2: 03 af 4d f8  	<unknown>
+    10a6: 04 bd 04 46  	strmi	r11, [r4], -r4, lsl #26
+    10aa: 00 68 16 46  	ldrmi	r6, [r6], -r0, lsl #16
+    10ae: 0d 46 82 68  	stmvs	r2, {r0, r2, r3, r9, r10, lr}
+    10b2: 20 46 90 47  	ldrmi	r4, [r0, r0, lsr #12]
+    10b6: 48 b1 20 68  	stmdavs	r0!, {r3, r6, r8, r12, sp, pc}
+    10ba: 29 46 32 46  	ldrtmi	r4, [r2], -r9, lsr #12
+    10be: 03 69 20 46  	strtmi	r6, [r0], -r3, lsl #18
+    10c2: 98 47 68 1c  	stclne	p7, c4, [r8], #-608
+    10c6: 03 d0 00 25  	strhs	sp, [r0, #-3]
+    10ca: 07 e0 05 4d  	stcmi	p0, c14, [r5, #-28]
+    10ce: 05 e0 20 68  	stmdavs	r0!, {r0, r2, sp, lr, pc}
+    10d2: 00 21 00 25  	strhs	r2, [r0, #-256]
+    10d6: 42 6b 20 46  	strtmi	r6, [r0], -r2, asr #22
+    10da: 90 47 28 46  	qadd8mi	r4, r8, r0
+    10de: 5d f8 04 bb  	bllt	#1302900
+    10e2: f0 bd 72 e6  	uhsub8	r11, r2, r0
+    10e6: ff ff f0 b5  	ldrblt	pc, [r0, #4095]!
+    10ea: 03 af 4d f8  	<unknown>
+    10ee: 04 bd 06 46  	strmi	r11, [r6], -r4, lsl #26
+    10f2: 00 68 14 46  	ldrmi	r6, [r4], -r0, lsl #16
+    10f6: 0d 46 42 69  	stmdbvs	r2, {r0, r2, r3, r9, r10, lr} ^
+    10fa: 30 46 90 47  	<unknown>
+    10fe: 40 b1 30 68  	ldmdavs	r0!, {r6, r8, r12, sp, pc}
+    1102: 29 46 82 69  	stmibvs	r2, {r0, r3, r5, r9, r10, lr}
+    1106: 30 46 90 47  	<unknown>
+    110a: c4 e9 00 01  	smlabteq	r0, r4, r9, lr
+    110e: 00 20 00 e0  	and	r2, r0, r0
+    1112: 02 48 5d f8  	<unknown>
+    1116: 04 bb f0 bd  	<unknown>
+    111a: 00 bf 72 e6  	ldrbt	r11, [r2], -r0, lsl #30
+    111e: ff ff f0 b5  	ldrblt	pc, [r0, #4095]!
+    1122: 03 af 4d f8  	<unknown>
+    1126: 04 8d 04 46  	strmi	r8, [r4], -r4, lsl #26
+    112a: 00 68 15 46  	ldrmi	r6, [r5], -r0, lsl #16
+    112e: 98 46 0e 46  	<unknown>
+    1132: 42 69 20 46  	strtmi	r6, [r0], -r2, asr #18
+    1136: 90 47 48 b1  	swpblt	r4, r0, [r8]
+    113a: 20 68 31 46  	ldrtmi	r6, [r1], -r0, lsr #16
+    113e: 2a 46 43 46  	strbmi	r4, [r3], -r10, lsr #12
+    1142: d0 f8 1c c0  	ldrsbgt	pc, [r12], -r0
+    1146: 20 46 e0 47  	strbmi	r4, [r0, r0, lsr #12]!
+    114a: 00 20 00 e0  	and	r2, r0, r0
+    114e: 02 48 5d f8  	<unknown>
+    1152: 04 8b f0 bd  	<unknown>
+    1156: 00 bf 72 e6  	ldrbt	r11, [r2], -r0, lsl #30
+    115a: ff ff 01 68  	stmdavs	r1, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, sp, lr, pc}
+    115e: 09 6a 08 47  	strmi	r6, [r8, -r9, lsl #20]
+    1162: d0 b5 02 af  	svcge	#177616
+    1166: 0c 46 01 68  	stmdavs	r1, {r2, r3, r9, r10, lr}
+    116a: 4a 6a 21 46  	strtmi	r6, [r1], -r10, asr #20
+    116e: 90 47 61 68  	stmdavs	r1!, {r4, r7, r8, r9, r10, lr} ^
+    1172: 00 20 00 29  	stmdbhs	r0, {sp}
+    1176: 04 bf 4e f2  	vmax.f32	d27, d14, d4
+    117a: 6b 60 cf f6  	<unknown>
+    117e: ff 70 d0 bd  	ldcllt	p0, c7, [r0, #1020]
+    1182: 00 00 80 b5  	strlt	r0, [r0]
+    1186: 6f 46 01 68  	stmdavs	r1, {r0, r1, r2, r3, r5, r6, r9, r10, lr}
+    118a: 89 6a 88 47  	strmi	r6, [r8, r9, lsl #21]
+    118e: 01 48 80 bd  	stclt	p8, c4, [r0, #4]
+    1192: 00 bf 74 e6  	ldrbt	r11, [r4], -r0, lsl #30
+    1196: ff ff d0 b5  	ldrblt	pc, [r0, #4095]
+    119a: 02 af 04 68  	stmdavs	r4, {r1, r8, r9, r10, r11, sp, pc}
+    119e: 24 6b a0 47  	strmi	r6, [r0, r4, lsr #22]!
+    11a2: 03 49 00 28  	stmdahs	r0, {r0, r1, r8, r11, lr}
+    11a6: 18 bf 00 21  	<unknown>
+    11aa: 08 46 d0 bd  	ldcllt	p6, c4, [r0, #32]
+    11ae: 00 bf 74 e6  	ldrbt	r11, [r4], -r0, lsl #30
+    11b2: ff ff 80 b5  	strlt	pc, [r0, #4095]
+    11b6: 6f 46 02 68  	stmdavs	r2, {r0, r1, r2, r3, r5, r6, r9, r10, lr}
+    11ba: 52 69 90 47  	<unknown>
+    11be: 80 bd 02 68  	stmdavs	r2, {r7, r8, r10, r11, r12, sp, pc}
+    11c2: 92 6b 10 47  	<unknown>
+    11c6: 80 b5 6f 46  	strbtmi	r11, [pc], -r0, lsl #11
+    11ca: 01 68 c9 6a  	bvs	#-14311420
+    11ce: 88 47 80 bd  	stclt	p7, c4, [r0, #544]
+    11d2: 01 68 c9 6b  	blvs	#-14311420
+    11d6: 08 47 70 47  	ldrbmi	r4, [r0, -r8, lsl #14]!
+    11da: 70 47 10 39  	ldmdblo	r0, {r4, r5, r6, r8, r9, r10, lr}
+    11de: 00 20 11 f1  	<unknown>
+    11e2: 13 0f 88 bf  	svclt	#8916755
+    11e6: 01 20 70 47  	ldrbmi	r2, [r0, -r1]!
+    11ea: 08 30 00 f0  	<unknown>
+    11ee: 9c b8 08 30  	mullo	r8, r12, r8
+    11f2: 00 f0 d5 b8  	ldmlt	r5, {r12, sp, lr, pc} ^
+    11f6: 21 f0 1f 00  	andseq	pc, pc, r1, lsr #32
+    11fa: a0 f5 80 70  	addvc	pc, r0, r0, lsr #11
+    11fe: b0 fa 80 f0  	<unknown>
+    1202: 40 09 70 47  	ldrbmi	r0, [r0, -r0, asr #18]!
+    1206: 08 30 00 f0  	<unknown>
+    120a: 04 b9 08 30  	andlo	r11, r8, r4, lsl #18
+    120e: 00 f0 57 b9  	ldmdblt	r7, {r12, sp, lr, pc} ^
+    1212: d0 b5 02 af  	svcge	#177616
+    1216: 04 46 90 f8  	<unknown>
+    121a: 80 01 08 b1  	smlabblt	r8, r0, r1, r0
+    121e: 00 20 d0 bd  	ldcllt	p0, c2, [r0]
+    1222: 20 46 00 f0  	<unknown>
+    1226: aa f9 01 28  	stmdahs	r1, {r1, r3, r5, r7, r8, r11, r12, sp, lr, pc}
+    122a: 1b d1 20 68  	stmdavs	r0!, {r0, r1, r3, r4, r8, r12, lr, pc}
+    122e: 01 21 42 6b  	blvs	#17335300
+    1232: 20 46 90 47  	ldrmi	r4, [r0, r0, lsr #12]
+    1236: 94 f8 80 01  	<unknown>
+    123a: 00 28 ef d1  	mvnle	r2, r0, lsl #16
+    123e: d4 f8 68 01  	<unknown>
+    1242: 70 b1 20 68  	stmdavs	r0!, {r4, r5, r6, r8, r12, sp, pc}
+    1246: 6f f0 01 01  	<unknown>
+    124a: c2 68 20 46  	strtmi	r6, [r0], -r2, asr #17
+    124e: 90 47 21 68  	stmdavs	r1!, {r4, r7, r8, r9, r10, lr}
+    1252: d4 f8 68 21  	<unknown>
+    1256: 0b 69 02 44  	strmi	r6, [r2], #-2315
+    125a: 20 46 6f f0  	<unknown>
+    125e: 01 01 98 47  	ldrmi	r0, [r8, r1, lsl #2]
+    1262: 01 20 d0 bd  	ldcllt	p0, c2, [r0, #4]
+    1266: 0a 46 00 f5  	<unknown>
+    126a: ac 71 10 46  	ldrmi	r7, [r0], -r12, lsr #3
+    126e: 28 22 00 f0  	<unknown>
+    1272: 6e bd 08 30  	andlo	r11, r8, lr, ror #26
+    1276: 00 f0 a7 b9  	stmiblt	r7!, {r12, sp, lr, pc}
+    127a: 90 f8 81 01  	<unknown>
+    127e: 70 47 f0 b5  	ldrblt	r4, [r0, #1904]!
+    1282: 03 af 4d f8  	<unknown>
+    1286: 04 8d 82 b0  	addlt	r8, r2, r4, lsl #26
+    128a: 0e 46 d0 e9  	ldmib	r0, {r1, r2, r3, r9, r10, lr} ^
+    128e: 00 15 90 46  	ldrmi	r1, [r0], r0, lsl #10
+    1292: 1c 46 ca 68  	stmvs	r10, {r2, r3, r4, r9, r10, lr} ^
+    1296: 4f f0 ff 31  	mvnslo	pc, pc, asr #32
+    129a: 90 47 01 46  	<unknown>
+    129e: 28 46 32 46  	ldrtmi	r4, [r2], -r8, lsr #12
+    12a2: 43 46 00 94  	strls	r4, [r0], #-1603
+    12a6: 00 f0 b3 f9  	rfeib	#2!
+    12aa: 02 b0 5d f8  	<unknown>
+    12ae: 04 8b f0 bd  	<unknown>
+    12b2: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+    12b6: 03 af 4d f8  	<unknown>
+    12ba: 04 bd 84 b0  	addlt	r11, r4, r4, lsl #26
+    12be: 04 46 14 48  	ldmdami	r4, {r2, r9, r10, lr}
+    12c2: 0d 46 4f f0  	<unknown>
+    12c6: ff 31 78 44  	ldrbtmi	r3, [r8], #-511
+    12ca: 06 68 30 68  	ldmdavs	r0!, {r1, r2, r11, sp, lr}
+    12ce: 03 90 20 68  	stmdavs	r0!, {r0, r1, r12, pc}
+    12d2: c2 68 20 46  	strtmi	r6, [r0], -r2, asr #17
+    12d6: 90 47 20 f0  	<unknown>
+    12da: 01 00 01 aa  	bge	#262148
+    12de: 45 1b 60 68  	stmdavs	r0!, {r0, r2, r6, r8, r9, r11, r12} ^
+    12e2: 29 46 00 f0  	<unknown>
+    12e6: c4 f9 38 b1  	teqlt	r8, r4, asr #19
+    12ea: 01 98 28 b1  	<unknown>
+    12ee: 01 aa 20 46  	strtmi	r10, [r0], -r1, lsl #20
+    12f2: 29 46 00 f0  	<unknown>
+    12f6: de f9 10 b9  	ldmdblt	r0, {r1, r2, r3, r4, r6, r7, r8, r11, r12, sp, lr, pc}
+    12fa: 01 20 84 f8  	<unknown>
+    12fe: 80 01 30 68  	ldmdavs	r0!, {r7, r8}
+    1302: 03 99 40 1a  	bne	#16933900
+    1306: 02 bf 04 b0  	andlt	r11, r4, r2, lsl #30
+    130a: 5d f8 04 bb  	bllt	#1302900
+    130e: f0 bd ff f7  	<unknown>
+    1312: ee e9 e8 2c  	stclhs	p9, c14, [r8], #952
+    1316: 00 00 08 30  	andlo	r0, r8, r0
+    131a: 00 f0 e1 ba  	blt	#-7880704
+    131e: 01 21 80 f8  	<unknown>
+    1322: 48 10 70 47  	ldrbmi	r1, [r0, -r8, asr #32]!
+    1326: 00 00 dc b5  	ldrblt	r0, [r12]
+    132a: 04 af 8a 1c  	stcne	p15, c10, [r10], {4}
+    132e: 09 d0 4a 1c  	mcrrne	p0, #0, sp, r10, c9
+    1332: 18 bf 0f 29  	stmdbhs	pc, {r3, r4, r8, r9, r10, r11, r12, sp, pc}
+    1336: 01 d1 3c 30  	eorslo	sp, r12, r1, lsl #2
+    133a: 0b e0 0e 29  	stmdbhs	lr, {r0, r1, r3, sp, lr, pc}
+    133e: 03 d0 0d 29  	stmdbhs	sp, {r0, r1, r12, lr, pc}
+    1342: 03 d1 34 30  	eorslo	sp, r4, r3, lsl #2
+    1346: 05 e0 38 30  	eorslo	lr, r8, r5
+    134a: 03 e0 0c 29  	stmdbhs	r12, {r0, r1, sp, lr, pc}
+    134e: 04 d8 00 eb  	bl	#221200
+    1352: 81 00 00 68  	stmdavs	r0, {r0, r7}
+    1356: 02 b0 d0 bd  	ldcllt	p0, c11, [r0, #8]
+    135a: 0c 48 40 f2  	vadd.i8	d20, d0, d12
+    135e: db 51 78 44  	ldrbtmi	r5, [r8], #-475
+    1362: cd e9 00 10  	andne	lr, r0, sp, asr #19
+    1366: 0a 48 0a 49  	stmdbmi	r10, {r1, r3, r11, lr}
+    136a: 78 44 0a 4a  	bmi	#2691552
+    136e: 0b 4b 79 44  	ldrbtmi	r4, [r9], #-2827
+    1372: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+    1376: 7b 44 00 f1  	<unknown>
+    137a: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+    137e: ff f7 be e9  	ldmib	lr!, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc}
+    1382: 20 46 ff f7  	<unknown>
+    1386: c0 e9 ff f7  	<unknown>
+    138a: c4 e9 c8 0f  	svceq	#13167044
+    138e: 00 00 4a 2c  	mcrrhs	p0, #0, r0, r10, c0
+    1392: 00 00 38 0d  	ldceq	p0, c0, [r8, #-0]!
+    1396: 00 00 32 0f  	svceq	#3276800
+    139a: 00 00 3c 0f  	svceq	#3932160
+    139e: 00 00 dc b5  	ldrblt	r0, [r12]
+    13a2: 04 af 8b 1c  	stcne	p15, c10, [r11], {4}
+    13a6: 09 d0 4b 1c  	mcrrne	p0, #0, sp, r11, c9
+    13aa: 18 bf 0f 29  	stmdbhs	pc, {r3, r4, r8, r9, r10, r11, r12, sp, pc}
+    13ae: 01 d1 c2 63  	bicvs	sp, r2, #1073741824
+    13b2: dc bd 0e 29  	stmdbhs	lr, {r2, r3, r4, r6, r7, r8, r10, r11, r12, sp, pc}
+    13b6: 03 d0 0d 29  	stmdbhs	sp, {r0, r1, r12, lr, pc}
+    13ba: 03 d1 42 63  	movtvs	sp, #8451
+    13be: dc bd 82 63  	orrvs	r11, r2, #220, #26
+    13c2: dc bd 0c 29  	stmdbhs	r12, {r2, r3, r4, r6, r7, r8, r10, r11, r12, sp, pc}
+    13c6: 9c bf 40 f8  	<unknown>
+    13ca: 21 20 dc bd  	ldcllt	p0, c2, [r12, #132]
+    13ce: 0c 48 40 f2  	vadd.i8	d20, d0, d12
+    13d2: fe 51 78 44  	ldrbtmi	r5, [r8], #-510
+    13d6: cd e9 00 10  	andne	lr, r0, sp, asr #19
+    13da: 0a 48 0a 49  	stmdbmi	r10, {r1, r3, r11, lr}
+    13de: 78 44 0a 4a  	bmi	#2691552
+    13e2: 0b 4b 79 44  	ldrbtmi	r4, [r9], #-2827
+    13e6: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+    13ea: 7b 44 00 f1  	<unknown>
+    13ee: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+    13f2: ff f7 84 e9  	stmib	r4, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc}
+    13f6: 20 46 ff f7  	<unknown>
+    13fa: 86 e9 ff f7  	<unknown>
+    13fe: 8a e9 54 0f  	svceq	#5564810
+    1402: 00 00 d6 2b  	blhs	#-11010048
+    1406: 00 00 c4 0c  	stcleq	p0, c0, [r4], {0}
+    140a: 00 00 59 0f  	svceq	#5832704
+    140e: 00 00 c8 0e  	cdpeq	p0, #12, c0, c8, c0, #0
+    1412: 00 00 bc b5  	ldrlt	r0, [r12, #0]!
+    1416: 04 af 05 46  	strmi	r10, [r5], -r4, lsl #30
+    141a: 21 f0 0f 00  	andeq	pc, pc, r1, lsr #32
+    141e: 0c 46 b0 f5  	<unknown>
+    1422: 88 7f 10 d0  	andsle	r7, r0, r8, lsl #31
+    1426: b0 f5 80 7f  	svcvc	#8451504
+    142a: 26 d1 95 f8  	<unknown>
+    142e: 41 00 d8 b9  	ldmiblt	r8, {r0, r6} ^
+    1432: 01 20 85 f8  	<unknown>
+    1436: 41 00 05 f1  	<unknown>
+    143a: 48 00 95 f8  	<unknown>
+    143e: 40 10 89 b1  	orrlt	r1, r9, r0, asr #32
+    1442: ff f7 e8 ed  	stcl	p7, c15, [r8, #1020]!
+    1446: 10 e0 95 f8  	<unknown>
+    144a: 42 00 30 b9  	ldmdblt	r0!, {r1, r6}
+    144e: 01 20 85 f8  	<unknown>
+    1452: 42 00 05 f1  	<unknown>
+    1456: d0 00 ff f7  	<unknown>
+    145a: e0 ed 05 eb  	bl	#1554304
+    145e: c4 00 a0 f5  	<unknown>
+    1462: f6 60 05 e0  	strd	r6, r7, [r5], -r6
+    1466: ff f7 d2 ed  	ldcl	p7, c15, [r2, #1020]
+    146a: 05 eb c4 00  	sbceq	lr, r4, r5, lsl #22
+    146e: a0 f5 f7 60  	rscsvs	pc, r7, r0, lsr #11
+    1472: d0 e9 00 01  	ldrdeq	lr, pc, [r0, -r0]
+    1476: 02 b0 b0 bd  	ldclt	p0, c11, [r0, #8]!
+    147a: 0c 48 40 f2  	vadd.i8	d20, d0, d12
+    147e: d2 61 78 44  	ldrbtmi	r6, [r8], #-466
+    1482: cd e9 00 10  	andne	lr, r0, sp, asr #19
+    1486: 0a 48 0a 49  	stmdbmi	r10, {r1, r3, r11, lr}
+    148a: 78 44 0a 4a  	bmi	#2691552
+    148e: 0b 4b 79 44  	ldrbtmi	r4, [r9], #-2827
+    1492: 00 68 7a 44  	ldrbtmi	r6, [r10], #-2048
+    1496: 7b 44 00 f1  	<unknown>
+    149a: a8 04 20 46  	strtmi	r0, [r0], -r8, lsr #9
+    149e: ff f7 2e e9  	stmdb	lr!, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc}
+    14a2: 20 46 ff f7  	<unknown>
+    14a6: 30 e9 ff f7  	<unknown>
+    14aa: 34 e9 de 0e  	mrceq	p9, #6, lr, c14, c4, #1
+    14ae: 00 00 2a 2b  	blhs	#11010048
+    14b2: 00 00 18 0c  	<unknown>
+    14b6: 00 00 b9 0e  	cdpeq	p0, #11, c0, c9, c0, #0
+    14ba: 00 00 1c 0e  	cdpeq	p0, #1, c0, c12, c0, #0
+    14be: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+    14c2: 03 af 4d f8  	<unknown>
+    14c6: 04 8d 82 b0  	addlt	r8, r2, r4, lsl #26
+    14ca: 04 46 21 f0  	<unknown>
+    14ce: 0f 00 98 46  	ldrmi	r0, [r8], pc
+    14d2: 15 46 0e 46  	<unknown>
+    14d6: b0 f5 88 7f  	svcvc	#8975792
+    14da: 10 d0 b0 f5  	<unknown>
+    14de: 80 7f 28 d1  	smlawble	r8, r0, pc, r7
+    14e2: 94 f8 41 00  	umaaleq	pc, r1, r4, r8
+    14e6: d8 b9 01 20  	ldrdhs	r11, r12, [r1], -r8
+    14ea: 84 f8 41 00  	subeq	pc, r1, r4, lsl #17
+    14ee: 04 f1 48 00  	subeq	pc, r8, r4, lsl #2
+    14f2: 94 f8 40 10  	umaalne	pc, r0, r4, r8
+    14f6: 89 b1 ff f7  	<unknown>
+    14fa: 8c ed 10 e0  	ands	lr, r0, r12, lsl #27
+    14fe: 94 f8 42 00  	umaaleq	pc, r2, r4, r8
+    1502: 30 b9 01 20  	andhs	r11, r1, r0, lsr r9
+    1506: 84 f8 42 00  	subeq	pc, r2, r4, lsl #17
+    150a: 04 f1 d0 00  	sbcseq	pc, r0, r4, lsl #2
+    150e: ff f7 86 ed  	stc	p7, c15, [r6, #1020]
+    1512: 04 eb c6 00  	sbceq	lr, r6, r4, lsl #22
+    1516: a0 f5 f6 60  	rscsvs	pc, r6, r0, lsr #11
+    151a: 05 e0 ff f7  	<unknown>
+    151e: 76 ed 04 eb  	bl	#1291736
+    1522: c6 00 a0 f5  	<unknown>
+    1526: f7 60 c0 e9  	stmib	r0, {r0, r1, r2, r4, r5, r6, r7, sp, lr} ^
+    152a: 00 58 02 b0  	andlt	r5, r2, r0, lsl #16
+    152e: 5d f8 04 8b  	blhi	#1302900
+    1532: f0 bd 0c 48  	stmdami	r12, {r4, r5, r6, r7, r8, r10, r11, r12, sp, pc}
+    1536: 40 f2 f6 61  	mvnsvs	pc, r0, asr #4
+    153a: 78 44 cd e9  	stmib	sp, {r3, r4, r5, r6, r10, lr} ^
+    153e: 00 10 0a 48  	stmdami	r10, {r12}
+    1542: 0b 49 78 44  	ldrbtmi	r4, [r8], #-2315
+    1546: 0b 4a 0b 4b  	blmi	#2959404
+    154a: 79 44 00 68  	stmdavs	r0, {r0, r3, r4, r5, r6, r10, lr}
+    154e: 7a 44 7b 44  	ldrbtmi	r4, [r11], #-1146
+    1552: 00 f1 a8 04  	strteq	pc, [r8], #256
+    1556: 20 46 ff f7  	<unknown>
+    155a: d0 e8 20 46  	<unknown>
+    155e: ff f7 d4 e8  	ldm	r4, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc} ^
+    1562: ff f7 d8 e8  	ldm	r8, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc} ^
+    1566: 00 bf 24 0e  	cdpeq	p15, #2, c11, c4, c0, #0
+    156a: 00 00 70 2a  	bhs	#29360128
+    156e: 00 00 5e 0b  	bleq	#24641536
+    1572: 00 00 2b 0e  	cdpeq	p0, #2, c0, c11, c0, #0
+    1576: 00 00 62 0d  	stcleq	p0, c0, [r2, #-0]!
+    157a: 00 00 bf b5  	ldrlt	r0, [pc, #0]!
+    157e: 06 af 04 46  	strmi	r10, [r4], -r6, lsl #30
+    1582: 10 48 01 a9  	stmdbge	r1, {r4, r11, lr}
+    1586: 02 aa 78 44  	ldrbtmi	r10, [r8], #-2562
+    158a: 05 68 28 68  	stmdavs	r8!, {r0, r2, r11, sp, lr}
+    158e: 03 90 00 20  	andhs	r9, r0, r3
+    1592: cd e9 01 00  	andeq	lr, r1, sp, asr #19
+    1596: d4 f8 78 01  	ldrsbeq	pc, [r8, #-132]!
+    159a: ff f7 03 f9  	<unknown>
+    159e: dd e9 01 23  	movwhs	lr, #6621
+    15a2: 01 46 20 46  	strtmi	r4, [r0], -r1, lsl #12
+    15a6: ff f7 21 f9  	<unknown>
+    15aa: 29 68 03 9a  	bls	#893092
+    15ae: 89 1a 01 bf  	svclt	#72329
+    15b2: 08 38 b0 fa  	blx	#-20914144
+    15b6: 80 f0 40 09  	stmdbeq	r0, {r7, r12, sp, lr, pc} ^
+    15ba: 04 b0 08 bf  	svclt	#569348
+    15be: b0 bd ff f7  	<unknown>
+    15c2: 96 e8 28 2a  	bhs	#10723928
+    15c6: 00 00 d0 b5  	ldrblt	r0, [r0]
+    15ca: 02 af 04 46  	strmi	r10, [r4], -r2, lsl #30
+    15ce: 00 f0 05 f8  	<unknown>
+    15d2: 20 46 bd e8  	pop	{r5, r9, r10, lr}
+    15d6: d0 40 00 f0  	<unknown>
+    15da: c2 bb d0 b5  	ldrblt	r11, [r0, #3010]
+    15de: 02 af 04 46  	strmi	r10, [r4], -r2, lsl #30
+    15e2: 90 f8 41 00  	umaaleq	pc, r1, r0, r8
+    15e6: 48 b1 94 f8  	<unknown>
+    15ea: 40 10 04 f1  	<unknown>
+    15ee: 48 00 11 b1  	tstlt	r1, r8, asr #32
+    15f2: 00 f0 a6 eb  	bl	#-23347200
+    15f6: 01 e0 00 f0  	<unknown>
+    15fa: 9e eb 94 f8  	<unknown>
+    15fe: 42 00 28 b1  	<unknown>
+    1602: 04 f1 d0 00  	sbcseq	pc, r0, r4, lsl #2
+    1606: bd e8 d0 40  	ldrhmi	lr, [r0], #141
+    160a: 00 f0 b1 bb  	bllt	#-20463616
+    160e: d0 bd f0 b5  	ldrblt	r11, [r0, #3536]!
+    1612: 03 af 2d e9  	push	{r0, r1, r8, r9, r10, r11, sp, pc}
+    1616: fc 0b 13 48  	ldmdami	r3, {r2, r3, r4, r5, r6, r7, r8, r9, r11}
+    161a: 0c 46 01 a9  	stmdbge	r1, {r2, r3, r9, r10, lr}
+    161e: 98 46 78 44  	ldrbtmi	r4, [r8], #-1688
+    1622: 16 46 05 68  	stmdavs	r5, {r1, r2, r4, r9, r10, lr}
+    1626: 28 68 05 90  	andls	r6, r5, r8, lsr #16
+    162a: 20 46 ff f7  	<unknown>
+    162e: 84 e8 78 b1  	cmnlt	r8, r4, lsl #17
+    1632: 03 9b 6b b1  	<unknown>
+    1636: 0d 4a 30 46  	ldrtmi	r4, [r0], -sp, lsl #20
+    163a: 41 46 d7 f8  	<unknown>
+    163e: 08 90 7a 44  	ldrbtmi	r9, [r10], #-8
+    1642: ff f7 80 e8  	stm	r0, {r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r12, sp, lr, pc}
+    1646: 04 98 20 1a  	bne	#8544272
+    164a: c9 f8 00 00  	andeq	pc, r0, r9, asr #17
+    164e: 01 20 00 e0  	and	r2, r0, r1
+    1652: 00 20 29 68  	stmdavs	r9!, {sp}
+    1656: 05 9a 89 1a  	bne	#-31037420
+    165a: 02 bf 06 b0  	andlt	r11, r6, r2, lsl #30
+    165e: bd e8 00 0b  	bleq	#238324
+    1662: f0 bd ff f7  	<unknown>
+    1666: 44 e8 90 29  	ldmibhs	r0, {r2, r6, r11, sp, lr, pc}
+    166a: 00 00 4a 0d  	stcleq	p0, c0, [r10, #-0]
+    166e: 00 00 bc b5  	ldrlt	r0, [r12, #0]!
+    1672: 04 af 08 46  	strmi	r10, [r8], -r4, lsl #30
+    1676: 0e 49 14 46  	ldrmi	r4, [r4], -lr, lsl #18
+    167a: 79 44 0d 68  	stmdavs	sp, {r0, r3, r4, r5, r6, r10, lr}
+    167e: 29 68 01 91  	<unknown>
+    1682: 00 21 00 91  	<unknown>
+    1686: 69 46 ff f7  	<unknown>
+    168a: 62 e8 00 99  	stmdbls	r0, {r1, r5, r6, r11, sp, lr, pc}
+    168e: 00 28 c4 e9  	stmib	r4, {r11, sp} ^
+    1692: 00 01 18 bf  	svclt	#1573120
+    1696: 01 20 00 29  	stmdbhs	r0, {r0, sp}
+    169a: 18 bf 01 21  	<unknown>
+    169e: 2a 68 01 9b  	blls	#368808
+    16a2: d2 1a 02 bf  	svclt	#137938
+    16a6: 08 40 02 b0  	andlt	r4, r2, r8
+    16aa: b0 bd ff f7  	<unknown>
+    16ae: 20 e8 36 29  	ldmdbhs	r6!, {r5, r11, sp, lr, pc}
+    16b2: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+    16b6: 03 af 2d e9  	push	{r0, r1, r8, r9, r10, r11, sp, pc}
+    16ba: 00 0f 89 b0  	addlt	r0, r9, r0, lsl #30
+    16be: 07 91 04 46  	strmi	r9, [r4], -r7, lsl #2
+    16c2: 5c 48 13 46  	ssaxmi	r4, r3, r12
+    16c6: 00 21 00 25  	strhs	r2, [r0, #-256]
+    16ca: 78 44 d0 f8  	<unknown>
+    16ce: 00 a0 da f8  	<unknown>
+    16d2: 00 00 08 90  	andls	r0, r8, r0
+    16d6: 07 a8 56 68  	ldmdavs	r6, {r0, r1, r2, r11, sp, pc} ^
+    16da: 62 68 cd e9  	stmib	sp, {r1, r5, r6, r11, sp, lr} ^
+    16de: 00 62 cd e9  	stmib	sp, {r9, sp, lr} ^
+    16e2: 02 30 04 a8  	stmdage	r4, {r1, r12, sp}
+    16e6: 00 f0 b9 f8  	rfeia	#1!
+    16ea: 04 98 00 28  	stmdahs	r0, {r2, r11, r12, pc}
+    16ee: 76 d0 b0 42  	adcsmi	sp, r0, #118
+    16f2: 74 d0 06 99  	stmdbls	r6, {r2, r4, r5, r6, r12, lr, pc}
+    16f6: 09 68 01 eb  	bl	#368676
+    16fa: c0 01 08 46  	strmi	r0, [r8], -r0, asr #3
+    16fe: 50 f8 04 29  	stmdbhs	r4, {r4, r6, r11, r12, sp, lr, pc}
+    1702: 10 b1 03 68  	stmdavs	r3, {r4, r8, r12, sp, pc}
+    1706: 01 2b 01 d1  	<unknown>
+    170a: 00 25 67 e0  	rsb	r2, r7, r0, lsl #10
+    170e: 89 46 00 2b  	blhs	#72228
+    1712: 59 f8 08 8d  	stchi	p8, c15, [r8, #-356]
+    1716: 18 d4 03 f0  	<unknown>
+    171a: 80 45 43 ea  	b	#17634816
+    171e: 45 05 2b 58  	stmdapl	r11!, {r0, r2, r6, r8, r10}
+    1722: 28 44 b3 f1  	<unknown>
+    1726: ff 3f 12 dd  	ldcle	p15, c3, [r2, #-1020]
+    172a: 03 f0 80 45  	strmi	pc, [r0, #3]
+    172e: 4f f0 00 0c  	<unknown>
+    1732: 43 ea 45 03  	movteq	lr, #23107
+    1736: 03 eb 00 0e  	vmlaeq.f64	d14, d0, d3
+    173a: 03 46 53 f8  	<unknown>
+    173e: 04 5f 2d 0e  	cdpeq	p15, #2, c5, c13, c4, #0
+    1742: 03 eb 85 03  	orreq	lr, r5, #3072
+    1746: 04 33 15 e0  	ands	r3, r5, r4, lsl #6
+    174a: 4f f0 01 0c  	<unknown>
+    174e: 01 e0 4f f0  	<unknown>
+    1752: 00 0c c3 f3  	vmull.u8	q8, d3, d0
+    1756: 03 65 02 2d  	stchs	p5, c6, [r2, #-12]
+    175a: 14 d0 01 2d  	stchs	p0, c13, [r1, #-80]
+    175e: 0c d0 00 2d  	stchs	p0, c13, [r0, #-48]
+    1762: 48 d1 03 1d  	stcne	p1, c13, [r3, #-288]
+    1766: bc f1 00 0f  	svceq	#61884
+    176a: 18 bf 00 23  	movwhs	r11, #3864
+    176e: 33 4d 7d 44  	ldrbtmi	r4, [sp], #-3379
+    1772: d5 f8 00 e0  	<unknown>
+    1776: 00 25 17 e0  	ands	r2, r7, r0, lsl #10
+    177a: 2f 4d 7d 44  	ldrbtmi	r4, [sp], #-3375
+    177e: d5 f8 00 e0  	<unknown>
+    1782: 00 25 04 e0  	and	r2, r4, r0, lsl #10
+    1786: 33 4d 7d 44  	ldrbtmi	r4, [sp], #-3379
+    178a: d5 f8 00 e0  	<unknown>
+    178e: 01 25 c3 f3  	vabal.u8	q9, d3, d1
+    1792: 07 43 8c f0  	<unknown>
+    1796: 01 0b b3 fa  	blx	#-20173820
+    179a: 83 f6 76 09  	ldmdbeq	r6!, {r0, r1, r7, r9, r10, r12, sp, lr, pc} ^
+    179e: 56 ea 0b 06  	<unknown>
+    17a2: 2d d0 00 eb  	bl	#213172
+    17a6: 83 03 04 33  	movwlo	r0, #17283
+    17aa: 02 f0 80 46  	strmi	pc, [r0], r2
+    17ae: c4 f8 78 01  	cmneq	r8, r4, asr #17
+    17b2: 00 2d 42 ea  	b	#17347584
+    17b6: 46 02 11 44  	ldrmi	r0, [r1], #-582
+    17ba: 08 f0 80 42  	addmi	pc, r0, #8
+    17be: 48 ea 42 02  	subeq	lr, r2, #72, #20
+    17c2: 4a 44 c4 e9  	stmib	r4, {r1, r3, r6, r10, lr} ^
+    17c6: 56 21 c4 e9  	stmib	r4, {r1, r2, r4, r6, r8, sp} ^
+    17ca: 58 3e 18 bf  	svclt	#1588824
+    17ce: 02 25 bc f1  	<unknown>
+    17d2: 00 0f 18 bf  	svclt	#1576704
+    17d6: 01 25 c4 f8  	<unknown>
+    17da: 6c 51 01 25  	strhs	r5, [r1, #-364]
+    17de: da f8 00 00  	<unknown>
+    17e2: 08 99 40 1a  	bne	#16933920
+    17e6: 01 bf 28 46  	strtmi	r11, [r8], -r1, lsl #30
+    17ea: 09 b0 bd e8  	pop	{r0, r3, r12, sp, pc}
+    17ee: 00 0f f0 bd  	ldcllt	p15, c0, [r0, #0]!
+    17f2: fe f7 7e ef  	svc	#8321022
+    17f6: 12 48 40 f2  	vtst.8	d20, d0, d2
+    17fa: 2e 31 78 44  	ldrbtmi	r3, [r8], #-302
+    17fe: 03 e0 15 48  	ldmdami	r5, {r0, r1, sp, lr, pc}
+    1802: 40 f2 35 31  	teqlo	r5, r0, asr #4
+    1806: 78 44 cd e9  	stmib	sp, {r3, r4, r5, r6, r10, lr} ^
+    180a: 00 10 0d 48  	stmdami	sp, {r12}
+    180e: 0e 49 78 44  	ldrbtmi	r4, [r8], #-2318
+    1812: 0e 4a 0e 4b  	blmi	#3745848
+    1816: 79 44 00 68  	stmdavs	r0, {r0, r3, r4, r5, r6, r10, lr}
+    181a: 7a 44 7b 44  	ldrbtmi	r4, [r11], #-1146
+    181e: 00 f1 a8 04  	strteq	pc, [r8], #256
+    1822: 20 46 fe f7  	<unknown>
+    1826: 6a ef 20 46  	strtmi	lr, [r0], -r10, ror #30
+    182a: fe f7 6e ef  	svc	#7272446
+    182e: fe f7 72 ef  	svc	#7534590
+    1832: 00 bf e6 28  	stmhs	r6!, {r8, r9, r10, r11, r12, sp, pc} ^
+    1836: 00 00 3c 28  	<unknown>
+    183a: 00 00 4c 28  	<unknown>
+    183e: 00 00 a9 0b  	bleq	#-22806528
+    1842: 00 00 a4 27  	strhs	r0, [r4, r0]!
+    1846: 00 00 92 08  	<unknown>
+    184a: 00 00 73 0b  	bleq	#30146560
+    184e: 00 00 11 0a  	beq	#4456448
+    1852: 00 00 38 28  	<unknown>
+    1856: 00 00 bb 0b  	bleq	#-18087936
+    185a: 00 00 b0 b5  	ldrlt	r0, [r0, #0]!
+    185e: 02 af 88 b0  	addlt	r10, r8, r2, lsl #30
+    1862: 0c 4c 7c 44  	ldrbtmi	r4, [r12], #-3084
+    1866: 24 68 25 68  	stmdavs	r5!, {r2, r5, r11, sp, lr}
+    186a: 07 95 06 ad  	stcge	p5, c9, [r6, #-28]
+    186e: 04 95 7d 69  	ldmdbvs	sp!, {r2, r8, r10, r12, pc} ^
+    1872: 03 95 3d 69  	ldmdbvs	sp!, {r0, r1, r8, r10, r12, pc}
+    1876: 02 95 fd 68  	ldmvs	sp!, {r1, r8, r10, r12, pc} ^
+    187a: 01 95 bd 68  	popvs	{r0, r8, r10, r12, pc}
+    187e: 00 95 00 f0  	<unknown>
+    1882: 0a f8 20 68  	stmdavs	r0!, {r1, r3, r11, r12, sp, lr, pc}
+    1886: 07 99 40 1a  	bne	#16933916
+    188a: 04 bf 08 b0  	andlt	r11, r8, r4, lsl #30
+    188e: b0 bd fe f7  	<unknown>
+    1892: 2e ef 4c 27  	strbhs	lr, [r12, -lr, lsr #30]
+    1896: 00 00 f0 b5  	ldrblt	r0, [r0, #0]!
+    189a: 03 af 4d f8  	<unknown>
+    189e: 04 8d bc 68  	ldmvs	r12!, {r2, r8, r10, r11, pc}
+    18a2: 65 1a 7c 69  	ldmdbvs	r12!, {r0, r2, r5, r6, r9, r11, r12} ^
+    18a6: d4 f8 00 c0  	<unknown>
+    18aa: ad b1 d3 f8  	<unknown>
+    18ae: 00 e0 01 eb  	bl	#491520
+    18b2: 55 04 2e 46  	qsaxmi	r0, lr, r5
+    18b6: 5e f8 34 80  	eorshi	pc, r4, lr, asr r8
+    18ba: 08 f0 80 45  	strmi	pc, [r0, #8]
+    18be: 48 ea 45 08  	stmdaeq	r5, {r3, r6, r9, r11, sp, lr, pc} ^
+    18c2: 0e eb c4 05  	strbeq	lr, [r4, #2830]
+    18c6: 08 eb 05 0e  	vmlaeq.f64	d14, d5, d8
+    18ca: 75 08 f4 45  	ldrbmi	r0, [r4, #2165]!
+    18ce: ec d3 e9 43  	<unknown>
+    18d2: 75 18 61 1c  	stclne	p8, c1, [r1], #-468
+    18d6: e8 e7 0e c0  	andgt	lr, lr, r8, ror #15
+    18da: 5d f8 04 8b  	blhi	#1302900
+    18de: f0 bd 8a 1c  	stcne	p13, c11, [r10], {240}
+    18e2: 61 2a 00 f2  	<unknown>
+    18e6: 69 80 b7 48  	ldmmi	r7!, {r0, r3, r5, r6, pc}
+    18ea: 78 44 df e8  	ldm	pc, {r3, r4, r5, r6, r10, lr} ^
+    18ee: 12 f0 62 00  	rsbeq	pc, r2, r2, lsl r0
+    18f2: 90 00 91 00  	umullseq	r0, r1, r0, r0
+    18f6: 94 00 97 00  	umullseq	r0, r7, r4, r0
+    18fa: 9a 00 9d 00  	umullseq	r0, sp, r10, r0
+    18fe: a0 00 a3 00  	adceq	r0, r3, r0, lsr #1
+    1902: a6 00 a9 00  	adceq	r0, r9, r6, lsr #1
+    1906: ac 00 af 00  	adceq	r0, pc, r12, lsr #1
+    190a: b2 00 b5 00  	ldrhteq	r0, [r5], r2
+    190e: 62 00 b8 00  	adcseq	r0, r8, r2, rrx
+    1912: 90 00 8e 00  	umulleq	r0, lr, r0, r0
+    1916: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    191a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    191e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1922: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1926: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    192a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    192e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1932: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1936: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    193a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    193e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1942: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1946: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    194a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    194e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1952: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1956: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    195a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    195e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1962: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1966: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    196a: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    196e: 8e 00 8e 00  	addeq	r0, lr, lr, lsl #1
+    1972: 8e 00 bb 00  	adcseq	r0, r11, lr, lsl #1
+    1976: be 00 c1 00  	strheq	r0, [r1], #14
+    197a: c4 00 c7 00  	sbceq	r0, r7, r4, asr #1
+    197e: ca 00 cd 00  	sbceq	r0, sp, r10, asr #1
+    1982: d0 00 d3 00  	ldrsbeq	r0, [r3], #0
+    1986: d6 00 d9 00  	ldrsbeq	r0, [r9], #6
+    198a: dc 00 df 00  	ldrsbeq	r0, [pc], #12
+    198e: e2 00 e5 00  	rsceq	r0, r5, r2, ror #1
+    1992: e8 00 eb 00  	rsceq	r0, r11, r8, ror #1
+    1996: ee 00 f1 00  	rscseq	r0, r1, lr, ror #1
+    199a: f4 00 f7 00  	ldrshteq	r0, [r7], #4
+    199e: fa 00 fd 00  	ldrshteq	r0, [sp], #10
+    19a2: 00 01 03 01  	mrseq	r0, apsr
+    19a6: 06 01 09 01  	mrseq	r0, apsr
+    19aa: 0c 01 0f 01  	mrseq	r0, apsr
+    19ae: 12 01 15 01  	tsteq	r5, r2, lsl r1
+    19b2: 18 01 8c 48  	stmmi	r12, {r3, r4, r8}
+    19b6: 78 44 70 47  	<unknown>
+    19ba: a1 f5 80 70  	addvc	pc, r0, r1, lsr #11
+    19be: 1f 28 24 d8  	stmdale	r4!, {r0, r1, r2, r3, r4, r11, sp}
+    19c2: df e8 10 f0  	<unknown>
+    19c6: 20 00 b0 00  	adcseq	r0, r0, r0, lsr #32
+    19ca: b3 00 b6 00  	ldrhteq	r0, [r6], r3
+    19ce: b9 00 bc 00  	ldrhteq	r0, [r12], r9
+    19d2: bf 00 c2 00  	strheq	r0, [r2], #15
+    19d6: c5 00 c8 00  	sbceq	r0, r8, r5, asr #1
+    19da: cb 00 ce 00  	sbceq	r0, lr, r11, asr #1
+    19de: d1 00 d4 00  	ldrsbeq	r0, [r4], #1
+    19e2: d7 00 da 00  	ldrsbeq	r0, [r10], #7
+    19e6: dd 00 e0 00  	<unknown>
+    19ea: e3 00 e6 00  	rsceq	r0, r6, r3, ror #1
+    19ee: e9 00 ec 00  	rsceq	r0, r12, r9, ror #1
+    19f2: ef 00 f2 00  	rscseq	r0, r2, pc, ror #1
+    19f6: f5 00 f8 00  	ldrshteq	r0, [r8], #5
+    19fa: fb 00 fe 00  	ldrshteq	r0, [lr], #11
+    19fe: 03 01 06 01  	<unknown>
+    1a02: 09 01 0c 01  	<unknown>
+    1a06: a6 48 78 44  	ldrbtmi	r4, [r8], #-2214
+    1a0a: 70 47 c4 48  	stmmi	r4, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a0e: 78 44 70 47  	<unknown>
+    1a12: 76 48 78 44  	ldrbtmi	r4, [r8], #-2166
+    1a16: 70 47 75 48  	ldmdami	r5!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a1a: 78 44 70 47  	<unknown>
+    1a1e: 75 48 78 44  	ldrbtmi	r4, [r8], #-2165
+    1a22: 70 47 74 48  	ldmdami	r4!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a26: 78 44 70 47  	<unknown>
+    1a2a: 74 48 78 44  	ldrbtmi	r4, [r8], #-2164
+    1a2e: 70 47 73 48  	ldmdami	r3!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a32: 78 44 70 47  	<unknown>
+    1a36: 73 48 78 44  	ldrbtmi	r4, [r8], #-2163
+    1a3a: 70 47 72 48  	ldmdami	r2!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a3e: 78 44 70 47  	<unknown>
+    1a42: 72 48 78 44  	ldrbtmi	r4, [r8], #-2162
+    1a46: 70 47 71 48  	ldmdami	r1!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a4a: 78 44 70 47  	<unknown>
+    1a4e: 71 48 78 44  	ldrbtmi	r4, [r8], #-2161
+    1a52: 70 47 70 48  	ldmdami	r0!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a56: 78 44 70 47  	<unknown>
+    1a5a: 70 48 78 44  	ldrbtmi	r4, [r8], #-2160
+    1a5e: 70 47 60 48  	stmdami	r0!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a62: 78 44 70 47  	<unknown>
+    1a66: 6e 48 78 44  	ldrbtmi	r4, [r8], #-2158
+    1a6a: 70 47 6d 48  	stmdami	sp!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a6e: 78 44 70 47  	<unknown>
+    1a72: 6d 48 78 44  	ldrbtmi	r4, [r8], #-2157
+    1a76: 70 47 6c 48  	stmdami	r12!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a7a: 78 44 70 47  	<unknown>
+    1a7e: 6c 48 78 44  	ldrbtmi	r4, [r8], #-2156
+    1a82: 70 47 6b 48  	stmdami	r11!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a86: 78 44 70 47  	<unknown>
+    1a8a: 6b 48 78 44  	ldrbtmi	r4, [r8], #-2155
+    1a8e: 70 47 6a 48  	stmdami	r10!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a92: 78 44 70 47  	<unknown>
+    1a96: 6a 48 78 44  	ldrbtmi	r4, [r8], #-2154
+    1a9a: 70 47 69 48  	stmdami	r9!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1a9e: 78 44 70 47  	<unknown>
+    1aa2: 69 48 78 44  	ldrbtmi	r4, [r8], #-2153
+    1aa6: 70 47 68 48  	stmdami	r8!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1aaa: 78 44 70 47  	<unknown>
+    1aae: 68 48 78 44  	ldrbtmi	r4, [r8], #-2152
+    1ab2: 70 47 67 48  	stmdami	r7!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ab6: 78 44 70 47  	<unknown>
+    1aba: 67 48 78 44  	ldrbtmi	r4, [r8], #-2151
+    1abe: 70 47 66 48  	stmdami	r6!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ac2: 78 44 70 47  	<unknown>
+    1ac6: 66 48 78 44  	ldrbtmi	r4, [r8], #-2150
+    1aca: 70 47 65 48  	stmdami	r5!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ace: 78 44 70 47  	<unknown>
+    1ad2: 65 48 78 44  	ldrbtmi	r4, [r8], #-2149
+    1ad6: 70 47 64 48  	stmdami	r4!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ada: 78 44 70 47  	<unknown>
+    1ade: 64 48 78 44  	ldrbtmi	r4, [r8], #-2148
+    1ae2: 70 47 63 48  	stmdami	r3!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ae6: 78 44 70 47  	<unknown>
+    1aea: 63 48 78 44  	ldrbtmi	r4, [r8], #-2147
+    1aee: 70 47 62 48  	stmdami	r2!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1af2: 78 44 70 47  	<unknown>
+    1af6: 62 48 78 44  	ldrbtmi	r4, [r8], #-2146
+    1afa: 70 47 61 48  	stmdami	r1!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1afe: 78 44 70 47  	<unknown>
+    1b02: 61 48 78 44  	ldrbtmi	r4, [r8], #-2145
+    1b06: 70 47 60 48  	stmdami	r0!, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b0a: 78 44 70 47  	<unknown>
+    1b0e: 60 48 78 44  	ldrbtmi	r4, [r8], #-2144
+    1b12: 70 47 5f 48  	ldmdami	pc, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b16: 78 44 70 47  	<unknown>
+    1b1a: 5f 48 78 44  	ldrbtmi	r4, [r8], #-2143
+    1b1e: 70 47 5e 48  	ldmdami	lr, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b22: 78 44 70 47  	<unknown>
+    1b26: 5f 48 78 44  	ldrbtmi	r4, [r8], #-2143
+    1b2a: 70 47 5e 48  	ldmdami	lr, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b2e: 78 44 70 47  	<unknown>
+    1b32: 5e 48 78 44  	ldrbtmi	r4, [r8], #-2142
+    1b36: 70 47 5d 48  	ldmdami	sp, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b3a: 78 44 70 47  	<unknown>
+    1b3e: 5d 48 78 44  	ldrbtmi	r4, [r8], #-2141
+    1b42: 70 47 5c 48  	ldmdami	r12, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b46: 78 44 70 47  	<unknown>
+    1b4a: 5c 48 78 44  	ldrbtmi	r4, [r8], #-2140
+    1b4e: 70 47 5b 48  	ldmdami	r11, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b52: 78 44 70 47  	<unknown>
+    1b56: 5b 48 78 44  	ldrbtmi	r4, [r8], #-2139
+    1b5a: 70 47 5a 48  	ldmdami	r10, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b5e: 78 44 70 47  	<unknown>
+    1b62: 5a 48 78 44  	ldrbtmi	r4, [r8], #-2138
+    1b66: 70 47 59 48  	ldmdami	r9, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b6a: 78 44 70 47  	<unknown>
+    1b6e: 59 48 78 44  	ldrbtmi	r4, [r8], #-2137
+    1b72: 70 47 58 48  	ldmdami	r8, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b76: 78 44 70 47  	<unknown>
+    1b7a: 58 48 78 44  	ldrbtmi	r4, [r8], #-2136
+    1b7e: 70 47 57 48  	ldmdami	r7, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b82: 78 44 70 47  	<unknown>
+    1b86: 57 48 78 44  	ldrbtmi	r4, [r8], #-2135
+    1b8a: 70 47 56 48  	ldmdami	r6, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b8e: 78 44 70 47  	<unknown>
+    1b92: 56 48 78 44  	ldrbtmi	r4, [r8], #-2134
+    1b96: 70 47 55 48  	ldmdami	r5, {r4, r5, r6, r8, r9, r10, lr} ^
+    1b9a: 78 44 70 47  	<unknown>
+    1b9e: 55 48 78 44  	ldrbtmi	r4, [r8], #-2133
+    1ba2: 70 47 54 48  	ldmdami	r4, {r4, r5, r6, r8, r9, r10, lr} ^
+    1ba6: 78 44 70 47  	<unknown>
+    1baa: 54 48 78 44  	ldrbtmi	r4, [r8], #-2132
+    1bae: 70 47 53 48  	ldmdami	r3, {r4, r5, r6, r8, r9, r10, lr} ^
+    1bb2: 78 44 70 47  	<unknown>
+    1bb6: 53 48 78 44  	ldrbtmi	r4, [r8], #-2131
+    1bba: 70 47 52 48  	ldmdami	r2, {r4, r5, r6, r8, r9, r10, lr} ^
+    1bbe: 78 44 70 47  	<unknown>
+    1bc2: 52 48 78 44  	ldrbtmi	r4, [r8], #-2130
+    1bc6: 70 47 19 0b  	bleq	#6626752
+    1bca: 00 00 50 48  	<unknown>
+    1bce: 78 44 70 47  	<unknown>
+    1bd2: 50 48 78 44  	ldrbtmi	r4, [r8], #-2128
+    1bd6: 70 47 4f 48  	stmdami	pc, {r4, r5, r6, r8, r9, r10, lr} ^
+    1bda: 78 44 70 47  	<unknown>
+    1bde: 4f 48 78 44  	ldrbtmi	r4, [r8], #-2127
+    1be2: 70 47 a4 09  	stmibeq	r4!, {r4, r5, r6, r8, r9, r10, lr}
+    1be6: 00 00 53 0a  	beq	#21757952
+    1bea: 00 00 f8 09  	<unknown>
+    1bee: 00 00 f5 09  	<unknown>
+    1bf2: 00 00 f2 09  	<unknown>
+    1bf6: 00 00 ef 09  	<unknown>
+    1bfa: 00 00 ec 09  	<unknown>
+    1bfe: 00 00 e9 09  	<unknown>
+    1c02: 00 00 e6 09  	<unknown>
+    1c06: 00 00 e3 09  	<unknown>
+    1c0a: 00 00 e0 09  	<unknown>
+    1c0e: 00 00 dd 09  	<unknown>
+    1c12: 00 00 da 09  	<unknown>
+    1c16: 00 00 d8 09  	<unknown>
+    1c1a: 00 00 d6 09  	<unknown>
+    1c1e: 00 00 ce 09  	<unknown>
+    1c22: 00 00 cb 09  	<unknown>
+    1c26: 00 00 c8 09  	<unknown>
+    1c2a: 00 00 c5 09  	<unknown>
+    1c2e: 00 00 c2 09  	<unknown>
+    1c32: 00 00 bf 09  	<unknown>
+    1c36: 00 00 bc 09  	<unknown>
+    1c3a: 00 00 b9 09  	<unknown>
+    1c3e: 00 00 b6 09  	<unknown>
+    1c42: 00 00 b3 09  	<unknown>
+    1c46: 00 00 b0 09  	<unknown>
+    1c4a: 00 00 ae 09  	<unknown>
+    1c4e: 00 00 ac 09  	<unknown>
+    1c52: 00 00 aa 09  	<unknown>
+    1c56: 00 00 a8 09  	<unknown>
+    1c5a: 00 00 a6 09  	<unknown>
+    1c5e: 00 00 a4 09  	<unknown>
+    1c62: 00 00 a2 09  	<unknown>
+    1c66: 00 00 a0 09  	<unknown>
+    1c6a: 00 00 9e 09  	<unknown>
+    1c6e: 00 00 9c 09  	<unknown>
+    1c72: 00 00 9a 09  	<unknown>
+    1c76: 00 00 98 09  	<unknown>
+    1c7a: 00 00 96 09  	<unknown>
+    1c7e: 00 00 94 09  	<unknown>
+    1c82: 00 00 92 09  	<unknown>
+    1c86: 00 00 90 09  	<unknown>
+    1c8a: 00 00 8e 09  	<unknown>
+    1c8e: 00 00 8c 09  	<unknown>
+    1c92: 00 00 8a 09  	<unknown>
+    1c96: 00 00 88 09  	<unknown>
+    1c9a: 00 00 86 09  	<unknown>
+    1c9e: 00 00 a4 0a  	beq	#-24117248
+    1ca2: 00 00 87 09  	<unknown>
+    1ca6: 00 00 84 09  	<unknown>
+    1caa: 00 00 81 09  	<unknown>
+    1cae: 00 00 7e 09  	<unknown>
+    1cb2: 00 00 7b 09  	<unknown>
+    1cb6: 00 00 78 09  	<unknown>
+    1cba: 00 00 75 09  	<unknown>
+    1cbe: 00 00 72 09  	<unknown>
+    1cc2: 00 00 6f 09  	<unknown>
+    1cc6: 00 00 6c 09  	<unknown>
+    1cca: 00 00 6a 09  	<unknown>
+    1cce: 00 00 68 09  	<unknown>
+    1cd2: 00 00 66 09  	<unknown>
+    1cd6: 00 00 64 09  	<unknown>
+    1cda: 00 00 62 09  	<unknown>
+    1cde: 00 00 60 09  	<unknown>
+    1ce2: 00 00 5e 09  	<unknown>
+    1ce6: 00 00 5c 09  	<unknown>
+    1cea: 00 00 5a 09  	<unknown>
+    1cee: 00 00 58 09  	<unknown>
+    1cf2: 00 00 56 09  	<unknown>
+    1cf6: 00 00 54 09  	<unknown>
+    1cfa: 00 00 52 09  	<unknown>
+    1cfe: 00 00 50 09  	<unknown>
+    1d02: 00 00 4e 09  	<unknown>
+    1d06: 00 00 4c 09  	<unknown>
+    1d0a: 00 00 4a 09  	<unknown>
+    1d0e: 00 00 44 09  	<unknown>
+    1d12: 00 00 42 09  	<unknown>
+    1d16: 00 00 40 09  	<unknown>
+    1d1a: 00 00 3e 09  	<unknown>
+    1d1e: 00 00 14 0b  	bleq	#5242880
+    1d22: 00 00 00 e0  	and	r0, r0, r0
+    1d26: a0 e1 ff 1f  	svcne	#16769440
+    1d2a: 9e e8 34 d0  	mlasle	r4, lr, r8, lr
+    1d2e: 9e e5 3c e0  	mlas	r12, lr, r5, lr
+    1d32: 9e e5 1e ff  	<unknown>
+    1d36: 2f e1 20 0b  	bleq	#8619196
+    1d3a: 90 ec 1e ff  	<unknown>
+    1d3e: 2f e1 20 0b  	bleq	#8619196
+    1d42: 90 ec 1e ff  	<unknown>
+    1d46: 2f e1 20 0b  	bleq	#8619196
+    1d4a: d0 ec 1e ff  	<unknown>
+    1d4e: 2f e1 78 47  	ldrbmi	lr, [r8, -pc, lsr #2]!
+    1d52: c0 46 00 c0  	andgt	r4, r0, r0, asr #13
+    1d56: 9f e5 0f f0  	<unknown>
+    1d5a: 8c e0 c0 e9  	stmib	r0, {r2, r3, r7, sp, lr, pc} ^
+    1d5e: ff ff 78 47  	<unknown>
+    1d62: c0 46 00 c0  	andgt	r4, r0, r0, asr #13
+    1d66: 9f e5 0f f0  	<unknown>
+    1d6a: 8c e0 b4 ff  	<unknown>
+    1d6e: ff ff 78 47  	<unknown>
+    1d72: c0 46 00 c0  	andgt	r4, r0, r0, asr #13
+    1d76: 9f e5 0f f0  	<unknown>
+    1d7a: 8c e0 c8 ff  	<unknown>
+    1d7e: ff           	<unknown>
+    1d7f: ff           	<unknown>
+
+Disassembly of section .ARM.exidx:
+
+00001d80 <.ARM.exidx>:
+    1d80: dc e9 ff 7f  	svcvc	#16771548
+    1d84: 01 00 00 00  	andeq	r0, r0, r1
+    1d88: 18 ea ff 7f  	svcvc	#16771608
+    1d8c: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1d90: 14 ea ff 7f  	svcvc	#16771604
+    1d94: 01 00 00 00  	andeq	r0, r0, r1
+    1d98: 0c ea ff 7f  	svcvc	#16771596
+    1d9c: 84 01 00 00  	andeq	r0, r0, r4, lsl #3
+    1da0: 4c ea ff 7f  	svcvc	#16771660
+    1da4: 88 01 00 00  	andeq	r0, r0, r8, lsl #3
+    1da8: ac ec ff 7f  	svcvc	#16772268
+    1dac: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1db0: 50 ed ff 7f  	svcvc	#16772432
+    1db4: 90 01 00 00  	muleq	r0, r0, r1
+    1db8: f8 ed ff 7f  	svcvc	#16772600
+    1dbc: 94 01 00 00  	muleq	r0, r4, r1
+    1dc0: 40 ef ff 7f  	svcvc	#16772928
+    1dc4: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1dc8: 40 ef ff 7f  	svcvc	#16772928
+    1dcc: 90 01 00 00  	muleq	r0, r0, r1
+    1dd0: 68 ef ff 7f  	svcvc	#16772968
+    1dd4: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1dd8: 70 ef ff 7f  	svcvc	#16772976
+    1ddc: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1de0: 08 f0 ff 7f  	svcvc	#16773128
+    1de4: 90 01 00 00  	muleq	r0, r0, r1
+    1de8: 18 f1 ff 7f  	svcvc	#16773400
+    1dec: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1df0: 14 f1 ff 7f  	svcvc	#16773396
+    1df4: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1df8: 74 f1 ff 7f  	svcvc	#16773492
+    1dfc: 90 01 00 00  	muleq	r0, r0, r1
+    1e00: a0 f1 ff 7f  	svcvc	#16773536
+    1e04: 94 01 00 00  	muleq	r0, r4, r1
+    1e08: cc f1 ff 7f  	svcvc	#16773580
+    1e0c: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1e10: d0 f1 ff 7f  	svcvc	#16773584
+    1e14: 08 84 97 80  	addshi	r8, r7, r8, lsl #8
+    1e18: da f1 ff 7f  	svcvc	#16773594
+    1e1c: 01 00 00 00  	andeq	r0, r0, r1
+    1e20: 04 f2 ff 7f  	svcvc	#16773636
+    1e24: 80 01 00 00  	andeq	r0, r0, r0, lsl #3
+    1e28: 44 f2 ff 7f  	svcvc	#16773700
+    1e2c: 84 01 00 00  	andeq	r0, r0, r4, lsl #3
+    1e30: 70 f2 ff 7f  	svcvc	#16773744
+    1e34: 88 01 00 00  	andeq	r0, r0, r8, lsl #3
+    1e38: b0 f2 ff 7f  	svcvc	#16773808
+    1e3c: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1e40: e0 f2 ff 7f  	svcvc	#16773856
+    1e44: 90 01 00 00  	muleq	r0, r0, r1
+    1e48: 14 f3 ff 7f  	svcvc	#16773908
+    1e4c: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1e50: 12 f3 ff 7f  	svcvc	#16773906
+    1e54: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1e58: 2c f3 ff 7f  	svcvc	#16773932
+    1e5c: 08 84 97 80  	addshi	r8, r7, r8, lsl #8
+    1e60: 38 f3 ff 7f  	svcvc	#16773944
+    1e64: 88 01 00 00  	andeq	r0, r0, r8, lsl #3
+    1e68: 4c f3 ff 7f  	svcvc	#16773964
+    1e6c: 08 84 97 80  	addshi	r8, r7, r8, lsl #8
+    1e70: 50 f3 ff 7f  	svcvc	#16773968
+    1e74: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1e78: 4e f3 ff 7f  	svcvc	#16773966
+    1e7c: 08 84 97 80  	addshi	r8, r7, r8, lsl #8
+    1e80: 52 f3 ff 7f  	svcvc	#16773970
+    1e84: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1e88: 8a f3 ff 7f  	svcvc	#16774026
+    1e8c: 6c 01 00 00  	andeq	r0, r0, r12, ror #2
+    1e90: d6 f3 ff 7f  	svcvc	#16774102
+    1e94: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1e98: e8 f3 ff 7f  	svcvc	#16774120
+    1e9c: 68 01 00 00  	andeq	r0, r0, r8, ror #2
+    1ea0: 14 f4 ff 7f  	svcvc	#16774164
+    1ea4: 6c 01 00 00  	andeq	r0, r0, r12, ror #2
+    1ea8: 70 f4 ff 7f  	svcvc	#16774256
+    1eac: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1eb0: 78 f4 ff 7f  	svcvc	#16774264
+    1eb4: 68 01 00 00  	andeq	r0, r0, r8, ror #2
+    1eb8: e8 f4 ff 7f  	svcvc	#16774376
+    1ebc: 6c 01 00 00  	andeq	r0, r0, r12, ror #2
+    1ec0: 54 f5 ff 7f  	svcvc	#16774484
+    1ec4: 70 01 00 00  	andeq	r0, r0, r0, ror r1
+    1ec8: f8 f5 ff 7f  	svcvc	#16774648
+    1ecc: 74 01 00 00  	andeq	r0, r0, r4, ror r1
+    1ed0: ac f6 ff 7f  	svcvc	#16774828
+    1ed4: 78 01 00 00  	andeq	r0, r0, r8, ror r1
+    1ed8: f0 f6 ff 7f  	svcvc	#16774896
+    1edc: 7c 01 00 00  	andeq	r0, r0, r12, ror r1
+    1ee0: fc f6 ff 7f  	svcvc	#16774908
+    1ee4: 80 01 00 00  	andeq	r0, r0, r0, lsl #3
+    1ee8: 28 f7 ff 7f  	svcvc	#16774952
+    1eec: 84 01 00 00  	andeq	r0, r0, r4, lsl #3
+    1ef0: 80 f7 ff 7f  	svcvc	#16775040
+    1ef4: 88 01 00 00  	andeq	r0, r0, r8, lsl #3
+    1ef8: bc f7 ff 7f  	svcvc	#16775100
+    1efc: 8c 01 00 00  	andeq	r0, r0, r12, lsl #3
+    1f00: 5c f9 ff 7f  	svcvc	#16775516
+    1f04: 90 01 00 00  	muleq	r0, r0, r1
+    1f08: 90 f9 ff 7f  	svcvc	#16775568
+    1f0c: 94 01 00 00  	muleq	r0, r4, r1
+    1f10: d0 f9 ff 7f  	svcvc	#16775632
+    1f14: b0 b0 b0 80  	ldrhthi	r11, [r0], r0
+    1f18: 0c fe ff 7f  	svcvc	#16776716
+    1f1c: 01 00 00 00  	andeq	r0, r0, r1
+
+Disassembly of section .ARM.extab:
+
+00001f20 <.ARM.extab>:
+    1f20: 41 97 01 81  	<unknown>
+    1f24: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1f28: 00 00 00 00  	andeq	r0, r0, r0
+    1f2c: 46 97 01 81  	<unknown>
+    1f30: b0 ab f0 80  	ldrhthi	r10, [r0], #176
+    1f34: 00 00 00 00  	andeq	r0, r0, r0
+    1f38: 43 97 01 81  	<unknown>
+    1f3c: b0 ab 80 80  	strhhi	r10, [r0], r0
+    1f40: 00 00 00 00  	andeq	r0, r0, r0
+    1f44: 43 97 01 81  	<unknown>
+    1f48: b0 ab 80 80  	strhhi	r10, [r0], r0
+    1f4c: 00 00 00 00  	andeq	r0, r0, r0
+    1f50: 46 97 01 81  	<unknown>
+    1f54: b0 ab f0 80  	ldrhthi	r10, [r0], #176
+    1f58: 00 00 00 00  	andeq	r0, r0, r0
+    1f5c: 41 97 01 81  	<unknown>
+    1f60: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    1f64: 00 00 00 00  	andeq	r0, r0, r0
+    1f68: 43 97 01 81  	<unknown>
+    1f6c: b0 ab 10 80  	ldrhhi	r10, [r0], -r0
+    1f70: 00 00 00 00  	andeq	r0, r0, r0
+    1f74: 46 97 01 81  	<unknown>
+    1f78: b0 ab f0 80  	ldrhthi	r10, [r0], #176
+    1f7c: 00 00 00 00  	andeq	r0, r0, r0
+    1f80: 41 97 01 81  	<unknown>
+    1f84: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    1f88: 00 00 00 00  	andeq	r0, r0, r0
+    1f8c: 41 97 01 81  	<unknown>
+    1f90: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1f94: 00 00 00 00  	andeq	r0, r0, r0
+    1f98: 41 97 01 81  	<unknown>
+    1f9c: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1fa0: 00 00 00 00  	andeq	r0, r0, r0
+    1fa4: 41 97 01 81  	<unknown>
+    1fa8: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1fac: 00 00 00 00  	andeq	r0, r0, r0
+    1fb0: 43 97 01 81  	<unknown>
+    1fb4: b0 ab 80 80  	strhhi	r10, [r0], r0
+    1fb8: 00 00 00 00  	andeq	r0, r0, r0
+    1fbc: 43 97 01 81  	<unknown>
+    1fc0: b0 ab 80 80  	strhhi	r10, [r0], r0
+    1fc4: 00 00 00 00  	andeq	r0, r0, r0
+    1fc8: 43 97 01 81  	<unknown>
+    1fcc: b0 ab 80 80  	strhhi	r10, [r0], r0
+    1fd0: 00 00 00 00  	andeq	r0, r0, r0
+    1fd4: 43 97 01 81  	<unknown>
+    1fd8: b0 ab 10 80  	ldrhhi	r10, [r0], -r0
+    1fdc: 00 00 00 00  	andeq	r0, r0, r0
+    1fe0: 41 97 01 81  	<unknown>
+    1fe4: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1fe8: 00 00 00 00  	andeq	r0, r0, r0
+    1fec: 41 97 01 81  	<unknown>
+    1ff0: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    1ff4: 00 00 00 00  	andeq	r0, r0, r0
+    1ff8: 41 97 01 81  	<unknown>
+    1ffc: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    2000: 00 00 00 00  	andeq	r0, r0, r0
+    2004: 43 97 01 81  	<unknown>
+    2008: b0 ab 10 80  	ldrhhi	r10, [r0], -r0
+    200c: 00 00 00 00  	andeq	r0, r0, r0
+    2010: 43 97 01 81  	<unknown>
+    2014: b0 ab 80 80  	strhhi	r10, [r0], r0
+    2018: 00 00 00 00  	andeq	r0, r0, r0
+    201c: 41 97 01 81  	<unknown>
+    2020: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    2024: 00 00 00 00  	andeq	r0, r0, r0
+    2028: 41 97 01 81  	<unknown>
+    202c: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    2030: 00 00 00 00  	andeq	r0, r0, r0
+    2034: 41 97 01 81  	<unknown>
+    2038: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    203c: 00 00 00 00  	andeq	r0, r0, r0
+    2040: 43 97 01 81  	<unknown>
+    2044: b0 ab 10 80  	ldrhhi	r10, [r0], -r0
+    2048: 00 00 00 00  	andeq	r0, r0, r0
+    204c: 41 97 01 81  	<unknown>
+    2050: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    2054: 00 00 00 00  	andeq	r0, r0, r0
+    2058: 41 97 01 81  	<unknown>
+    205c: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    2060: 00 00 00 00  	andeq	r0, r0, r0
+    2064: 41 97 01 81  	<unknown>
+    2068: b0 b0 0d 84  	strhi	r11, [sp], #-176
+    206c: 00 00 00 00  	andeq	r0, r0, r0
+    2070: 45 97 01 81  	<unknown>
+    2074: b0 ab b0 80  	ldrhthi	r10, [r0], r0
+    2078: 00 00 00 00  	andeq	r0, r0, r0
+    207c: 41 97 01 81  	<unknown>
+    2080: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    2084: 00 00 00 00  	andeq	r0, r0, r0
+    2088: 46 97 01 81  	<unknown>
+    208c: b0 ab f0 80  	ldrhthi	r10, [r0], #176
+    2090: 00 00 00 00  	andeq	r0, r0, r0
+    2094: 41 97 01 81  	<unknown>
+    2098: b0 b0 0b 84  	strhi	r11, [r11], #-176
+    209c: 00 00 00 00  	andeq	r0, r0, r0
+    20a0: 43 97 01 81  	<unknown>
+    20a4: b0 ab 10 80  	ldrhhi	r10, [r0], -r0
+    20a8: 00 00 00 00  	andeq	r0, r0, r0
+
+Disassembly of section .rodata:
+
+000020ac <.rodata>:
+    20ac: 6c 69 62 75  	strbvc	r6, [r2, #-2412]!
+    20b0: 6e 77 69 6e  	cdpvs	p7, #6, c7, c9, c14, #3
+    20b4: 64 3a 20 25  	strhs	r3, [r0, #-2660]!
+    20b8: 73 20 25 73  	<unknown>
+    20bc: 3a 25 64 20  	rsbhs	r2, r4, r10, lsr r5
+    20c0: 2d 20 25 73  	<unknown>
+    20c4: 0a 00 5f 55  	ldrbpl	r0, [pc, #-10]
+    20c8: 6e 77 69 6e  	cdpvs	p7, #6, c7, c9, c14, #3
+    20cc: 64 5f 52 65  	ldrbvs	r5, [r2, #-3940]
+    20d0: 73 75 6d 65  	strbvs	r7, [sp, #-1395]!
+    20d4: 00 2f 56 6f  	svcvs	#5648128
+    20d8: 6c 75 6d 65  	strbvs	r7, [sp, #-1388]!
+    20dc: 73 2f 41 6e  	mcrvs	p15, #2, r2, c1, c3, #3
+    20e0: 64 72 6f 69  	stmdbvs	pc!, {r2, r5, r6, r9, r12, sp, lr} ^
+    20e4: 64 2f 62 75  	strbvc	r2, [r2, #-3940]!
+    20e8: 69 6c 64 62  	rsbvs	r6, r4, #26880
+    20ec: 6f 74 2f 73  	<unknown>
+    20f0: 72 63 2f 61  	<unknown>
+    20f4: 6e 64 72 6f  	svcvs	#7496814
+    20f8: 69 64 2f 6e  	cdpvs	p4, #2, c6, c15, c9, #3
+    20fc: 64 6b 2d 72  	eorvc	r6, sp, #100, #22
+    2100: 65 6c 65 61  	<unknown>
+    2104: 73 65 2d 72  	eorvc	r6, sp, #482344960
+    2108: 32 31 2f 65  	strvs	r3, [pc, #-306]!
+    210c: 78 74 65 72  	rsbvc	r7, r5, #120, #8
+    2110: 6e 61 6c 2f  	svchs	#7102830
+    2114: 6c 69 62 63  	<unknown>
+    2118: 78 78 2f 2e  	mcrhs	p8, #1, r7, c15, c8, #3
+    211c: 2e 2f 2e 2e  	cdphs	p15, #2, c2, c14, c14, #1
+    2120: 2f 65 78 74  	ldrbtvc	r6, [r8], #-1327
+    2124: 65 72 6e 61  	<unknown>
+    2128: 6c 2f 6c 69  	stmdbvs	r12!, {r2, r3, r5, r6, r8, r9, r10, r11, sp} ^
+    212c: 62 75 6e 77  	strbvc	r7, [lr, -r2, ror #10]!
+    2130: 69 6e 64 5f  	svcpl	#6581865
+    2134: 6c 6c 76 6d  	ldclvs	p12, c6, [r6, #-432]!
+    2138: 2f 73 72 63  	cmnvs	r2, #-1140850688
+    213c: 2f 55 6e 77  	strbvc	r5, [lr, -pc, lsr #10]!
+    2140: 69 6e 64 2d  	stclhs	p14, c6, [r4, #-420]!
+    2144: 45 48 41 42  	submi	r4, r1, #4521984
+    2148: 49 2e 63 70  	rsbvc	r2, r3, r9, asr #28
+    214c: 70 00 5f 55  	ldrbpl	r0, [pc, #-112]
+    2150: 6e 77 69 6e  	cdpvs	p7, #6, c7, c9, c14, #3
+    2154: 64 5f 52 65  	ldrbvs	r5, [r2, #-3940]
+    2158: 73 75 6d 65  	strbvs	r7, [sp, #-1395]!
+    215c: 28 29 20 63  	<unknown>
+    2160: 61 6e 27 74  	strtvc	r6, [r7], #-3681
+    2164: 20 72 65 74  	strbtvc	r7, [r5], #-544
+    2168: 75 72 6e 00  	rsbeq	r7, lr, r5, ror r2
+    216c: 5f 55 6e 77  	<unknown>
+    2170: 69 6e 64 5f  	svcpl	#6581865
+    2174: 56 52 53 5f  	svcpl	#5460566
+    2178: 53 65 74 00  	rsbseq	r6, r4, r3, asr r5
+    217c: 75 6e 73 75  	ldrbvc	r6, [r3, #-3701]!
+    2180: 70 70 6f 72  	rsbvc	r7, pc, #112
+    2184: 74 65 64 20  	rsbhs	r6, r4, r4, ror r5
+    2188: 72 65 67 69  	stmdbvs	r7!, {r1, r4, r5, r6, r8, r10, sp, lr} ^
+    218c: 73 74 65 72  	rsbvc	r7, r5, #1929379840
+    2190: 20 63 6c 61  	<unknown>
+    2194: 73 73 00 5f  	svcpl	#29555
+    2198: 55 6e 77 69  	ldmdbvs	r7!, {r0, r2, r4, r6, r9, r10, r11, sp, lr} ^
+    219c: 6e 64 5f 56  	ldrbpl	r6, [pc], -lr, ror #8
+    21a0: 52 53 5f 50  	subspl	r5, pc, r2, asr r3
+    21a4: 6f 70 00 75  	strvc	r7, [r0, #-111]
+    21a8: 6e 77 69 6e  	cdpvs	p7, #6, c7, c9, c14, #3
+    21ac: 64 5f 70 68  	ldmdavs	r0!, {r2, r5, r6, r8, r9, r10, r11, r12, lr} ^
+    21b0: 61 73 65 32  	rsblo	r7, r5, #-2080374783
+    21b4: 00 64 75 72  	rsbsvc	r6, r5, #0, #8
+    21b8: 69 6e 67 20  	rsbhs	r6, r7, r9, ror #28
+    21bc: 70 68 61 73  	<unknown>
+    21c0: 65 31 20 70  	eorvc	r3, r0, r5, ror #2
+    21c4: 65 72 73 6f  	svcvs	#7565925
+    21c8: 6e 61 6c 69  	stmdbvs	r12!, {r1, r2, r3, r5, r6, r8, sp, lr} ^
+    21cc: 74 79 20 66  	qsub16vs	r7, r0, r4
+    21d0: 75 6e 63 74  	strbtvc	r6, [r3], #-3701
+    21d4: 69 6f 6e 20  	rsbhs	r6, lr, r9, ror #30
+    21d8: 73 61 69 64  	strbtvs	r6, [r9], #-371
+    21dc: 20 69 74 20  	rsbshs	r6, r4, r0, lsr #18
+    21e0: 77 6f 75 6c  	ldclvs	p15, c6, [r5], #-476
+    21e4: 64 20 73 74  	ldrbtvc	r2, [r3], #-100
+    21e8: 6f 70 20 68  	stmdavs	r0!, {r0, r1, r2, r3, r5, r6, r12, sp, lr}
+    21ec: 65 72 65 2c  	stclhs	p2, c7, [r5], #-404
+    21f0: 20 62 75 74  	ldrbtvc	r6, [r5], #-544
+    21f4: 20 6e 6f 77  	strbvc	r6, [pc, -r0, lsr #28]!
+    21f8: 20 69 6e 20  	rsbhs	r6, lr, r0, lsr #18
+    21fc: 70 68 61 73  	<unknown>
+    2200: 65 32 20 69  	stmdbvs	r0!, {r0, r2, r5, r6, r9, r12, sp}
+    2204: 74 20 64 69  	stmdbvs	r4!, {r2, r4, r5, r6, sp} ^
+    2208: 64 20 6e 6f  	svcvs	#7217252
+    220c: 74 20 73 74  	ldrbtvc	r2, [r3], #-116
+    2210: 6f 70 20 68  	stmdavs	r0!, {r0, r1, r2, r3, r5, r6, r12, sp, lr}
+    2214: 65 72 65 00  	rsbeq	r7, r5, r5, ror #4
+    2218: 5f 55 6e 77  	<unknown>
+    221c: 69 6e 64 5f  	svcpl	#6581865
+    2220: 56 52 53 5f  	svcpl	#5460566
+    2224: 47 65 74 5f  	svcpl	#7628103
+    2228: 49 6e 74 65  	ldrbvs	r6, [r4, #-3657]!
+    222c: 72 6e 61 6c  	stclvs	p14, c6, [r1], #-456
+    2230: 00 2f 56 6f  	svcvs	#5648128
+    2234: 6c 75 6d 65  	strbvs	r7, [sp, #-1388]!
+    2238: 73 2f 41 6e  	mcrvs	p15, #2, r2, c1, c3, #3
+    223c: 64 72 6f 69  	stmdbvs	pc!, {r2, r5, r6, r9, r12, sp, lr} ^
+    2240: 64 2f 62 75  	strbvc	r2, [r2, #-3940]!
+    2244: 69 6c 64 62  	rsbvs	r6, r4, #26880
+    2248: 6f 74 2f 73  	<unknown>
+    224c: 72 63 2f 61  	<unknown>
+    2250: 6e 64 72 6f  	svcvs	#7496814
+    2254: 69 64 2f 6e  	cdpvs	p4, #2, c6, c15, c9, #3
+    2258: 64 6b 2d 72  	eorvc	r6, sp, #100, #22
+    225c: 65 6c 65 61  	<unknown>
+    2260: 73 65 2d 72  	eorvc	r6, sp, #482344960
+    2264: 32 31 2f 65  	strvs	r3, [pc, #-306]!
+    2268: 78 74 65 72  	rsbvc	r7, r5, #120, #8
+    226c: 6e 61 6c 2f  	svchs	#7102830
+    2270: 6c 69 62 63  	<unknown>
+    2274: 78 78 2f 2e  	mcrhs	p8, #1, r7, c15, c8, #3
+    2278: 2e 2f 2e 2e  	cdphs	p15, #2, c2, c14, c14, #1
+    227c: 2f 65 78 74  	ldrbtvc	r6, [r8], #-1327
+    2280: 65 72 6e 61  	<unknown>
+    2284: 6c 2f 6c 69  	stmdbvs	r12!, {r2, r3, r5, r6, r8, r9, r10, r11, sp} ^
+    2288: 62 75 6e 77  	strbvc	r7, [lr, -r2, ror #10]!
+    228c: 69 6e 64 5f  	svcpl	#6581865
+    2290: 6c 6c 76 6d  	ldclvs	p12, c6, [r6, #-432]!
+    2294: 2f 73 72 63  	cmnvs	r2, #-1140850688
+    2298: 2f 55 6e 77  	strbvc	r5, [lr, -pc, lsr #10]!
+    229c: 69 6e 64 43  	<unknown>
+    22a0: 75 72 73 6f  	svcvs	#7565941
+    22a4: 72 2e 68 70  	rsbvc	r2, r8, r2, ror lr
+    22a8: 70 00 67 65  	strbvs	r0, [r7, #-112]!
+    22ac: 74 52 65 67  	<unknown>
+    22b0: 69 73 74 65  	ldrbvs	r7, [r4, #-873]!
+    22b4: 72 00 2f 56  	qsub16pl	r0, pc, r2
+    22b8: 6f 6c 75 6d  	ldclvs	p12, c6, [r5, #-444]!
+    22bc: 65 73 2f 41  	<unknown>
+    22c0: 6e 64 72 6f  	svcvs	#7496814
+    22c4: 69 64 2f 62  	eorvs	r6, pc, #1761607680
+    22c8: 75 69 6c 64  	strbtvs	r6, [r12], #-2421
+    22cc: 62 6f 74 2f  	svchs	#7630690
+    22d0: 73 72 63 2f  	svchs	#6517363
+    22d4: 61 6e 64 72  	rsbvc	r6, r4, #1552
+    22d8: 6f 69 64 2f  	svchs	#6580591
+    22dc: 6e 64 6b 2d  	stclhs	p4, c6, [r11, #-440]!
+    22e0: 72 65 6c 65  	strbvs	r6, [r12, #-1394]!
+    22e4: 61 73 65 2d  	stclhs	p3, c7, [r5, #-388]!
+    22e8: 72 32 31 2f  	svchs	#3224178
+    22ec: 65 78 74 65  	ldrbvs	r7, [r4, #-2149]!
+    22f0: 72 6e 61 6c  	stclvs	p14, c6, [r1], #-456
+    22f4: 2f 6c 69 62  	rsbvs	r6, r9, #12032
+    22f8: 63 78 78 2f  	svchs	#7895139
+    22fc: 2e 2e 2f 2e  	cdphs	p14, #2, c2, c15, c14, #1
+    2300: 2e 2f 65 78  	stmdavc	r5!, {r1, r2, r3, r5, r8, r9, r10, r11, sp} ^
+    2304: 74 65 72 6e  	mrcvs	p5, #3, r6, c2, c4, #3
+    2308: 61 6c 2f 6c  	stcvs	p12, c6, [pc], #-388
+    230c: 69 62 75 6e  	cdpvs	p2, #7, c6, c5, c9, #3
+    2310: 77 69 6e 64  	strbtvs	r6, [lr], #-2423
+    2314: 5f 6c 6c 76  	uqsaxvc	r6, r12, pc
+    2318: 6d 2f 73 72  	rsbsvc	r2, r3, #436
+    231c: 63 2f 52 65  	ldrbvs	r2, [r2, #-3939]
+    2320: 67 69 73 74  	ldrbtvc	r6, [r3], #-2407
+    2324: 65 72 73 2e  	cdphs	p2, #7, c7, c3, c5, #3
+    2328: 68 70 70 00  	rsbseq	r7, r0, r8, rrx
+    232c: 75 6e 73 75  	ldrbvc	r6, [r3, #-3701]!
+    2330: 70 70 6f 72  	rsbvc	r7, pc, #112
+    2334: 74 65 64 20  	rsbhs	r6, r4, r4, ror r5
+    2338: 61 72 6d 20  	rsbhs	r7, sp, r1, ror #4
+    233c: 72 65 67 69  	stmdbvs	r7!, {r1, r4, r5, r6, r8, r10, sp, lr} ^
+    2340: 73 74 65 72  	rsbvc	r7, r5, #1929379840
+    2344: 00 73 65 74  	strbtvc	r7, [r5], #-768
+    2348: 52 65 67 69  	stmdbvs	r7!, {r1, r4, r6, r8, r10, sp, lr} ^
+    234c: 73 74 65 72  	rsbvc	r7, r5, #1929379840
+    2350: 00 67 65 74  	strbtvc	r6, [r5], #-1792
+    2354: 46 6c 6f 61  	<unknown>
+    2358: 74 52 65 67  	<unknown>
+    235c: 69 73 74 65  	ldrbvs	r7, [r4, #-873]!
+    2360: 72 00 55 6e  	mrcvs	p0, #2, r0, c5, c2, #3
+    2364: 6b 6e 6f 77  	strbvc	r6, [pc, -r11, ror #28]!
+    2368: 6e 20 41 52  	subpl	r2, r1, #110
+    236c: 4d 20 66 6c  	stclvs	p0, c2, [r6], #-308
+    2370: 6f 61 74 20  	rsbshs	r6, r4, pc, ror #2
+    2374: 72 65 67 69  	stmdbvs	r7!, {r1, r4, r5, r6, r8, r10, sp, lr} ^
+    2378: 73 74 65 72  	rsbvc	r7, r5, #1929379840
+    237c: 00 73 65 74  	strbtvc	r7, [r5], #-768
+    2380: 46 6c 6f 61  	<unknown>
+    2384: 74 52 65 67  	<unknown>
+    2388: 69 73 74 65  	ldrbvs	r7, [r4, #-873]!
+    238c: 72 00 25 73  	<unknown>
+    2390: 00 67 65 74  	strbtvc	r6, [r5], #-1792
+    2394: 49 6e 66 6f  	svcvs	#6712905
+    2398: 46 72 6f 6d  	stclvs	p2, c7, [pc, #-280]!
+    239c: 45 48 41 42  	submi	r4, r1, #4521984
+    23a0: 49 53 65 63  	<unknown>
+    23a4: 74 69 6f 6e  	mcrvs	p9, #3, r6, c15, c4, #3
+    23a8: 00 75 6e 6b  	blvs	#28955648
+    23ac: 6e 6f 77 6e  	cdpvs	p15, #7, c6, c7, c14, #3
+    23b0: 20 70 65 72  	rsbvc	r7, r5, #32
+    23b4: 73 6f 6e 61  	<unknown>
+    23b8: 6c 69 74 79  	ldmdbvc	r4!, {r2, r3, r5, r6, r8, r11, sp, lr} ^
+    23bc: 20 72 6f 75  	strbvc	r7, [pc, #-544]!
+    23c0: 74 69 6e 65  	strbvs	r6, [lr, #-2420]!
+    23c4: 00 69 6e 64  	strbtvs	r6, [lr], #-2304
+    23c8: 65 78 20 69  	stmdbvs	r0!, {r0, r2, r5, r6, r11, r12, sp, lr}
+    23cc: 6e 6c 69 6e  	cdpvs	p12, #6, c6, c9, c14, #3
+    23d0: 65 64 20 74  	strtvc	r6, [r0], #-1125
+    23d4: 61 62 6c 65  	strbvs	r6, [r12, #-609]!
+    23d8: 20 64 65 74  	strbtvc	r6, [r5], #-1056
+    23dc: 65 63 74 65  	ldrbvs	r6, [r4, #-869]!
+    23e0: 64 20 62 75  	strbvc	r2, [r2, #-100]!
+    23e4: 74 20 70 72  	rsbsvc	r2, r0, #116
+    23e8: 20 66 75 6e  	cdpvs	p6, #7, c6, c5, c0, #1
+    23ec: 63 74 69 6f  	svcvs	#6911075
+    23f0: 6e 20 72 65  	ldrbvs	r2, [r2, #-110]!
+    23f4: 71 75 69 72  	rsbvc	r7, r9, #473956352
+    23f8: 65 73 20 65  	strvs	r7, [r0, #-869]!
+    23fc: 78 74 72 61  	cmnvs	r2, r8, ror r4
+    2400: 20 77 6f 72  	rsbvc	r7, pc, #32, #14
+    2404: 64 73 00 70  	andvc	r7, r0, r4, ror #6
+    2408: 63 00 6c 72  	rsbvc	r0, r12, #99
+    240c: 00 73 70 00  	rsbseq	r7, r0, r0, lsl #6
+    2410: 72 30 00 72  	andvc	r3, r0, #114
+    2414: 31 00 72 32  	rsbslo	r0, r2, #49
+    2418: 00 72 33 00  	eorseq	r7, r3, r0, lsl #4
+    241c: 72 34 00 72  	andvc	r3, r0, #1912602624
+    2420: 35 00 72 36  	uhasxlo	r0, r2, r5
+    2424: 00 72 37 00  	eorseq	r7, r7, r0, lsl #4
+    2428: 72 38 00 72  	andvc	r3, r0, #7471104
+    242c: 39 00 72 31  	cmnlo	r2, r9, lsr r0
+    2430: 30 00 72 31  	cmnlo	r2, r0, lsr r0
+    2434: 31 00 72 31  	cmnlo	r2, r1, lsr r0
+    2438: 32 00 73 30  	rsbslo	r0, r3, r2, lsr r0
+    243c: 00 73 31 00  	eorseq	r7, r1, r0, lsl #6
+    2440: 73 32 00 73  	movwvc	r3, #627
+    2444: 33 00 73 34  	ldrbtlo	r0, [r3], #-51
+    2448: 00 73 35 00  	eorseq	r7, r5, r0, lsl #6
+    244c: 73 36 00 73  	movwvc	r3, #1651
+    2450: 37 00 73 38  	ldmdalo	r3!, {r0, r1, r2, r4, r5} ^
+    2454: 00 73 39 00  	eorseq	r7, r9, r0, lsl #6
+    2458: 73 31 30 00  	eorseq	r3, r0, r3, ror r1
+    245c: 73 31 31 00  	eorseq	r3, r1, r3, ror r1
+    2460: 73 31 32 00  	eorseq	r3, r2, r3, ror r1
+    2464: 73 31 33 00  	eorseq	r3, r3, r3, ror r1
+    2468: 73 31 34 00  	eorseq	r3, r4, r3, ror r1
+    246c: 73 31 35 00  	eorseq	r3, r5, r3, ror r1
+    2470: 73 31 36 00  	eorseq	r3, r6, r3, ror r1
+    2474: 73 31 37 00  	eorseq	r3, r7, r3, ror r1
+    2478: 73 31 38 00  	eorseq	r3, r8, r3, ror r1
+    247c: 73 31 39 00  	eorseq	r3, r9, r3, ror r1
+    2480: 73 32 30 00  	eorseq	r3, r0, r3, ror r2
+    2484: 73 32 31 00  	eorseq	r3, r1, r3, ror r2
+    2488: 73 32 32 00  	eorseq	r3, r2, r3, ror r2
+    248c: 73 32 33 00  	eorseq	r3, r3, r3, ror r2
+    2490: 73 32 34 00  	eorseq	r3, r4, r3, ror r2
+    2494: 73 32 35 00  	eorseq	r3, r5, r3, ror r2
+    2498: 73 32 36 00  	eorseq	r3, r6, r3, ror r2
+    249c: 73 32 37 00  	eorseq	r3, r7, r3, ror r2
+    24a0: 73 32 38 00  	eorseq	r3, r8, r3, ror r2
+    24a4: 73 32 39 00  	eorseq	r3, r9, r3, ror r2
+    24a8: 73 33 30 00  	eorseq	r3, r0, r3, ror r3
+    24ac: 73 33 31 00  	eorseq	r3, r1, r3, ror r3
+    24b0: 64 30 00 64  	strvs	r3, [r0], #-100
+    24b4: 31 00 64 32  	rsblo	r0, r4, #49
+    24b8: 00 64 33 00  	eorseq	r6, r3, r0, lsl #8
+    24bc: 64 34 00 64  	strvs	r3, [r0], #-1124
+    24c0: 35 00 64 36  	uqasxlo	r0, r4, r5
+    24c4: 00 64 37 00  	eorseq	r6, r7, r0, lsl #8
+    24c8: 64 38 00 64  	strvs	r3, [r0], #-2148
+    24cc: 39 00 64 31  	<unknown>
+    24d0: 30 00 64 31  	<unknown>
+    24d4: 31 00 64 31  	<unknown>
+    24d8: 32 00 64 31  	<unknown>
+    24dc: 33 00 64 31  	<unknown>
+    24e0: 34 00 64 31  	<unknown>
+    24e4: 35 00 64 31  	<unknown>
+    24e8: 36 00 64 31  	<unknown>
+    24ec: 37 00 64 31  	<unknown>
+    24f0: 38 00 64 31  	<unknown>
+    24f4: 39 00 64 32  	rsblo	r0, r4, #57
+    24f8: 30 00 64 32  	rsblo	r0, r4, #48
+    24fc: 31 00 64 32  	rsblo	r0, r4, #49
+    2500: 32 00 64 32  	rsblo	r0, r4, #50
+    2504: 33 00 64 32  	rsblo	r0, r4, #51
+    2508: 34 00 64 32  	rsblo	r0, r4, #52
+    250c: 35 00 64 32  	rsblo	r0, r4, #53
+    2510: 36 00 64 32  	rsblo	r0, r4, #54
+    2514: 37 00 64 32  	rsblo	r0, r4, #55
+    2518: 38 00 64 32  	rsblo	r0, r4, #56
+    251c: 39 00 64 33  	<unknown>
+    2520: 30 00 64 33  	<unknown>
+    2524: 31 00 75 6e  	mrcvs	p0, #3, r0, c5, c1, #1
+    2528: 6b 6e 6f 77  	strbvc	r6, [pc, -r11, ror #28]!
+    252c: 6e 20 72 65  	ldrbvs	r2, [r2, #-110]!
+    2530: 67 69 73 74  	ldrbtvc	r6, [r3], #-2407
+    2534: 65           	<unknown>
+    2535: 72           	<unknown>
+    2536: 00           	<unknown>
+
+Disassembly of section .data.rel.ro:
+
+00003e50 <.data.rel.ro>:
+    3e50: 50 3e 00 00  	andeq	r3, r0, r0, asr lr
+		...
+    3e5c: d9 11 00 00  	ldrdeq	r1, r2, [r0], -r9
+    3e60: db 11 00 00  	ldrdeq	r1, r2, [r0], -r11
+    3e64: dd 11 00 00  	ldrdeq	r1, r2, [r0], -sp
+    3e68: eb 11 00 00  	andeq	r1, r0, r11, ror #3
+    3e6c: f1 11 00 00  	strdeq	r1, r2, [r0], -r1
+    3e70: f7 11 00 00  	strdeq	r1, r2, [r0], -r7
+    3e74: 07 12 00 00  	andeq	r1, r0, r7, lsl #4
+    3e78: 0d 12 00 00  	andeq	r1, r0, sp, lsl #4
+    3e7c: 13 12 00 00  	andeq	r1, r0, r3, lsl r2
+    3e80: 67 12 00 00  	andeq	r1, r0, r7, ror #4
+    3e84: 75 12 00 00  	andeq	r1, r0, r5, ror r2
+    3e88: 7b 12 00 00  	andeq	r1, r0, r11, ror r2
+    3e8c: 81 12 00 00  	andeq	r1, r0, r1, lsl #5
+    3e90: b5 12 00 00  	strheq	r1, [r0], -r5
+    3e94: 19 13 00 00  	andeq	r1, r0, r9, lsl r3
+    3e98: 1f 13 00 00  	andeq	r1, r0, pc, lsl r3
+
+Disassembly of section .fini_array:
+
+00003e9c <.fini_array>:
+    3e9c: 70 07 00 00  	andeq	r0, r0, r0, ror r7
+    3ea0: 5c 07 00 00  	andeq	r0, r0, r12, asr r7
+
+Disassembly of section .dynamic:
+
+00003ea4 <.dynamic>:
+    3ea4: 03 00 00 00  	andeq	r0, r0, r3
+    3ea8: c8 3f 00 00  	andeq	r3, r0, r8, asr #31
+    3eac: 02 00 00 00  	andeq	r0, r0, r2
+    3eb0: 58 00 00 00  	andeq	r0, r0, r8, asr r0
+    3eb4: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+    3eb8: 6c 06 00 00  	andeq	r0, r0, r12, ror #12
+    3ebc: 14 00 00 00  	andeq	r0, r0, r4, lsl r0
+    3ec0: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+    3ec4: 11 00 00 00  	andeq	r0, r0, r1, lsl r0
+    3ec8: a4 05 00 00  	andeq	r0, r0, r4, lsr #11
+    3ecc: 12 00 00 00  	andeq	r0, r0, r2, lsl r0
+    3ed0: c8 00 00 00  	andeq	r0, r0, r8, asr #1
+    3ed4: 13 00 00 00  	andeq	r0, r0, r3, lsl r0
+    3ed8: 08 00 00 00  	andeq	r0, r0, r8
+    3edc: fa ff ff 6f  	svcvs	#16777210
+    3ee0: 17 00 00 00  	andeq	r0, r0, r7, lsl r0
+    3ee4: 06 00 00 00  	andeq	r0, r0, r6
+    3ee8: f0 01 00 00  	strdeq	r0, r1, [r0], -r0
+    3eec: 0b 00 00 00  	andeq	r0, r0, r11
+    3ef0: 10 00 00 00  	andeq	r0, r0, r0, lsl r0
+    3ef4: 05 00 00 00  	andeq	r0, r0, r5
+    3ef8: 20 03 00 00  	andeq	r0, r0, r0, lsr #6
+    3efc: 0a 00 00 00  	andeq	r0, r0, r10
+    3f00: 34 01 00 00  	andeq	r0, r0, r4, lsr r1
+    3f04: f5 fe ff 6f  	svcvs	#16776949
+    3f08: 54 04 00 00  	andeq	r0, r0, r4, asr r4
+    3f0c: 04 00 00 00  	andeq	r0, r0, r4
+    3f10: 88 04 00 00  	andeq	r0, r0, r8, lsl #9
+    3f14: 01 00 00 00  	andeq	r0, r0, r1
+    3f18: 22 01 00 00  	andeq	r0, r0, r2, lsr #2
+    3f1c: 01 00 00 00  	andeq	r0, r0, r1
+    3f20: 2c 01 00 00  	andeq	r0, r0, r12, lsr #2
+    3f24: 01 00 00 00  	andeq	r0, r0, r1
+    3f28: f8 00 00 00  	strdeq	r0, r1, [r0], -r8
+    3f2c: 01 00 00 00  	andeq	r0, r0, r1
+    3f30: 13 00 00 00  	andeq	r0, r0, r3, lsl r0
+    3f34: 0e 00 00 00  	andeq	r0, r0, lr
+    3f38: 1b 00 00 00  	andeq	r0, r0, r11, lsl r0
+    3f3c: 1a 00 00 00  	andeq	r0, r0, r10, lsl r0
+    3f40: 9c 3e 00 00  	muleq	r0, r12, lr
+    3f44: 1c 00 00 00  	andeq	r0, r0, r12, lsl r0
+    3f48: 08 00 00 00  	andeq	r0, r0, r8
+    3f4c: 1e 00 00 00  	andeq	r0, r0, lr, lsl r0
+    3f50: 08 00 00 00  	andeq	r0, r0, r8
+    3f54: fb ff ff 6f  	svcvs	#16777211
+    3f58: 01 00 00 00  	andeq	r0, r0, r1
+    3f5c: f0 ff ff 6f  	svcvs	#16777200
+    3f60: 20 05 00 00  	andeq	r0, r0, r0, lsr #10
+    3f64: fc ff ff 6f  	svcvs	#16777212
+    3f68: 48 05 00 00  	andeq	r0, r0, r8, asr #10
+    3f6c: fd ff ff 6f  	svcvs	#16777213
+    3f70: 01 00 00 00  	andeq	r0, r0, r1
+    3f74: fe ff ff 6f  	svcvs	#16777214
+    3f78: 64 05 00 00  	andeq	r0, r0, r4, ror #10
+    3f7c: ff ff ff 6f  	svcvs	#16777215
+    3f80: 02 00 00 00  	andeq	r0, r0, r2
+		...
+
+Disassembly of section .got:
+
+00003fb4 <.got>:
+		...
+    3fbc: 39 0d 00 00  	andeq	r0, r0, r9, lsr sp
+    3fc0: 01 0d 00 00  	andeq	r0, r0, r1, lsl #26
+    3fc4: 41 0d 00 00  	andeq	r0, r0, r1, asr #26
+		...
+    3fd4: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fd8: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fdc: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fe0: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fe4: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fe8: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3fec: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3ff0: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3ff4: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3ff8: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+    3ffc: c4 06 00 00  	andeq	r0, r0, r4, asr #13
+
+Disassembly of section .data:
+
+00004000 <.data>:
+    4000: 04 40 00 00  	andeq	r4, r0, r4
+
+Disassembly of section .bss:
+
+00004004 <.bss>:
+...
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+       0: 00 41 6e 64  	strbtvs	r4, [lr], #-256
+       4: 72 6f 69 64  	strbtvs	r6, [r9], #-3954
+       8: 20 28 36 34  	ldrtlo	r2, [r6], #-2080
+       c: 35 34 37 37  	<unknown>
+      10: 33 20 62 61  	<unknown>
+      14: 73 65 64 20  	rsbhs	r6, r4, r3, ror r5
+      18: 6f 6e 20 72  	eorvc	r6, r0, #1776
+      1c: 33 36 35 36  	shasxlo	r3, r5, r3
+      20: 33 31 63 32  	rsblo	r3, r3, #-1073741812
+      24: 29 20 63 6c  	stclvs	p0, c2, [r3], #-164
+      28: 61 6e 67 20  	rsbhs	r6, r7, r1, ror #28
+      2c: 76 65 72 73  	cmnvc	r2, #494927872
+      30: 69 6f 6e 20  	rsbhs	r6, lr, r9, ror #30
+      34: 39 2e 30 2e  	mrchs	p14, #1, r2, c0, c9, #1
+      38: 38 20 28 68  	stmdavs	r8!, {r3, r4, r5, sp}
+      3c: 74 74 70 73  	cmnvc	r0, #116, #8
+      40: 3a 2f 2f 61  	<unknown>
+      44: 6e 64 72 6f  	svcvs	#7496814
+      48: 69 64 2e 67  	strvs	r6, [lr, -r9, ror #8]!
+      4c: 6f 6f 67 6c  	stclvs	p15, c6, [r7], #-444
+      50: 65 73 6f 75  	strbvc	r7, [pc, #-869]!
+      54: 72 63 65 2e  	mcrhs	p3, #3, r6, c5, c2, #3
+      58: 63 6f 6d 2f  	svchs	#7171939
+      5c: 74 6f 6f 6c  	stclvs	p15, c6, [pc], #-464
+      60: 63 68 61 69  	stmdbvs	r1!, {r0, r1, r5, r6, r11, sp, lr} ^
+      64: 6e 2f 6c 6c  	stclvs	p15, c2, [r12], #-440
+      68: 76 6d 2d 70  	eorvc	r6, sp, r6, ror sp
+      6c: 72 6f 6a 65  	strbvs	r6, [r10, #-3954]!
+      70: 63 74 20 39  	stmdblo	r0!, {r0, r1, r5, r6, r10, r12, sp, lr}
+      74: 38 63 38 35  	ldrlo	r6, [r8, #-824]!
+      78: 35 34 38 39  	ldmdblo	r8!, {r0, r2, r4, r5, r10, r12, sp}
+      7c: 35 38 37 38  	ldmdalo	r7!, {r0, r2, r4, r5, r11, r12, sp}
+      80: 37 34 62 32  	rsblo	r3, r2, #922746880
+      84: 61 33 32 35  	ldrlo	r3, [r2, #-865]!
+      88: 65 37 61 35  	strblo	r3, [r1, #-1893]!
+      8c: 31 36 62 39  	stmdblo	r2!, {r0, r4, r5, r9, r10, r12, sp} ^
+      90: 39 64 38 33  	teqlo	r8, #956301312
+      94: 38 35 39 39  	ldmdblo	r9!, {r3, r4, r5, r8, r10, r12, sp}
+      98: 63 36 66 29  	stmdbhs	r6!, {r0, r1, r5, r6, r9, r10, r12, sp} ^
+      9c: 20 28 62 61  	<unknown>
+      a0: 73 65 64 20  	rsbhs	r6, r4, r3, ror r5
+      a4: 6f 6e 20 4c  	stcmi	p14, c6, [r0], #-444
+      a8: 4c 56 4d 20  	subhs	r5, sp, r12, asr #12
+      ac: 39 2e 30 2e  	mrchs	p14, #1, r2, c0, c9, #1
+      b0: 38 73 76 6e  	mrcvs	p3, #3, r7, c6, c8, #1
+      b4: 29           	<unknown>
+      b5: 00           	<unknown>
+
+Disassembly of section .note.gnu.gold-version:
+
+00000000 <.note.gnu.gold-version>:
+       0: 04 00 00 00  	andeq	r0, r0, r4
+       4: 09 00 00 00  	andeq	r0, r0, r9
+       8: 04 00 00 00  	andeq	r0, r0, r4
+       c: 47 4e 55 00  	subseq	r4, r5, r7, asr #28
+      10: 67 6f 6c 64  	strbtvs	r6, [r12], #-3943
+      14: 20 31 2e 31  	<unknown>
+      18: 32 00 00 00  	andeq	r0, r0, r2, lsr r0
+
+Disassembly of section .ARM.attributes:
+
+00000000 <.ARM.attributes>:
+       0: 41 2d 00 00  	andeq	r2, r0, r1, asr #26
+       4: 00 61 65 61  	<unknown>
+       8: 62 69 00 01  	<unknown>
+       c: 23 00 00 00  	andeq	r0, r0, r3, lsr #32
+      10: 06 0a 07 41  	<unknown>
+      14: 08 01 09 02  	andeq	r0, r9, #8, #2
+      18: 0a 03 0c 01  	<unknown>
+      1c: 11 02 12 04  	ldreq	r0, [r2], #-529
+      20: 14 01 15 01  	tsteq	r5, r4, lsl r1
+      24: 17 03 18 01  	tsteq	r8, r7, lsl r3
+      28: 1a 02 22 01  	<unknown>
+      2c: 26           	<unknown>
+      2d: 01           	<unknown>
+
+Disassembly of section .shstrtab:
+
+00000000 <.shstrtab>:
+       0: 00 2e 66 69  	stmdbvs	r6!, {r9, r10, r11, sp} ^
+       4: 6e 69 5f 61  	cmpvs	pc, lr, ror #18
+       8: 72 72 61 79  	stmdbvc	r1!, {r1, r4, r5, r6, r9, r12, sp, lr} ^
+       c: 00 2e 41 52  	subpl	r2, r1, #0, #28
+      10: 4d 2e 65 78  	stmdavc	r5!, {r0, r2, r3, r6, r9, r10, r11, sp} ^
+      14: 69 64 78 00  	rsbseq	r6, r8, r9, ror #8
+      18: 2e 74 65 78  	stmdavc	r5!, {r1, r2, r3, r5, r10, r12, sp, lr} ^
+      1c: 74 00 2e 67  	<unknown>
+      20: 6f 74 00 2e  	cdphs	p4, #0, c7, c0, c15, #3
+      24: 63 6f 6d 6d  	stclvs	p15, c6, [sp, #-396]!
+      28: 65 6e 74 00  	rsbseq	r6, r4, r5, ror #28
+      2c: 2e 6e 6f 74  	strbtvc	r6, [pc], #-3630
+      30: 65 2e 61 6e  	cdpvs	p14, #6, c2, c1, c5, #3
+      34: 64 72 6f 69  	stmdbvs	pc!, {r2, r5, r6, r9, r12, sp, lr} ^
+      38: 64 2e 69 64  	strbtvs	r2, [r9], #-3684
+      3c: 65 6e 74 00  	rsbseq	r6, r4, r5, ror #28
+      40: 2e 72 65 6c  	stclvs	p2, c7, [r5], #-184
+      44: 2e 70 6c 74  	strbtvc	r7, [r12], #-46
+      48: 00 2e 62 73  	<unknown>
+      4c: 73 00 2e 41  	<unknown>
+      50: 52 4d 2e 61  	qsubvs	r4, r2, lr
+      54: 74 74 72 69  	ldmdbvs	r2!, {r2, r4, r5, r6, r10, r12, sp, lr} ^
+      58: 62 75 74 65  	ldrbvs	r7, [r4, #-1378]!
+      5c: 73 00 2e 64  	strtvs	r0, [lr], #-115
+      60: 79 6e 73 74  	ldrbtvc	r6, [r3], #-3705
+      64: 72 00 2e 67  	<unknown>
+      68: 6e 75 2e 76  	strtvc	r7, [lr], -lr, ror #10
+      6c: 65 72 73 69  	ldmdbvs	r3!, {r0, r2, r5, r6, r9, r12, sp, lr} ^
+      70: 6f 6e 5f 72  	subsvc	r6, pc, #1776
+      74: 00 2e 64 61  	<unknown>
+      78: 74 61 2e 72  	eorvc	r6, lr, #116, #2
+      7c: 65 6c 2e 72  	eorvc	r6, lr, #25856
+      80: 6f 00 2e 72  	eorvc	r0, lr, #111
+      84: 65 6c 2e 64  	strtvs	r6, [lr], #-3173
+      88: 79 6e 00 2e  	mcrhs	p14, #0, r6, c0, c9, #3
+      8c: 67 6e 75 2e  	cdphs	p14, #7, c6, c5, c7, #3
+      90: 76 65 72 73  	cmnvc	r2, #494927872
+      94: 69 6f 6e 00  	rsbeq	r6, lr, r9, ror #30
+      98: 2e 6e 6f 74  	strbtvc	r6, [pc], #-3630
+      9c: 65 2e 67 6e  	cdpvs	p14, #6, c2, c7, c5, #3
+      a0: 75 2e 67 6f  	svcvs	#6762101
+      a4: 6c 64 2d 76  	strtvc	r6, [sp], -r12, ror #8
+      a8: 65 72 73 69  	ldmdbvs	r3!, {r0, r2, r5, r6, r9, r12, sp, lr} ^
+      ac: 6f 6e 00 2e  	cdphs	p14, #0, c6, c0, c15, #3
+      b0: 64 79 6e 73  	<unknown>
+      b4: 79 6d 00 2e  	mcrhs	p13, #0, r6, c0, c9, #3
+      b8: 67 6e 75 2e  	cdphs	p14, #7, c6, c5, c7, #3
+      bc: 68 61 73 68  	ldmdavs	r3!, {r3, r5, r6, r8, sp, lr} ^
+      c0: 00 2e 6e 6f  	svcvs	#7220736
+      c4: 74 65 2e 67  	<unknown>
+      c8: 6e 75 2e 62  	eorvs	r7, lr, #461373440
+      cc: 75 69 6c 64  	strbtvs	r6, [r12], #-2421
+      d0: 2d 69 64 00  	rsbeq	r6, r4, sp, lsr #18
+      d4: 2e 67 6e 75  	strbvc	r6, [lr, #-1838]!
+      d8: 2e 76 65 72  	rsbvc	r7, r5, #48234496
+      dc: 73 69 6f 6e  	mcrvs	p9, #3, r6, c15, c3, #3
+      e0: 5f 64 00 2e  	mcrhs	p4, #0, r6, c0, c15, #2
+      e4: 64 79 6e 61  	<unknown>
+      e8: 6d 69 63 00  	rsbeq	r6, r3, sp, ror #18
+      ec: 2e 41 52 4d  	ldclmi	p1, c4, [r2, #-184]
+      f0: 2e 65 78 74  	ldrbtvc	r6, [r8], #-1326
+      f4: 61 62 00 2e  	cdphs	p2, #0, c6, c0, c1, #3
+      f8: 73 68 73 74  	ldrbtvc	r6, [r3], #-2163
+      fc: 72 74 61 62  	rsbvs	r7, r1, #1912602624
+     100: 00 2e 72 6f  	svcvs	#7482880
+     104: 64 61 74 61  	cmnvs	r4, r4, ror #2
+     108: 00 2e 64 61  	<unknown>
+     10c: 74           	<unknown>
+     10d: 61           	<unknown>
+     10e: 00           	<unknown>

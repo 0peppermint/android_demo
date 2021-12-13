@@ -5,4 +5,5 @@ dependencies {
     implementation project(":apt:aptproject")
     implementation project(":transition")
     implementation project(":multifragment")
+    implementation project(":nativecrash")
 }

@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:orientation="vertical"
     style="@style/ActivityTheme">
 
     <Button
@@ -15,4 +16,10 @@
         android:text="@string/transition_experiment"
         android:gravity="center"/>
 
+    <Button
+        android:id="@+id/btn_native_crash"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/native_crash"
+        android:gravity="center"/>
 </LinearLayout>
