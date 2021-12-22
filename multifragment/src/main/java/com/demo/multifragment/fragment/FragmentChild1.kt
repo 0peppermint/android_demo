@@ -7,8 +7,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import com.demo.multifragment.R
 import com.demo.multifragment.useViewPager2.MultiFragmentActivityV2
+import com.demo.multifragment.viewmodel.Child1ViewModel
+import com.demo.multifragment.viewmodel.Child2ViewModel
 import kotlinx.android.synthetic.main.fragment_child_multi_fragment.*
 import kotlinx.android.synthetic.main.fragment_multi_fragment.myview
 import kotlinx.android.synthetic.main.fragment_multi_fragment.tv_test
@@ -16,6 +20,10 @@ import kotlinx.android.synthetic.main.fragment_multi_fragment.tv_test
 class FragmentChild1: Fragment(){
 
     private var rootView: View? = null
+
+    private val viewModel1 by viewModels<Child1ViewModel>()
+
+    private var viewModel2 : Child2ViewModel? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,7 +36,12 @@ class FragmentChild1: Fragment(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d("zyc", "fragmentChild1 onCreate")
+        if (savedInstanceState != null) {
+            Log.d("zyc", "fragmentChild1 onCreate with recovery")
+        } else {
+            Log.d("zyc", "fragmentChild1 onCreate with no recovery")
+        }
+        viewModel2 = ViewModelProvider(requireActivity()).get(Child2ViewModel::class.java)
     }
 
     override fun onResume() {
