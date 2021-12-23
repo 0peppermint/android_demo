@@ -3,4 +3,6 @@ apply from: rootProject.file('scripts/basebiz.gradle')
 dependencies {
     implementation ACTIVITY_KTX
     implementation FRAGMENT_KTX
+    implementation DYNAMIC_ANIMATION
+    implementation DYM_CHAD
 }

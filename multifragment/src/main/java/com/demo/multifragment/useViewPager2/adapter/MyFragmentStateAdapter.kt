@@ -10,6 +10,7 @@ import com.demo.core.utils.MainThreadRunner
 import com.demo.multifragment.fragment.FragmentChild1
 import com.demo.multifragment.fragment.FragmentChild2
 import com.demo.multifragment.fragment.FragmentChild3
+import com.demo.multifragment.someuifragment.SomeUiFragment
 import java.lang.IllegalArgumentException
 import java.util.Comparator
 
@@ -80,7 +81,7 @@ class MyFragmentStateAdapter(
 
     private fun tryToRestoreFragment(fragmentTag: String): Fragment {
         return when(fragmentTag) {
-            "1" -> FragmentChild1()
+            "1" -> SomeUiFragment()
             "2" -> FragmentChild2()
             "3" -> FragmentChild3()
             // 这里应该给一个没有默认实现的东西，但throw了就没必要

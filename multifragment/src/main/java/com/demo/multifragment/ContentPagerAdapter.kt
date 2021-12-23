@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURR
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.demo.multifragment.fragment.Fragment1
 import com.demo.multifragment.fragment.Fragment2
+import com.demo.multifragment.someuifragment.SomeUiFragment
 
 class ContentPagerAdapter(
     private val context: Context,
@@ -24,7 +25,7 @@ class ContentPagerAdapter(
     }
 
     override fun getItem(position: Int): Fragment {
-        return Fragment1()
+        return SomeUiFragment()
     }
 
 //    override fun restoreState(state: Parcelable?, loader: ClassLoader?) {
