@@ -1,12 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="测试金刚位点击缩放"
+        android:textSize="20sp"/>
     <com.demo.multifragment.someuifragment.springanimation.MySpringRecyclerView
         android:id="@+id/rcv_spring_icon"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="测试轮播"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:clipChildren="false">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_event"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clipChildren="false"
+            android:orientation="vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:clipChildren="false">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vp_recv_event"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clipChildren="false"
+            android:orientation="vertical"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_marqutee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尝试轮播"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="测试高斯模糊"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/demo2"
+        android:orientation="horizontal">
+        <com.demo.multifragment.view.RoundFrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <io.alterac.blurkit.BlurLayout
+                android:id="@+id/bll_blur"
+                app:blk_blurRadius="20"
+                app:blk_cornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="哈"
+                android:layout_gravity="center"/>
+        </com.demo.multifragment.view.RoundFrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/iv_background_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparentt_10_white"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="哈"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+
 </LinearLayout>

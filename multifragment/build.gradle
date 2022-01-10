@@ -5,4 +5,5 @@ dependencies {
     implementation FRAGMENT_KTX
     implementation DYNAMIC_ANIMATION
     implementation DYM_CHAD
+    implementation BLUR_LIB
 }
