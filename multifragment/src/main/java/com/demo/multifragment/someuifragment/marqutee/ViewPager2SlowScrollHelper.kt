@@ -4,6 +4,7 @@ import android.animation.Animator
 import android.animation.ValueAnimator
 import android.content.Context
 import android.util.DisplayMetrics
+import android.util.Log
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.PathInterpolator
 import androidx.recyclerview.widget.LinearSmoothScroller
@@ -159,3 +160,5 @@ fun ViewPager2.setFakeDrag(
     animator.duration = duration
     animator.start()
 }
+
+

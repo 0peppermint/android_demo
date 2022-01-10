@@ -13,6 +13,7 @@ import com.demo.multifragment.R
 import com.demo.multifragment.someuifragment.marqutee.*
 import kotlinx.android.synthetic.main.fragment_my_some_ui.*
 import android.util.DisplayMetrics
+import android.view.animation.PathInterpolator
 import androidx.recyclerview.widget.LinearSmoothScroller
 import com.demo.core.utils.MainThreadRunner
 import io.reactivex.Observable
@@ -99,7 +100,6 @@ class SomeUiFragment: Fragment() {
         vp_recv_event.addOnScrollListener(object : RecyclerView.OnScrollListener(){
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
                 super.onScrollStateChanged(recyclerView, newState)
-                Log.d("zyc", "newState: $newState")
                 if (newState == RecyclerView.SCROLL_STATE_IDLE && index == 1) {
                     vp_recv_event.scrollToPosition(0)
                 }
@@ -114,13 +114,17 @@ class SomeUiFragment: Fragment() {
             override fun onPageScrollStateChanged(state: Int) {
                 super.onPageScrollStateChanged(state)
                 if (state == ViewPager2.SCROLL_STATE_IDLE && index == 1) {
-                    vp_event.setCurrentItem(0, false)
+                    vp_event.setCurrentItem(1, false)
                 }
             }
         })
 
+        //实验一下viewpager2
+        expRecyclerView()
+
         vp_recv_event.scrollToPosition(0)
-        vp_event.currentItem = 0
+        vp_fake_drag_recv.scrollToPosition(0)
+        vp_event.currentItem = 1
 
         index = 1
 
@@ -181,10 +185,26 @@ class SomeUiFragment: Fragment() {
 
     private fun dealFlingValueWithRecycleView() {
         vp_recv_event.smoothScrollToPosition(index + 1)
+        vp_fake_drag_recv.setFakeDrag(index + 1, 1000)
+        // 尝试了网上的https://toutiao.io/posts/vr9ltrp/preview 并没有用
+//        vp_fake_drag_recv.smoothScrollToPosition(index + 1, 2000, PathInterpolator(0.65f,0f,0.35f,1f))
     }
 
     private fun dealFlingValueWithViewPager() {
 //        ViewPager2SlowScrollHelper(vp_event, 2000).setCurrentItem(index)
-        vp_event.setFakeDrag(index, 1000)
+        vp_event.setFakeDrag(index + 1, 1000)
+    }
+
+    private fun expRecyclerView(){
+        vp_fake_drag_recv.layoutManager = object : LinearLayoutManager(context, VERTICAL, false){}
+        vp_fake_drag_recv.adapter = MarquteeRecvAdapter(mutableListOf("123", "456", "789", "666", "123", "456"))
+        vp_fake_drag_recv.addOnScrollListener(object : RecyclerView.OnScrollListener(){
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                super.onScrollStateChanged(recyclerView, newState)
+                if (newState == RecyclerView.SCROLL_STATE_IDLE && index == 1) {
+                    vp_recv_event.scrollToPosition(0)
+                }
+            }
+        })
     }
 }

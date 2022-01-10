@@ -24,13 +24,14 @@
         android:textSize="20sp"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:clipChildren="false">
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/vp_event"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_gravity="bottom"
             android:clipChildren="false"
             android:orientation="vertical"/>
     </LinearLayout>
@@ -41,6 +42,18 @@
         android:clipChildren="false">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/vp_recv_event"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clipChildren="false"
+            android:orientation="vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:clipChildren="false">
+        <com.demo.multifragment.someuifragment.marqutee.item.MyRecycleView
+            android:id="@+id/vp_fake_drag_recv"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:clipChildren="false"
