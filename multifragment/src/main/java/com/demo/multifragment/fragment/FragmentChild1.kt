@@ -8,11 +8,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.demo.multifragment.R
 import com.demo.multifragment.useViewPager2.MultiFragmentActivityV2
 import com.demo.multifragment.viewmodel.Child1ViewModel
 import com.demo.multifragment.viewmodel.Child2ViewModel
+import io.reactivex.Observable
+import io.reactivex.ObservableEmitter
+import io.reactivex.ObservableOnSubscribe
 import kotlinx.android.synthetic.main.fragment_child_multi_fragment.*
 import kotlinx.android.synthetic.main.fragment_multi_fragment.myview
 import kotlinx.android.synthetic.main.fragment_multi_fragment.tv_test
@@ -46,6 +50,13 @@ class FragmentChild1: Fragment(){
 
     override fun onResume() {
         super.onResume()
+        val obz = Observable.create<Int>(object : ObservableOnSubscribe<Int>{
+            override fun subscribe(emitter: ObservableEmitter<Int>) {
+                emitter.onNext(1)
+
+            }
+        }).subscribe()
+        obz.dispose()
         Log.d("zyc", "fragmentChild1 onResume")
         tv_test.text = "我是fragmentChild1"
         myview.setBackgroundColor(Color.GREEN)

@@ -22,4 +22,11 @@
         android:layout_height="50dp"
         android:text="@string/native_crash"
         android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/proxy"
+        android:gravity="center"/>
 </LinearLayout>

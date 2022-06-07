@@ -2,4 +2,5 @@
     <string name="app_name">AndroidExperiment</string>
     <string name="transition_experiment">尝试转场动画</string>
     <string name="native_crash">尝试打开nativeCrash</string>
+    <string name="proxy">proxy</string>
 </resources>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.demo.multifragment.useViewPager2.MultiFragmentActivityV2
 import com.demo.nativecrash.MyCrashActivity
+import com.demo.proxy.sample.ProxyInstance
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +20,9 @@ class MainActivity : AppCompatActivity() {
         btn_native_crash.setOnClickListener {
             val intent = Intent(this, MyCrashActivity::class.java)
             this.startActivity(intent)
+        }
+        btn_proxy.setOnClickListener{
+            ProxyInstance.getMyProxy()
         }
     }
 }

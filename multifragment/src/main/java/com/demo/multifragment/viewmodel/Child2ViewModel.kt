@@ -5,5 +5,5 @@ import androidx.lifecycle.ViewModel
 
 class Child2ViewModel: ViewModel() {
 
-    private val data: MutableLiveData<Int> = MutableLiveData(2)
+    val data: MutableLiveData<Int> = MutableLiveData(2)
 }
