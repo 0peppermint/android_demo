@@ -29,4 +29,18 @@
         android:layout_height="50dp"
         android:text="@string/proxy"
         android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_decrpyto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="解密"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_flow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="flow"
+        android:gravity="center"/>
 </LinearLayout>

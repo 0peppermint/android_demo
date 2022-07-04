@@ -1,0 +1,8 @@
+apply from: rootProject.file('scripts/basebiz.gradle')
+
+dependencies {
+    implementation COROUTINES_CORE
+    implementation COROUTINES_ANDROID
+    implementation ACTIVITY_KTX
+    implementation FRAGMENT_KTX
+}

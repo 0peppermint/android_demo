@@ -7,4 +7,5 @@ dependencies {
     implementation project(":multifragment")
     implementation project(":nativecrash")
     implementation project(":proxy")
+    implementation project(":flow")
 }

@@ -1,0 +1,9 @@
+apply from: rootProject.file('scripts/basebiz.gradle')
+
+dependencies {
+    implementation ROOM_RUNTIME
+    annotationProcessor ROOM_COMPILER
+    kapt ROOM_COMPILER
+    implementation ROOM_KTX
+    implementation ROOM_RXJAVA2
+}
