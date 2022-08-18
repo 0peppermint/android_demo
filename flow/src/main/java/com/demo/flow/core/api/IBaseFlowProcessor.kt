@@ -2,19 +2,20 @@ package com.demo.flow.core.api
 
 import android.util.Log
 import com.demo.flow.core.bean.ChainState
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 
 abstract class IBaseFlowProcessor {
 
     protected val _TAG = "flow-"
 
-    private var chainStateFlow: MutableStateFlow<ChainState>? = null
+    private var chainStateFlow: MutableSharedFlow<ChainState>? = null
 
     abstract fun currentState(): ChainState
     abstract fun nextState(): ChainState
     abstract suspend fun invoke()
 
-    fun registerStateFlow(chainStateFlow: MutableStateFlow<ChainState>) {
+    fun registerStateFlow(chainStateFlow: MutableSharedFlow<ChainState>) {
         this.chainStateFlow = chainStateFlow
     }
 

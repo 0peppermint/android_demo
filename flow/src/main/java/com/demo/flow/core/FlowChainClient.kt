@@ -8,6 +8,8 @@ import com.demo.flow.core.processor.StepOneProcessor
 import com.demo.flow.core.processor.StepTwoProcessor
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
@@ -20,7 +22,11 @@ class FlowChainClient {
 
     private val implMap: ConcurrentHashMap<ChainState, IBaseFlowProcessor> = ConcurrentHashMap()
 
-    private val privateCurrentStateFlow : MutableStateFlow<ChainState> = MutableStateFlow(ChainState.START)
+    private val privateCurrentStateFlow = MutableSharedFlow<ChainState>(1)
+
+    private val hahaFlow = MutableSharedFlow<Int>()
+
+    private var job : Job? = null
 
     init {
         register(StartProcessor())
@@ -34,9 +40,12 @@ class FlowChainClient {
     }
 
     fun start() {
-        CoroutineScope(Dispatchers.IO).launch {
+        job?.cancel()
+        job = null
+        job = CoroutineScope(Dispatchers.IO).launch {
             try {
                 implMap[ChainState.START]?.invoke()
+                hahaFlow.emit(1)
                 privateCurrentStateFlow.collect {
                     Log.i(TAG, "currentState is ${it.name}")
                     if (it == ChainState.END){

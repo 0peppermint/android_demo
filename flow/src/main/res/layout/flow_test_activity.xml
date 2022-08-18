@@ -11,4 +11,37 @@
         android:layout_height="50dp"
         android:text="@string/flow_start_flow_client"
         android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="接收到flow的值为："
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tv_collect_data"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_test_add_flow_collect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/flow_add_flow_collect"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_test_emit_flow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/flow_emit_flow"
+        android:gravity="center"/>
 </LinearLayout>

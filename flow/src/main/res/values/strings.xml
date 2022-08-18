@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="flow_start_flow_client">测试flow client</string>
+    <string name="flow_add_flow_collect">增加flow collect</string>
+    <string name="flow_emit_flow">emit</string>
 </resources>
