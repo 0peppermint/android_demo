@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.demo.flow.core.FlowChainClient
+import com.demo.flow.processchain.FlowChainClient
+import com.demo.flow.singleexecutor.SingleExecutorTest
 import kotlinx.android.synthetic.main.flow_test_activity.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collect
@@ -18,6 +19,7 @@ class FlowTestActivity: AppCompatActivity(){
     private var cnt = 0
     private val hahaStr = "haha"
     private val heheStr = "hehe"
+    private val testClient = FlowChainClient()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +29,6 @@ class FlowTestActivity: AppCompatActivity(){
     private fun initListener() {
         btn_test_flow_client.setOnClickListener {
             lifecycleScope.launchWhenResumed {
-                val testClient = FlowChainClient()
                 testClient.start()
             }
         }
@@ -46,6 +47,9 @@ class FlowTestActivity: AppCompatActivity(){
                 cnt += 1
                 valueFlow.emit("$cnt is " + if (cnt % 2 == 0) hahaStr else heheStr)
             }
+        }
+        btn_test_single_executor.setOnClickListener {
+            SingleExecutorTest().test()
         }
     }
 }
