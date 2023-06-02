@@ -7,4 +7,5 @@ dependencies {
     implementation project(":nativecrash")
     implementation project(":proxy")
     implementation project(":flow")
+    implementation project(":communicate")
 }
